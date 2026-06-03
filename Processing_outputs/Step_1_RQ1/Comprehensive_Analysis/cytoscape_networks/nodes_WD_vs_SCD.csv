@@ -1,0 +1,99 @@
+id,label,subsystem,effect_size,qvalue,type
+METLEUex,Methionine/Leucine exchange (Met in),"Transport, Extracellular",-2.9783422459552167,3.021976956232708e-14,reaction
+ARTFR13,R group artificial flux,R Group Synthesis,2.858592915970632,0.019413308129219698,reaction
+FACOAL140,Fatty acid  CoA ligase  tetradecanoate ,Fatty acid activation,2.858592915970632,0.019413308129219698,reaction
+TTDCAtr_copy2,Fatty acid transport,"Transport, Extracellular",2.5134617504937755,0.03671560545341473,reaction
+EX_ttdca_e,Tetradecanoate (n-C14:0) exchange,Extracellular exchange,-2.496291623118226,0.03671560545341473,reaction
+METtec,L-methionine transport via diffusion (extracellular to cytosol),"Transport, Extracellular",2.3669753686715387,1.555192241937151e-11,reaction
+HEX1,Hexokinase (D-glucose:ATP),Glycolysis/Gluconeogenesis,2.3248272805361947,4.861930060590167e-06,reaction
+GAPD,Glyceraldehyde-3-phosphate dehydrogenase,Glycolysis/Gluconeogenesis,-2.0533805365233038,2.808867954093486e-10,reaction
+PGK,Phosphoglycerate kinase,Glycolysis/Gluconeogenesis,2.0533805365233038,2.808867954093486e-10,reaction
+PGI,Glucose-6-phosphate isomerase,Glycolysis/Gluconeogenesis,2.04993439802557,3.7538145697225597e-07,reaction
+ENO,Enolase,Glycolysis/Gluconeogenesis,-2.0496947670097567,2.808867954093486e-10,reaction
+PGM,Phosphoglycerate mutase,Glycolysis/Gluconeogenesis,2.0496831249839835,2.808867954093486e-10,reaction
+HEX7,Hexokinase (D-fructose:ATP),Fructose and Mannose Metabolism,-1.968566247738388,9.31554398575038e-10,reaction
+ARGLYSex,Arginine/Lysine exchanger (Arg in),"Transport, Extracellular",1.9431949205673162,0.00019133496801072145,reaction
+PROD2,Proline dehydrogenase,Arginine and Proline Metabolism,-1.8121599130149133,0.0006254916237956943,reaction
+EX_glc__D_e,D-Glucose exchange,Extracellular exchange,-1.7979114781737975,5.4326449251184886e-05,reaction
+CTPS2,CTP synthase (glutamine),Pyrimidine Biosynthesis,-1.7831935789476467,1.1402901541836009e-08,reaction
+HSD11B1r,11-beta-hydroxysteroid dehydrogenase type 1,Steroid Metabolism,1.7278174627872076,2.9274266266789993e-05,reaction
+HSD11B2r,11-beta-hydroxysteroid dehydrogenase type 2,Steroid Metabolism,-1.7278174627872076,2.9274266266789993e-05,reaction
+EX_fru_e,D-Fructose exchange,Extracellular exchange,1.690831826940722,3.560241354252717e-08,reaction
+FRUt4,D-fructose transport  via sodium cotransport,"Transport, Extracellular",-1.690831826940722,3.560241354252717e-08,reaction
+CYTK4,Cytidylate kinase (dCMP)(GTP),Nucleotides,-1.667757280462646,0.002971977375739349,reaction
+CPK1,Adenylate kinase,Nucleotides,1.6547762334798257,5.289770907543324e-08,reaction
+DHCRD1,Dihydroceramide desaturase,Sphingolipid Metabolism,-1.6306468958367382,0.001339938662228717,reaction
+LALDD,D-lactaldehyde dehydrogenase,Pyruvate Metabolism,-1.6253661239903407,5.289770907543324e-08,reaction
+FATP9t,Fatty acid electroneutral transport,"Transport, Extracellular",-1.6253661239903407,5.289770907543324e-08,reaction
+LALDO2x,D-Lactaldehyde:NAD+ 1-oxidoreductase,Pyruvate Metabolism,-1.6253661239903407,5.289770907543324e-08,reaction
+NRVNCt,Fatty acid transport via diffusion,"Transport, Extracellular",-1.6253661239903407,5.289770907543324e-08,reaction
+CYSASNNaEx,L-cysteine/L-asparagine Na-dependent exchange (Cys-L in),"Transport, Extracellular",-1.6253661239903403,5.289770907543324e-08,reaction
+HSD17B7r,Testicular 17-beta-hydroxysteroid dehydrogenase,Steroid Metabolism,-1.6253661239903399,5.289770907543324e-08,reaction
+HISt4,L-histidine transport in via sodium symport,"Transport, Extracellular",-1.6253661239903394,5.289770907543324e-08,reaction
+FAH2,Fatty acid omega-hydroxylase,CYP Metabolism,-1.61092878462806,5.64403042247701e-08,reaction
+WHTTDCAte,Xenobiotic transport,"Transport, Extracellular",1.61092878462806,5.64403042247701e-08,reaction
+EX_whttdca_e,Omega hydroxy tetradecanoate (n-C14:0) exchange,Extracellular exchange,-1.61092878462806,5.64403042247701e-08,reaction
+ARTFR42,R group artificial flux,R Group Synthesis,-1.5856419005943003,7.919632320596905e-08,reaction
+CHOLtu,Choline uniport,"Transport, Extracellular",-1.5599549590609534,1.1227178506683331e-07,reaction
+ALAt2r,L alanine reversible transport via proton symport,"Transport, Extracellular",-1.5556596903470525,4.251405112226742e-05,reaction
+CHOLt4,"Choline, sodium cotransport","Transport, Extracellular",1.551454362456313,1.2263980416155904e-07,reaction
+CTPS1,CTP synthase  NH3 ,Nucleotides,1.5212343309806395,1.8576974329791432e-07,reaction
+MTHFD2i,Methylenetetrahydrofolate dehydrogenase  NAD ,Folate Metabolism,1.507490761042595,0.001550998376570399,reaction
+ARTFR31,R group artificial flux,R Group Synthesis,-1.436364050650908,1.684475071046886e-05,reaction
+DHCRD2,Dihydroceramide desaturase,Sphingolipid Metabolism,1.4022714192618602,0.0027092993840819465,reaction
+FAOXC180x,Beta oxidation of long chain fatty acid,"Fatty acid oxidation, peroxisome",-1.3764346972861985,0.026202686414733927,reaction
+DNDPt23m,DTDP transport via dGTP antiport,"Transport, Mitochondrial",-1.3325218509769732,0.0001595767438386309,reaction
+MTHFD,Methylenetetrahydrofolate dehydrogenase (NADP),Folate Metabolism,-1.332239332164995,0.0018748390809172383,reaction
+ARTFR207,R group artificial flux,R Group Synthesis,1.0871917445937367,0.00015078942786744872,reaction
+PYRt2,Pyruvate transport in via proton symport,"Transport, Extracellular",1.0669904940901036,0.00019133496801072145,reaction
+EX_pyr_e,Pyruvate exchange,Extracellular exchange,-1.0669904940901036,0.00019133496801072145,reaction
+ATPS4m,ATP synthase (four protons for one ATP),Oxidative Phosphorylation,-1.0327420364520532,0.00044816865897297887,reaction
+PSSA1_hs,Phosphatidylserine synthase homo sapiens,Glycerophospholipid Metabolism,-0.9746751874797158,0.0008065665882234756,reaction
+CHOLK,Choline kinase,Glycerophospholipid Metabolism,-0.9162196540996481,0.002004092404981618,reaction
+CHLPCTD,Choline phosphate cytididyltransferase,Glycerophospholipid Metabolism,-0.9162196540996481,0.002004092404981618,reaction
+CEPTC,Choline phosphotransferase,Glycerophospholipid Metabolism,-0.9162196540996481,0.002004092404981618,reaction
+ARGt5r,ARGtiDF,"Transport, Extracellular",-0.8963241221168815,0.0023882814125334695,reaction
+SERALANaEx,L-alanine/L-serine Na-dependent exchange (Ser-L in),"Transport, Extracellular",-0.890286531804625,0.002578146094029445,reaction
+P5CDm,1 pyrroline 5 carboxylate dehydrogenase  mitochondrial,Glutamate metabolism,-0.8718993353978431,0.013443572355340909,reaction
+SERt4,L-serine via sodium symport,"Transport, Extracellular",0.8510394618793866,0.027698242517049318,reaction
+EX_ocdca_e,Octadecanoate (n-C18:0) exchange,Extracellular exchange,0.8446355144765312,0.00844847892117465,reaction
+FACOAL180,Fatty acid  CoA ligase  octadecanoate ,Fatty acid activation,-0.8446355144765312,0.00844847892117465,reaction
+OCDCAt,Octadecanoate  n C180  transport in via uniport,"Transport, Extracellular",-0.8399215076240234,0.008838690589685037,reaction
+PYK,Pyruvate kinase,Glycolysis/Gluconeogenesis,-0.8227265697355997,0.01840886787705203,reaction
+CEPTE,Ethanolamine phosphotransferase,Glycerophospholipid Metabolism,0.7225020279893672,0.027698242517049318,reaction
+PETHCT,Phosphoethanolamine cytidyltransferase,Glycerophospholipid Metabolism,0.7225020279893672,0.027698242517049318,reaction
+PSSA2_hs,Phosphatidylserine synthase homo sapiens,Glycerophospholipid Metabolism,0.7225020279893672,0.027698242517049318,reaction
+ETHAK,Ethanolamine kinase,Glycerophospholipid Metabolism,0.7225020279893672,0.027698242517049318,reaction
+LEUtec,L-leucine transport via diffusion,"Transport, Extracellular",-0.7224779799916192,0.027698242517049318,reaction
+GALUi,UTP-glucose-1-phosphate uridylyltransferase (irreversible),Galactose metabolism,0.7220311372799204,0.029856707065275045,reaction
+ACALDtm,Acetaldehyde mitochondrial diffusion,"Transport, Mitochondrial",-0.7117088883805899,0.030485643844118088,reaction
+ALDD2xm,Aldehyde dehydrogenase  acetylaldehyde  NAD   mitochondrial,Glycolysis/Gluconeogenesis,0.7117088883805899,0.030485643844118088,reaction
+SERGLNNaEx,L-serine/L-glutamine Na-dependent exchange (Ser-L in),"Transport, Extracellular",0.711620004830486,0.030485643844118088,reaction
+LGNCt,Fatty acid transport via diffusion,"Transport, Extracellular",0.6859922174269081,0.042491029244512035,reaction
+FATP8t,Fatty acid electroneutral transport,"Transport, Extracellular",0.6859922174269081,0.042491029244512035,reaction
+CSm,Citrate synthase,Citric Acid Cycle,-0.6787303936697759,0.046611973184700825,reaction
+O2Stx,Superoxide anion transport via diffusion (peroxisome),"Transport, Peroxisomal",-0.6771329661335842,0.046611973184700825,reaction
+SPODMx,"Superoxide dismutase, peroxisome",ROS Detoxification,-0.6771329661335835,0.046611973184700825,reaction
+"Transport, Extracellular","Transport, Extracellular","Transport, Extracellular",,,subsystem
+R Group Synthesis,R Group Synthesis,R Group Synthesis,,,subsystem
+Fatty acid activation,Fatty acid activation,Fatty acid activation,,,subsystem
+Extracellular exchange,Extracellular exchange,Extracellular exchange,,,subsystem
+Glycolysis/Gluconeogenesis,Glycolysis/Gluconeogenesis,Glycolysis/Gluconeogenesis,,,subsystem
+Fructose and Mannose Metabolism,Fructose and Mannose Metabolism,Fructose and Mannose Metabolism,,,subsystem
+Arginine and Proline Metabolism,Arginine and Proline Metabolism,Arginine and Proline Metabolism,,,subsystem
+Pyrimidine Biosynthesis,Pyrimidine Biosynthesis,Pyrimidine Biosynthesis,,,subsystem
+Steroid Metabolism,Steroid Metabolism,Steroid Metabolism,,,subsystem
+Nucleotides,Nucleotides,Nucleotides,,,subsystem
+Sphingolipid Metabolism,Sphingolipid Metabolism,Sphingolipid Metabolism,,,subsystem
+Pyruvate Metabolism,Pyruvate Metabolism,Pyruvate Metabolism,,,subsystem
+CYP Metabolism,CYP Metabolism,CYP Metabolism,,,subsystem
+Folate Metabolism,Folate Metabolism,Folate Metabolism,,,subsystem
+"Fatty acid oxidation, peroxisome","Fatty acid oxidation, peroxisome","Fatty acid oxidation, peroxisome",,,subsystem
+"Transport, Mitochondrial","Transport, Mitochondrial","Transport, Mitochondrial",,,subsystem
+Oxidative Phosphorylation,Oxidative Phosphorylation,Oxidative Phosphorylation,,,subsystem
+Glycerophospholipid Metabolism,Glycerophospholipid Metabolism,Glycerophospholipid Metabolism,,,subsystem
+Glutamate metabolism,Glutamate metabolism,Glutamate metabolism,,,subsystem
+Galactose metabolism,Galactose metabolism,Galactose metabolism,,,subsystem
+Citric Acid Cycle,Citric Acid Cycle,Citric Acid Cycle,,,subsystem
+"Transport, Peroxisomal","Transport, Peroxisomal","Transport, Peroxisomal",,,subsystem
+ROS Detoxification,ROS Detoxification,ROS Detoxification,,,subsystem

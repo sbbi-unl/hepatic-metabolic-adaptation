@@ -1,0 +1,11 @@
+primary_driver,strains_present,total_reactions,mean_reactions_per_strain,consistency
+LECs,9,266,29.555555555555557,1.0
+NONE,9,235,26.11111111111111,1.0
+Dendrites,9,32,3.5555555555555554,1.0
+Timd4+ resKC,9,27,3.0,1.0
+"Cx3cr1+, Ccr2+ MdM",9,21,2.3333333333333335,1.0
+Cholangiocytes,3,18,2.0,0.3333333333333333
+"Cd207+, Trem2+ Mo-KC",9,9,1.0,1.0
+qHSCs,9,9,1.0,1.0
+Macrophages,8,8,0.8888888888888888,0.8888888888888888
+Hepatocytes,5,5,0.5555555555555556,0.5555555555555556

@@ -1,0 +1,84 @@
+pipeline_version: 1.0.0
+timestamp: '2026-05-25T01:51:35.475480'
+run_mode: parallel_comparison
+stages:
+  flux_analysis_uncorrected:
+    status: success
+    duration_seconds: 129.979219
+    command: python scripts/map_fixv5_multigroupsv8_layered_manuscript_run.py data/GSEMERGED_SCD_HFD_KD_WD_gene_expression.csv
+      --model_file data/iMM1415.json --results_dir Processing_outputs/Step_1_RQ1/uncorrected
+      --test_type mann-whitney --diet_bounds_json data/expanded_diet_bounds_flat.json
+      --eflux_quantile 0.95 --eflux_floor 0.1 --eflux_cap 1000.0 --objective_id BIOMASS_mm_1_no_glygln
+      --objective_sense max --transporter_strategy either --edge_abs_diff_threshold
+      0.2 --mapping_file data/mouse_entrez_to_symbol.csv --write_replicates_long --rank_product_for
+      HFD,KD,WD --no_fva
+    timestamp: '2026-05-25T01:53:45.456669'
+  combined_analysis_uncorrected:
+    status: success
+    duration_seconds: 6.237461
+    command: python scripts/combined_analysis_interactive_generic.py --input Processing_outputs/Step_1_RQ1/uncorrected/flux_analysis/reaction_flux_comparison_extended.csv
+      --output_dir Processing_outputs/Step_1_RQ1/uncorrected/combined_analysis_plots
+    timestamp: '2026-05-25T01:53:51.695285'
+  flux_analysis_batch_corrected:
+    status: success
+    duration_seconds: 131.290275
+    command: python scripts/map_fixv5_multigroupsv8_layered_manuscript_run.py data/GSEMERGED_SCD_HFD_KD_WD_gene_expression.csv
+      --model_file data/iMM1415.json --results_dir Processing_outputs/Step_1_RQ1/batch_corrected
+      --test_type mann-whitney --diet_bounds_json data/expanded_diet_bounds_flat.json
+      --eflux_quantile 0.95 --eflux_floor 0.1 --eflux_cap 1000.0 --objective_id BIOMASS_mm_1_no_glygln
+      --objective_sense max --transporter_strategy either --edge_abs_diff_threshold
+      0.2 --mapping_file data/mouse_entrez_to_symbol.csv --write_replicates_long --rank_product_for
+      HFD,KD,WD --no_fva
+    timestamp: '2026-05-25T01:56:02.987630'
+  batch_correction_batch_corrected:
+    status: success
+    duration_seconds: 3.451229
+    command: python scripts/batch_correct_flux_by_dataset_3d.py --input Processing_outputs/Step_1_RQ1/batch_corrected/flux_analysis/reaction_flux_comparison_extended.csv
+      --output_csv Processing_outputs/Step_1_RQ1/batch_corrected/flux_analysis/reaction_flux_comparison_extended_batch_corrected.csv
+      --outdir Processing_outputs/Step_1_RQ1/batch_corrected/batch_correction_plots
+    timestamp: '2026-05-25T01:56:06.439793'
+  combined_analysis_batch_corrected:
+    status: success
+    duration_seconds: 6.045525
+    command: python scripts/combined_analysis_interactive_generic.py --input Processing_outputs/Step_1_RQ1/batch_corrected/flux_analysis/reaction_flux_comparison_extended_batch_corrected.csv
+      --output_dir Processing_outputs/Step_1_RQ1/batch_corrected/combined_analysis_plots
+    timestamp: '2026-05-25T01:56:12.486127'
+  comprehensive_analysis:
+    status: success
+    duration_seconds: 44.182448
+    command: python scripts/comprehensive_flux_analysis.py --input Processing_outputs/Step_1_RQ1/batch_corrected/flux_analysis/reaction_flux_comparison_extended_batch_corrected.csv
+      --output Processing_outputs/Step_1_RQ1/Comprehensive_Analysis
+    timestamp: '2026-05-25T01:56:56.669672'
+parameters:
+  input_expression: data/GSEMERGED_SCD_HFD_KD_WD_gene_expression.csv
+  model_file: data/iMM1415.json
+  diet_bounds_json: data/expanded_diet_bounds_flat.json
+  mapping_file: data/mouse_entrez_to_symbol.csv
+  results_dir: Processing_outputs/Step_1_RQ1
+  log_dir: pipeline_logs
+  flux_script: scripts/map_fixv5_multigroupsv8_layered_manuscript_run.py
+  batch_script: scripts/batch_correct_flux_by_dataset_3d.py
+  combined_script: scripts/combined_analysis_interactive_generic.py
+  comprehensive_script: scripts/comprehensive_flux_analysis.py
+  eflux_quantile: 0.95
+  eflux_floor: 0.1
+  eflux_cap: 1000.0
+  objective_id: BIOMASS_mm_1_no_glygln
+  objective_sense: max
+  transporter_strategy: either
+  test_type: mann-whitney
+  rank_product_for: HFD,KD,WD
+  edge_abs_diff_threshold: 0.2
+  write_replicates_long: true
+  no_fva: true
+  aggregate: false
+outputs:
+  flux_comparison_uncorrected: Processing_outputs/Step_1_RQ1/uncorrected/flux_analysis/reaction_flux_comparison_extended.csv
+  combined_analysis_dir_uncorrected: Processing_outputs/Step_1_RQ1/uncorrected/combined_analysis_plots
+  flux_comparison_batch_corrected: Processing_outputs/Step_1_RQ1/batch_corrected/flux_analysis/reaction_flux_comparison_extended.csv
+  batch_corrected_batch_corrected: Processing_outputs/Step_1_RQ1/batch_corrected/flux_analysis/reaction_flux_comparison_extended_batch_corrected.csv
+  combined_analysis_dir_batch_corrected: Processing_outputs/Step_1_RQ1/batch_corrected/combined_analysis_plots
+  comprehensive_analysis_dir: Processing_outputs/Step_1_RQ1/Comprehensive_Analysis
+log_file: Processing_outputs/Step_1_RQ1/pipeline_logs/pipeline_20260525_015135.log
+total_duration_seconds: 321.193407
+overall_status: success

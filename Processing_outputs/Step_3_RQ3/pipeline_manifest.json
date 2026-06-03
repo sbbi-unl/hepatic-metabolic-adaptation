@@ -1,0 +1,110 @@
+{
+  "pipeline_version": "1.0",
+  "run_timestamp": "2026-05-25T02:19:12.100919",
+  "python_version": "3.9.23 | packaged by conda-forge | (main, Jun  4 2025, 17:57:12) \n[GCC 13.3.0]",
+  "configuration": {
+    "pipeline_version": "1.1",
+    "description": "Master RQ Integration Pipeline Configuration",
+    "workflow": "Generate -> Interpret -> Generalize",
+    "notes": "Edit the 'inputs' sections with your actual file paths before running. All paths are relative to the project root (where you run the script from).",
+    "scripts": {
+      "scripts_dir": "scripts",
+      "rq3_script": "rq3_FINAL_COMPLETE_REVISED.py",
+      "full_integration_script": "rq1_rq2_rq3_integration_analysis_REVISED.py",
+      "rq2_rq3_script": "rq2_rq3_multi_strain_integration_ENHANCED.py"
+    },
+    "rq3": {
+      "step": 1,
+      "role": "CORE GENERATOR",
+      "description": "Single-cell E-Flux analysis - Creates cell-type-specific metabolic models",
+      "inputs": {
+        "sc_data": "data/scRNA_52w_data/expression_matrix.csv",
+        "sc_metadata": "data/scRNA_52w_data/cell_metadata_fixed.csv",
+        "diet_bounds_file": "data/expanded_diet_bounds_flat.json",
+        "condition_mapping": "{\"Chow\":\"SCD\",\"WesternDiet\":\"WD\",\"HighFat\":\"HFD\",\"Ketogenic\":\"KD\"}",
+        "model_file": "data/iMM1415.json"
+      },
+      "parameters": {
+        "eflux_quantile": 0.99,
+        "eflux_floor": 0.001,
+        "eflux_cap": 10000,
+        "normalization_strategy": "per_condition",
+        "min_cells": 20,
+        "baseline_condition": "Chow",
+        "test_conditions": "WesternDiet,HighFat,Ketogenic",
+        "fold_change_threshold": 1.5,
+        "abs_change_threshold": 0.1,
+        "run_fva": false,
+        "fva_fraction": 0.9,
+        "objective": "BIOMASS_mm_1_no_glygln"
+      },
+      "output_dir": "Processing_outputs/Step_3_RQ3"
+    },
+    "full_integration": {
+      "step": 2,
+      "role": "INTERPRETER",
+      "description": "Full RQ1-RQ2-RQ3 integration - Explains WHY bulk liver changes occur based on cellular data",
+      "inputs": {
+        "rq1_pairwise_stats": "Processing_outputs/Step_1_RQ1/batch_corrected/stats_comparison/flux_pairwise_stats.csv",
+        "rq3_stats": "Processing_outputs/Step_3_RQ3/statistics/statistical_tests.csv",
+        "rq3_aggregation": "Processing_outputs/Step_3_RQ3/aggregation_summary.csv"
+      },
+      "parameters": {
+        "bulk_comparison": "WD_vs_SCD",
+        "cellular_comparison": "WesternDiet_vs_Chow",
+        "fdr_threshold": 0.1,
+        "use_literature_abundance": false
+      },
+      "output_dir": "Processing_outputs/Step_3_RQ3/Step_3b_results_rq1_rq3_integration"
+    },
+    "rq2_rq3_integration": {
+      "step": 3,
+      "role": "GENERALIZER",
+      "description": "Multi-strain integration - Tests if findings hold across genetic diversity (9 strains)",
+      "inputs": {
+        "base_dir": "Processing_outputs/Step_2_RQ2",
+        "_comment_rq2_layout": "Per-strain files live at: {base_dir}/results_{strain}_{rq2_dataset_id}/flux_analysis/reaction_flux_comparison_extended.csv",
+        "rq2_dataset_id": "GSE182668",
+        "rq1_pairwise_stats": "Processing_outputs/Step_1_RQ1/batch_corrected/stats_comparison/flux_pairwise_stats.csv",
+        "rq3_stats": "Processing_outputs/Step_3_RQ3/statistics/statistical_tests.csv",
+        "rq3_aggregation": "Processing_outputs/Step_3_RQ3/aggregation_summary.csv",
+        "strains": [
+          "C57BL6J",
+          "129S1SvImJ",
+          "AJ",
+          "CASTEiJ",
+          "DBA2J",
+          "NODShiLtJ",
+          "NZOHlLtJ",
+          "PWKPhJ",
+          "WSBEiJ"
+        ]
+      },
+      "parameters": {
+        "contribution_threshold": 0.15,
+        "fdr_threshold": 0.1,
+        "bulk_comparison": "WD_vs_SCD",
+        "cellular_comparison": "WesternDiet_vs_Chow"
+      },
+      "output_dir": "Processing_outputs/Step_3_RQ3/Step_3b_results_rq2_rq3_integration"
+    },
+    "output": {
+      "master_output_dir": "Processing_outputs/Step_3_RQ3"
+    }
+  },
+  "execution_results": {
+    "RQ3_Analysis": {
+      "success": true,
+      "output_dir": "Processing_outputs/Step_3_RQ3"
+    },
+    "Full_Integration": {
+      "success": true,
+      "output_dir": "Processing_outputs/Step_3_RQ3/Step_3b_results_rq1_rq3_integration"
+    },
+    "RQ2_RQ3_Integration": {
+      "success": true,
+      "output_dir": "Processing_outputs/Step_3_RQ3/Step_3b_results_rq2_rq3_integration"
+    }
+  },
+  "output_directory": "Processing_outputs/Step_3_RQ3"
+}

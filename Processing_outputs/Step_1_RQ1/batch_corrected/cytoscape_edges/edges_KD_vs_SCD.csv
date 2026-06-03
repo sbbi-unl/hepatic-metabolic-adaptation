@@ -1,0 +1,121 @@
+ReactionID,ReactionName,Subsystem,MetaboliteID,MetaboliteName,Coefficient,Diff(KD-SCD),Ratio(KD/SCD)
+EX_co2_e,CO2 exchange,Extracellular exchange,co2_e,CO2 CO2,-1.0,-0.4339832957254788,0.8282218965824069
+EX_h2o_e,H2O exchange,Extracellular exchange,h2o_e,H2O H2O,-1.0,0.4741755977633208,0.7655791846346259
+EX_h2o2_e,Hydrogen peroxide exchange,Extracellular exchange,h2o2_e,Hydrogen peroxide,-1.0,-0.939891139548516,0.6124563562056444
+EX_hco3_e,EX hco3 LPAREN e RPAREN ,Extracellular exchange,hco3_e,Bicarbonate,-1.0,0.2819197890974026,1.7468136796138782
+EX_glyc_e,Glycerol exchange,Extracellular exchange,glyc_e,Glycerol,-1.0,-0.2195810596203796,1.5545467669678918
+ACOAO7p,Acyl CoA oxidase  hexadecanoyl CoA   peroxisomal,Fatty Acid Metabolism,h2o2_x,Hydrogen peroxide,1.0,-0.2160987522727181,0.7207271490636022
+ACOAO7p,Acyl CoA oxidase  hexadecanoyl CoA   peroxisomal,Fatty Acid Metabolism,hdd2coa_x,Trans-Hexadec-2-enoyl-CoA,1.0,-0.2160987522727181,0.7207271490636022
+ACOAO7p,Acyl CoA oxidase  hexadecanoyl CoA   peroxisomal,Fatty Acid Metabolism,o2_x,O2 O2,-1.0,-0.2160987522727181,0.7207271490636022
+ACOAO7p,Acyl CoA oxidase  hexadecanoyl CoA   peroxisomal,Fatty Acid Metabolism,pmtcoa_x,Palmitoyl-CoA (n-C16:0CoA),-1.0,-0.2160987522727181,0.7207271490636022
+EX_o2_e,O2 exchange,Extracellular exchange,o2_e,O2 O2,-1.0,0.95332779056728,0.8190988049511378
+ARTFR41,R group artificial flux,R Group Synthesis,R4coa_hs_c,R group 4 Coenzyme A homo sapiens,1.0,-0.4549834665004161,0.1302371463509391
+ARTFR41,R group artificial flux,R Group Synthesis,fad_m,Flavin adenine dinucleotide oxidized,1.0,-0.4549834665004161,0.1302371463509391
+ARTFR41,R group artificial flux,R Group Synthesis,fadh2_m,Flavin adenine dinucleotide reduced,-1.0,-0.4549834665004161,0.1302371463509391
+ARTFR41,R group artificial flux,R Group Synthesis,hdcoa_c,Hexadecenoyl-CoA (n-C16:1CoA),-1.0,-0.4549834665004161,0.1302371463509391
+ARTFR61,R group artificial flux,R Group Synthesis,R6coa_hs_c,R group 6 Coenzyme A homo sapiens,1.0,-0.2160987522727181,0.7207271490636022
+ARTFR61,R group artificial flux,R Group Synthesis,fad_m,Flavin adenine dinucleotide oxidized,1.0,-0.2160987522727181,0.7207271490636022
+ARTFR61,R group artificial flux,R Group Synthesis,fadh2_m,Flavin adenine dinucleotide reduced,-1.0,-0.2160987522727181,0.7207271490636022
+ARTFR61,R group artificial flux,R Group Synthesis,hdd2coa_c,Trans-Hexadec-2-enoyl-CoA,-1.0,-0.2160987522727181,0.7207271490636022
+ARTPLM1,R group to palmitate conversion,R Group Synthesis,Rtotalcoa_c,Rtotalcoa c,-1.0,-0.3818637833398987,0.7151465524085617
+ARTPLM1,R group to palmitate conversion,R Group Synthesis,pmtcoa_c,Palmitoyl-CoA (n-C16:0CoA),1.0,-0.3818637833398987,0.7151465524085617
+CK,ATP Creatine kinase,Urea cycle/amino group metabolism,adp_m,ADP C10H12N5O10P2,1.0,-0.2470403139152893,0.7018161381585855
+CK,ATP Creatine kinase,Urea cycle/amino group metabolism,atp_m,ATP C10H12N5O13P3,-1.0,-0.2470403139152893,0.7018161381585855
+CK,ATP Creatine kinase,Urea cycle/amino group metabolism,creat_m,Creatine cytosol,-1.0,-0.2470403139152893,0.7018161381585855
+CK,ATP Creatine kinase,Urea cycle/amino group metabolism,pcreat_m,Phosphocreatine,1.0,-0.2470403139152893,0.7018161381585855
+CKc,ATP Creatine kinase (c),Urea cycle/amino group metabolism,adp_c,ADP C10H12N5O10P2,1.0,0.2470403139152893,0.7018161381585855
+CKc,ATP Creatine kinase (c),Urea cycle/amino group metabolism,atp_c,ATP C10H12N5O13P3,-1.0,0.2470403139152893,0.7018161381585855
+CKc,ATP Creatine kinase (c),Urea cycle/amino group metabolism,creat_c,Creatine cytosol,-1.0,0.2470403139152893,0.7018161381585855
+CKc,ATP Creatine kinase (c),Urea cycle/amino group metabolism,pcreat_c,Phosphocreatine,1.0,0.2470403139152893,0.7018161381585855
+CO2t,CO2 transporter via diffusion,"Transport, Extracellular",co2_c,CO2 CO2,1.0,0.4339832957254788,0.8282218965824069
+CO2t,CO2 transporter via diffusion,"Transport, Extracellular",co2_e,CO2 CO2,-1.0,0.4339832957254788,0.8282218965824069
+CO2tm,CO2 transport  diffusion   mitochondrial,"Transport, Mitochondrial",co2_c,CO2 CO2,-1.0,0.3006604667432591,0.8403435304852135
+CO2tm,CO2 transport  diffusion   mitochondrial,"Transport, Mitochondrial",co2_m,CO2 CO2,1.0,0.3006604667432591,0.8403435304852135
+CYStec,L-cysteine transport via diffusion (extracellular to cytosol),"Transport, Extracellular",cys__L_c,L-Cysteine,1.0,0.2525359007009424,2.108197868372739
+CYStec,L-cysteine transport via diffusion (extracellular to cytosol),"Transport, Extracellular",cys__L_e,L-Cysteine,-1.0,0.2525359007009424,2.108197868372739
+CytOxe,CytOxe  ,,e_m,E   m,1.0,-0.380971748550204,0.6479823016297057
+CytOxe,CytOxe  ,,ficytC_m,Ferricytochrome c,1.0,-0.380971748550204,0.6479823016297057
+CytOxe,CytOxe  ,,focytC_m,Ferrocytochrome C,-1.0,-0.380971748550204,0.6479823016297057
+CREATtmdiffir,Creatine transport to/from mitochondria via diffusion,Urea cycle/amino group metabolism,creat_c,Creatine cytosol,-1.0,-0.2470403139152893,0.7018161381585855
+CREATtmdiffir,Creatine transport to/from mitochondria via diffusion,Urea cycle/amino group metabolism,creat_m,Creatine cytosol,1.0,-0.2470403139152893,0.7018161381585855
+DESAT16_2,Palmitoyl-CoA desaturase (n-C16:0CoA -> n-C16:1CoA),Fatty acid elongation,h2o_c,H2O H2O,2.0,-0.3201725266860257,0.5929375688956846
+DESAT16_2,Palmitoyl-CoA desaturase (n-C16:0CoA -> n-C16:1CoA),Fatty acid elongation,h_c,H+,-1.0,-0.3201725266860257,0.5929375688956846
+DESAT16_2,Palmitoyl-CoA desaturase (n-C16:0CoA -> n-C16:1CoA),Fatty acid elongation,hdcoa_c,Hexadecenoyl-CoA (n-C16:1CoA),1.0,-0.3201725266860257,0.5929375688956846
+DESAT16_2,Palmitoyl-CoA desaturase (n-C16:0CoA -> n-C16:1CoA),Fatty acid elongation,nad_c,Nicotinamide adenine dinucleotide,1.0,-0.3201725266860257,0.5929375688956846
+DESAT16_2,Palmitoyl-CoA desaturase (n-C16:0CoA -> n-C16:1CoA),Fatty acid elongation,nadh_c,Nicotinamide adenine dinucleotide - reduced,-1.0,-0.3201725266860257,0.5929375688956846
+DESAT16_2,Palmitoyl-CoA desaturase (n-C16:0CoA -> n-C16:1CoA),Fatty acid elongation,o2_c,O2 O2,-1.0,-0.3201725266860257,0.5929375688956846
+DESAT16_2,Palmitoyl-CoA desaturase (n-C16:0CoA -> n-C16:1CoA),Fatty acid elongation,pmtcoa_c,Palmitoyl-CoA (n-C16:0CoA),-1.0,-0.3201725266860257,0.5929375688956846
+G3PD1ir,Glycerol 3 phosphate dehydrogenase  NAD ,Glycerophospholipid Metabolism,dhap_c,Dihydroxyacetone phosphate,-1.0,-0.2540527885168757,1.713266743535955
+G3PD1ir,Glycerol 3 phosphate dehydrogenase  NAD ,Glycerophospholipid Metabolism,glyc3p_c,Glycerol 3-phosphate,1.0,-0.2540527885168757,1.713266743535955
+G3PD1ir,Glycerol 3 phosphate dehydrogenase  NAD ,Glycerophospholipid Metabolism,h_c,H+,-1.0,-0.2540527885168757,1.713266743535955
+G3PD1ir,Glycerol 3 phosphate dehydrogenase  NAD ,Glycerophospholipid Metabolism,nad_c,Nicotinamide adenine dinucleotide,1.0,-0.2540527885168757,1.713266743535955
+G3PD1ir,Glycerol 3 phosphate dehydrogenase  NAD ,Glycerophospholipid Metabolism,nadh_c,Nicotinamide adenine dinucleotide - reduced,-1.0,-0.2540527885168757,1.713266743535955
+GLYCt,Glycerol transport via channel,"Transport, Extracellular",glyc_c,Glycerol,-1.0,-0.2195810596203796,1.5545467669678918
+GLYCt,Glycerol transport via channel,"Transport, Extracellular",glyc_e,Glycerol,1.0,-0.2195810596203796,1.5545467669678918
+GLYK,Glycerol kinase,Glycerophospholipid Metabolism,adp_c,ADP C10H12N5O10P2,1.0,0.2195810596203796,1.5545467669678918
+GLYK,Glycerol kinase,Glycerophospholipid Metabolism,atp_c,ATP C10H12N5O13P3,-1.0,0.2195810596203796,1.5545467669678918
+GLYK,Glycerol kinase,Glycerophospholipid Metabolism,glyc3p_c,Glycerol 3-phosphate,1.0,0.2195810596203796,1.5545467669678918
+GLYK,Glycerol kinase,Glycerophospholipid Metabolism,glyc_c,Glycerol,-1.0,0.2195810596203796,1.5545467669678918
+GLYK,Glycerol kinase,Glycerophospholipid Metabolism,h_c,H+,1.0,0.2195810596203796,1.5545467669678918
+H2CO3D,Carboxylic acid dissociation,Miscellaneous,co2_c,CO2 CO2,-1.0,0.2819197890974026,1.7468136796138782
+H2CO3D,Carboxylic acid dissociation,Miscellaneous,h2co3_c,Carbonic acid,1.0,0.2819197890974026,1.7468136796138782
+H2CO3D,Carboxylic acid dissociation,Miscellaneous,h2o_c,H2O H2O,-1.0,0.2819197890974026,1.7468136796138782
+H2CO3D2,Carboxylic acid dissociation,Miscellaneous,h2co3_c,Carbonic acid,1.0,-0.2819197890974026,1.7468136796138782
+H2CO3D2,Carboxylic acid dissociation,Miscellaneous,h_c,H+,-1.0,-0.2819197890974026,1.7468136796138782
+H2CO3D2,Carboxylic acid dissociation,Miscellaneous,hco3_c,Bicarbonate,-1.0,-0.2819197890974026,1.7468136796138782
+H2O2t,Hydrogen peroxide transport via diffusion,"Transport, Extracellular",h2o2_c,Hydrogen peroxide,1.0,0.8834974969334637,0.6250164245104397
+H2O2t,Hydrogen peroxide transport via diffusion,"Transport, Extracellular",h2o2_e,Hydrogen peroxide,-1.0,0.8834974969334637,0.6250164245104397
+H2O2tp,"Hydrogen peroxide transport via diffusion, glyoxysome","Transport, Peroxisomal",h2o2_c,Hydrogen peroxide,-1.0,0.6840822416318766,0.6735237726534755
+H2O2tp,"Hydrogen peroxide transport via diffusion, glyoxysome","Transport, Peroxisomal",h2o2_x,Hydrogen peroxide,1.0,0.6840822416318766,0.6735237726534755
+H2Ot,H2O transport via diffusion,"Transport, Extracellular",h2o_c,H2O H2O,1.0,-0.4316136507639985,0.8266022328450144
+H2Ot,H2O transport via diffusion,"Transport, Extracellular",h2o_e,H2O H2O,-1.0,-0.4316136507639985,0.8266022328450144
+H2Otp,H2O transport  peroxisomal,"Transport, Peroxisomal",h2o_c,H2O H2O,-1.0,-0.2885216049140827,1.0797820313804818
+H2Otp,H2O transport  peroxisomal,"Transport, Peroxisomal",h2o_x,H2O H2O,1.0,-0.2885216049140827,1.0797820313804818
+HDD2COAtx,Hdd2coa intracellular transport,"Transport, Peroxisomal",hdd2coa_c,Trans-Hexadec-2-enoyl-CoA,-1.0,0.2160987522727181,0.7207271490636022
+HDD2COAtx,Hdd2coa intracellular transport,"Transport, Peroxisomal",hdd2coa_x,Trans-Hexadec-2-enoyl-CoA,1.0,0.2160987522727181,0.7207271490636022
+MTHFD,Methylenetetrahydrofolate dehydrogenase (NADP),Folate Metabolism,methf_c,"5,10-Methenyltetrahydrofolate",1.0,-0.2290028447479304,0.5666959927392266
+MTHFD,Methylenetetrahydrofolate dehydrogenase (NADP),Folate Metabolism,mlthf_c,"5,10-Methylenetetrahydrofolate",-1.0,-0.2290028447479304,0.5666959927392266
+MTHFD,Methylenetetrahydrofolate dehydrogenase (NADP),Folate Metabolism,nadp_c,Nicotinamide adenine dinucleotide phosphate,-1.0,-0.2290028447479304,0.5666959927392266
+MTHFD,Methylenetetrahydrofolate dehydrogenase (NADP),Folate Metabolism,nadph_c,Nicotinamide adenine dinucleotide phosphate - reduced,1.0,-0.2290028447479304,0.5666959927392266
+MTHFD2i,Methylenetetrahydrofolate dehydrogenase  NAD ,Folate Metabolism,methf_c,"5,10-Methenyltetrahydrofolate",1.0,0.2592975304873378,0.5261477671081946
+MTHFD2i,Methylenetetrahydrofolate dehydrogenase  NAD ,Folate Metabolism,mlthf_c,"5,10-Methylenetetrahydrofolate",-1.0,0.2592975304873378,0.5261477671081946
+MTHFD2i,Methylenetetrahydrofolate dehydrogenase  NAD ,Folate Metabolism,nad_c,Nicotinamide adenine dinucleotide,-1.0,0.2592975304873378,0.5261477671081946
+MTHFD2i,Methylenetetrahydrofolate dehydrogenase  NAD ,Folate Metabolism,nadh_c,Nicotinamide adenine dinucleotide - reduced,1.0,0.2592975304873378,0.5261477671081946
+NAt,Sodium transport (uniport),"Transport, Extracellular",na1_c,Sodium,1.0,0.5707089737889995,0.1280386542001798
+NAt,Sodium transport (uniport),"Transport, Extracellular",na1_e,Sodium,-1.0,0.5707089737889995,0.1280386542001798
+NAt5,Sodium/ammonium proton antiporter,"Transport, Extracellular",na1_c,Sodium,-1.0,0.274504355456942,0.597538092824513
+NAt5,Sodium/ammonium proton antiporter,"Transport, Extracellular",na1_e,Sodium,1.0,0.274504355456942,0.597538092824513
+NAt5,Sodium/ammonium proton antiporter,"Transport, Extracellular",nh4_c,Ammonium,1.0,0.274504355456942,0.597538092824513
+NAt5,Sodium/ammonium proton antiporter,"Transport, Extracellular",nh4_e,Ammonium,-1.0,0.274504355456942,0.597538092824513
+O2St,Superoxide anion transport via diffusion (extracellular),"Transport, Extracellular",o2s_c,Superoxide anion,-1.0,-0.2945743209053063,0.4717126303102824
+O2St,Superoxide anion transport via diffusion (extracellular),"Transport, Extracellular",o2s_e,Superoxide anion,1.0,-0.2945743209053063,0.4717126303102824
+O2Stm,Superoxide anion transport via diffusion (mitochondria),"Transport, Mitochondrial",o2s_c,Superoxide anion,-1.0,0.3920935007177702,0.4730408077211402
+O2Stm,Superoxide anion transport via diffusion (mitochondria),"Transport, Mitochondrial",o2s_m,Superoxide anion,1.0,0.3920935007177702,0.4730408077211402
+O2t,O2 transport  diffusion ,"Transport, Extracellular",o2_c,O2 O2,1.0,-1.0097214331823317,0.8108794823703332
+O2t,O2 transport  diffusion ,"Transport, Extracellular",o2_e,O2 O2,-1.0,-1.0097214331823317,0.8108794823703332
+O2tm,O2 transport  diffusion ,"Transport, Mitochondrial",o2_c,O2 O2,-1.0,-0.3962122363946663,0.5791713307670131
+O2tm,O2 transport  diffusion ,"Transport, Mitochondrial",o2_m,O2 O2,1.0,-0.3962122363946663,0.5791713307670131
+O2tp,O2 transport glycosome,"Transport, Peroxisomal",o2_c,O2 O2,-1.0,-0.5783352558197115,0.7447439468831984
+O2tp,O2 transport glycosome,"Transport, Peroxisomal",o2_x,O2 O2,1.0,-0.5783352558197115,0.7447439468831984
+PCREATtmdiffir,Phosphocreatine transport to/from mitochondria via diffusion,Urea cycle/amino group metabolism,pcreat_c,Phosphocreatine,1.0,-0.2470403139152893,0.7018161381585855
+PCREATtmdiffir,Phosphocreatine transport to/from mitochondria via diffusion,Urea cycle/amino group metabolism,pcreat_m,Phosphocreatine,-1.0,-0.2470403139152893,0.7018161381585855
+PIt2m_2,Phosphate mitochondrial transport via proton symport,,h_c,H+,-2.0,-0.3092147222458037,0.812355238801633
+PIt2m_2,Phosphate mitochondrial transport via proton symport,,h_m,H+,2.0,-0.3092147222458037,0.812355238801633
+PIt2m_2,Phosphate mitochondrial transport via proton symport,,pi_c,Phosphate,-1.0,-0.3092147222458037,0.812355238801633
+PIt2m_2,Phosphate mitochondrial transport via proton symport,,pi_m,Phosphate,1.0,-0.3092147222458037,0.812355238801633
+PROD2m,Proline dehydrogenase (m),Arginine and Proline Metabolism,1pyr5c_m,1-Pyrroline-5-carboxylate,1.0,-0.2114663873161554,0.6991200337079462
+PROD2m,Proline dehydrogenase (m),Arginine and Proline Metabolism,fad_m,Flavin adenine dinucleotide oxidized,-1.0,-0.2114663873161554,0.6991200337079462
+PROD2m,Proline dehydrogenase (m),Arginine and Proline Metabolism,fadh2_m,Flavin adenine dinucleotide reduced,1.0,-0.2114663873161554,0.6991200337079462
+PROD2m,Proline dehydrogenase (m),Arginine and Proline Metabolism,h_m,H+,1.0,-0.2114663873161554,0.6991200337079462
+PROD2m,Proline dehydrogenase (m),Arginine and Proline Metabolism,pro__L_m,L-Proline,-1.0,-0.2114663873161554,0.6991200337079462
+RTOT4,R total flux,R Group Synthesis,R4coa_hs_c,R group 4 Coenzyme A homo sapiens,-1.0,-0.3911403771204481,0.2522819055415902
+RTOT4,R total flux,R Group Synthesis,Rtotalcoa_c,Rtotalcoa c,1.0,-0.3911403771204481,0.2522819055415902
+RTOT6,R total flux,R Group Synthesis,R6coa_hs_c,R group 6 Coenzyme A homo sapiens,-1.0,-0.2160987522727181,0.7207271490636022
+RTOT6,R total flux,R Group Synthesis,Rtotalcoa_c,Rtotalcoa c,1.0,-0.2160987522727181,0.7207271490636022
+SOProd,SOProd,,e_m,E   m,-1.0,-0.380971748550204,0.6479823016297057
+SOProd,SOProd,,o2_m,O2 O2,-1.0,-0.380971748550204,0.6479823016297057
+SOProd,SOProd,,o2s_m,Superoxide anion,1.0,-0.380971748550204,0.6479823016297057
+SERt4,L-serine via sodium symport,"Transport, Extracellular",na1_c,Sodium,1.0,-0.2296184486686893,0.3324161949740352
+SERt4,L-serine via sodium symport,"Transport, Extracellular",na1_e,Sodium,-1.0,-0.2296184486686893,0.3324161949740352
+SERt4,L-serine via sodium symport,"Transport, Extracellular",ser__L_c,L-Serine,1.0,-0.2296184486686893,0.3324161949740352
+SERt4,L-serine via sodium symport,"Transport, Extracellular",ser__L_e,L-Serine,-1.0,-0.2296184486686893,0.3324161949740352

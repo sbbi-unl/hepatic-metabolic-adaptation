@@ -1,0 +1,78 @@
+{
+  "groups": {
+    "all_groups": [
+      "HFD",
+      "SCD"
+    ],
+    "baseline": "SCD",
+    "sample_counts": {
+      "HFD": 3,
+      "SCD": 3
+    }
+  },
+  "rna_seq": {
+    "file": "data/GSE182668/male-129S1SvImJ-GSE182668_HFD_SCD_gene_expression.csv",
+    "total_genes": 14333,
+    "genes_with_expr": 14315
+  },
+  "parameters": {
+    "aggregate": true,
+    "eflux_quantile": 0.95,
+    "eflux_floor": 0.1,
+    "eflux_cap": 1000.0,
+    "diet_bounds_json": "data/expanded_diet_bounds_flat.json",
+    "diet_bounds_units": "model",
+    "mw_table": null,
+    "gDW": 1.0,
+    "hours_per_day": 24.0,
+    "test_type": "t-test",
+    "objective_id": "BIOMASS_mm_1_no_glygln",
+    "objective_regex": null,
+    "objective_sense": "max",
+    "transporter_strategy": "either",
+    "transporter_regex": null,
+    "transporter_subsystem_regex": null,
+    "no_fva": true
+  },
+  "per_group": {
+    "HFD": {
+      "samples": 3,
+      "objective_values": [
+        0.0408932641857306
+      ],
+      "objective_mean": 0.0408932641857306,
+      "objective_std": 0.0,
+      "rxns_constrained_unique_L2": 237,
+      "rxns_constrained_unique_L3": 1783,
+      "genes_mapped_unique": 1100
+    },
+    "SCD": {
+      "samples": 3,
+      "objective_values": [
+        0.047585900409690546
+      ],
+      "objective_mean": 0.047585900409690546,
+      "objective_std": 0.0,
+      "rxns_constrained_unique_L2": 237,
+      "rxns_constrained_unique_L3": 1783,
+      "genes_mapped_unique": 1100
+    }
+  },
+  "global": {},
+  "outputs": {
+    "flux_comparison_csv": "Processing_outputs/Step_2_RQ2/results_129S1SvImJ_GSE182668/flux_analysis/reaction_flux_comparison_extended.csv",
+    "pca_png": "Processing_outputs/Step_2_RQ2/results_129S1SvImJ_GSE182668/flux_analysis/flux_pca.png",
+    "pairwise_stats_csv": "Processing_outputs/Step_2_RQ2/results_129S1SvImJ_GSE182668/stats_comparison/flux_pairwise_stats.csv",
+    "distance_matrix_csv": "Processing_outputs/Step_2_RQ2/results_129S1SvImJ_GSE182668/stats_comparison/flux_global_distance_matrix.csv",
+    "rank_product_csv": "Processing_outputs/Step_2_RQ2/results_129S1SvImJ_GSE182668/rank_product.csv",
+    "cytoscape_edge_dir": "Processing_outputs/Step_2_RQ2/results_129S1SvImJ_GSE182668/cytoscape_edges"
+  },
+  "model": {
+    "num_reactions": 3726,
+    "num_metabolites": 2775,
+    "num_genes": 1375,
+    "objective_id": "BIOMASS_mm_1_no_glygln",
+    "objective_name": "52fac2ac-5807-11f1-979a-00155d882eb0",
+    "solver": "optlang.gurobi_interface"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "baseline": {
+    "objective_mode": "biomass"
+  },
+  "microbiome": {
+    "objective_mode": "biomass"
+  }
+}

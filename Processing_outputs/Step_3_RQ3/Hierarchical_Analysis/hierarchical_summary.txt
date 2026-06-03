@@ -1,0 +1,36 @@
+================================================================================
+HIERARCHICAL ATTRIBUTION SUMMARY
+================================================================================
+
+THE THREE DOMINANT PATTERNS:
+--------------------------------------------------------------------------------
+1. FUNCTION:  Structural-Dominant (67.5%)
+2. LOCATION:  Sinusoidal-Dominant (74.8%)
+3. LINEAGE:   Endothelial-Led (53.8%)
+
+
+================================================================================
+DETAILED BREAKDOWN
+================================================================================
+
+
+FUNCTION Hierarchy:
+----------------------------------------
+  Structural             67.5%
+  Immune                 25.5%
+  Metabolic               7.0%
+
+LOCATION Hierarchy:
+----------------------------------------
+  Sinusoidal             74.8%
+  Circulating            18.2%
+  Portal                  4.8%
+  Parenchymal             2.2%
+
+LINEAGE Hierarchy:
+----------------------------------------
+  Endothelial            53.8%
+  Myeloid                22.7%
+  Mesenchymal            14.3%
+  Epithelial              7.0%
+  Lymphoid                2.1%

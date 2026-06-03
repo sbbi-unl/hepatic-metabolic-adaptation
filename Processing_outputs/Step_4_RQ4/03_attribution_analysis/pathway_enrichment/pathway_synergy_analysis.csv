@@ -1,0 +1,41 @@
+subsystem,n_reactions,n_synergistic,n_antagonistic,synergistic_pct,antagonistic_pct,pathway_class
+Lysine Metabolism,8,8,0,100.0,0.0,Highly Synergistic
+Fatty acid elongation,2,2,0,100.0,0.0,Highly Synergistic
+R Group Synthesis,8,8,0,100.0,0.0,Highly Synergistic
+Nucleotides,15,15,0,100.0,0.0,Highly Synergistic
+Pyrimidine Biosynthesis,2,2,0,100.0,0.0,Highly Synergistic
+"Glycine, Serine, and Threonine Metabolism",4,4,0,100.0,0.0,Highly Synergistic
+Triacylglycerol Synthesis,3,3,0,100.0,0.0,Highly Synergistic
+Carnitine shuttle,4,4,0,100.0,0.0,Highly Synergistic
+Citric Acid Cycle,9,9,0,100.0,0.0,Highly Synergistic
+Galactose metabolism,4,4,0,100.0,0.0,Highly Synergistic
+Alanine and Aspartate Metabolism,2,2,0,100.0,0.0,Highly Synergistic
+Propanoate Metabolism,2,2,0,100.0,0.0,Highly Synergistic
+Steroid Metabolism,5,5,0,100.0,0.0,Highly Synergistic
+"Valine, Leucine, and Isoleucine Metabolism",5,5,0,100.0,0.0,Highly Synergistic
+"Transport, Mitochondrial",29,29,0,100.0,0.0,Highly Synergistic
+Vitamin A Metabolism,2,2,0,100.0,0.0,Highly Synergistic
+"Transport, Endoplasmic Reticular",13,13,0,100.0,0.0,Highly Synergistic
+Pyrimidine Catabolism,11,11,0,100.0,0.0,Highly Synergistic
+Cysteine Metabolism,3,3,0,100.0,0.0,Highly Synergistic
+Histidine Metabolism,4,4,0,100.0,0.0,Highly Synergistic
+Tryptophan metabolism,6,6,0,100.0,0.0,Highly Synergistic
+"Transport, Extracellular",59,59,0,100.0,0.0,Highly Synergistic
+Tetrahydrobiopterin,2,2,0,100.0,0.0,Highly Synergistic
+Pentose Phosphate Pathway,12,12,0,100.0,0.0,Highly Synergistic
+Sphingolipid Metabolism,6,6,0,100.0,0.0,Highly Synergistic
+Glycolysis/Gluconeogenesis,13,13,0,100.0,0.0,Highly Synergistic
+Arginine and Proline Metabolism,4,4,0,100.0,0.0,Highly Synergistic
+Pentose and Glucuronate Interconversions,5,5,0,100.0,0.0,Highly Synergistic
+Folate Metabolism,6,6,0,100.0,0.0,Highly Synergistic
+Fructose and Mannose Metabolism,2,2,0,100.0,0.0,Highly Synergistic
+Cholesterol Metabolism,22,22,0,100.0,0.0,Highly Synergistic
+Extracellular exchange,55,55,0,100.0,0.0,Highly Synergistic
+"Fatty acid oxidation, peroxisome",2,2,0,100.0,0.0,Highly Synergistic
+Fatty acid activation,5,5,0,100.0,0.0,Highly Synergistic
+Inositol Phosphate Metabolism,2,2,0,100.0,0.0,Highly Synergistic
+"Transport, Peroxisomal",19,19,0,100.0,0.0,Highly Synergistic
+Ascorbate and Aldarate Metabolism,2,2,0,100.0,0.0,Highly Synergistic
+Glycerophospholipid Metabolism,13,13,0,100.0,0.0,Highly Synergistic
+Aminosugar Metabolism,2,2,0,100.0,0.0,Highly Synergistic
+Fatty acid oxidation,2,2,0,100.0,0.0,Highly Synergistic

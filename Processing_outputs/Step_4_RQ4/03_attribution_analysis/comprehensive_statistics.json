@@ -1,0 +1,21 @@
+{
+  "correlation_pearson": NaN,
+  "correlation_pearson_pval": NaN,
+  "correlation_spearman": NaN,
+  "correlation_spearman_pval": NaN,
+  "magnitude_t_stat": 8.500540591831228,
+  "magnitude_t_pval": 4.001062286257751e-16,
+  "magnitude_w_stat": 0.0,
+  "magnitude_w_pval": 3.7340319889347503e-66,
+  "cohens_d_magnitude": 0.6071814708450877,
+  "synergistic_proportion": 1.0,
+  "directionality_pval": 4.9569176510071274e-119,
+  "variance_diet_mean": 100.0,
+  "variance_microbiome_mean": 0.0,
+  "variance_diet_dominant": 393.0,
+  "variance_mb_dominant": 0.0,
+  "bio_sig_diet": 175.0,
+  "bio_sig_microbiome": 0.0,
+  "large_effect_diet": 39.0,
+  "large_effect_microbiome": 0.0
+}

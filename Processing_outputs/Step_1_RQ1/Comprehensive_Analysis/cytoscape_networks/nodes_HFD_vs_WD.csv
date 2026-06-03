@@ -1,0 +1,185 @@
+id,label,subsystem,effect_size,qvalue,type
+ENO,Enolase,Glycolysis/Gluconeogenesis,1.9814934966884934,6.597512270705959e-07,reaction
+PGM,Phosphoglycerate mutase,Glycolysis/Gluconeogenesis,-1.9813555287829145,6.597512270705959e-07,reaction
+CITtbm,Citrate transport  mitochondrial,"Transport, Mitochondrial",-1.9772191245476716,1.1737936177587943e-05,reaction
+PEPCKm,Phosphoenolpyruvate carboxykinase (GTP),Glycolysis/Gluconeogenesis,-1.9772191245476716,1.1737936177587943e-05,reaction
+PGK,Phosphoglycerate kinase,Glycolysis/Gluconeogenesis,-1.9465698907526827,5.836603692560899e-07,reaction
+GAPD,Glyceraldehyde-3-phosphate dehydrogenase,Glycolysis/Gluconeogenesis,1.9465698907526827,5.836603692560899e-07,reaction
+SERt4,L-serine via sodium symport,"Transport, Extracellular",-1.901444378425604,5.187305248529983e-07,reaction
+DESAT16_2,Palmitoyl-CoA desaturase (n-C16:0CoA -> n-C16:1CoA),Fatty acid elongation,-1.785552392673989,3.240931165963259e-08,reaction
+MALSO3tm,"Malate:sulfite antiport, mitochondrial","Transport, Mitochondrial",-1.7197052773505603,3.240931165963259e-08,reaction
+FUMSO3tm,"Fumarate:sulfite antiport, mitochondrial","Transport, Mitochondrial",1.716052363236756,3.240931165963259e-08,reaction
+KHK2,Ketohexokinase (D-xylulose),Glyoxylate and Dicarboxylate Metabolism,1.653111382885583,3.240931165963259e-08,reaction
+GCALDD,Glycolaldehyde dehydrogenase,Glyoxylate and Dicarboxylate Metabolism,1.653111382885583,3.240931165963259e-08,reaction
+FBA4,D-Fructose 1-phosphate D-glyceraldehyde-3-phosphate-lyase,Glyoxylate and Dicarboxylate Metabolism,1.653111382885583,3.240931165963259e-08,reaction
+THMDt4,Thymidine transport in via sodium symport,"Transport, Extracellular",1.6531113828855821,3.240931165963259e-08,reaction
+TRIODTHYt2,T3 transport via facilitated diffusion,"Transport, Extracellular",-1.6531113828855817,3.240931165963259e-08,reaction
+IDHPOXOX3,Iodide:hydrogen-peroxide oxidoreductase 3,Tyrosine metabolism,1.6531113828855817,3.240931165963259e-08,reaction
+EX_triodthy_e,Triiodothyronine exchange,Extracellular exchange,1.6531113828855817,3.240931165963259e-08,reaction
+FRUt4,D-fructose transport  via sodium cotransport,"Transport, Extracellular",1.5517764059151178,1.3211763491168744e-07,reaction
+EX_fru_e,D-Fructose exchange,Extracellular exchange,-1.5517764059151178,1.3211763491168744e-07,reaction
+METtec,L-methionine transport via diffusion (extracellular to cytosol),"Transport, Extracellular",-1.4960834845335877,2.913874312432253e-07,reaction
+HEX7,Hexokinase (D-fructose:ATP),Fructose and Mannose Metabolism,1.4640879980879258,4.60298462392338e-07,reaction
+ACACt2,Acetoacetate transport via proton symport,"Transport, Extracellular",1.429485732382765,0.0004763489538597897,reaction
+EX_acac_e,Acetoacetate exchange,Extracellular exchange,-1.429485732382765,0.0004763489538597897,reaction
+METLEUex,Methionine/Leucine exchange (Met in),"Transport, Extracellular",1.4086013132576993,7.925388631244844e-07,reaction
+CYTK10,"Cytidylate kinase (CMP,dGTP)",Nucleotides,1.3687357464599959,1.4491001828789037e-06,reaction
+CTPS1,CTP synthase  NH3 ,Nucleotides,-1.3610764990138233,1.5503182650301881e-06,reaction
+O2Stx,Superoxide anion transport via diffusion (peroxisome),"Transport, Peroxisomal",1.3357958192034949,2.18064002763232e-06,reaction
+SPODMx,"Superoxide dismutase, peroxisome",ROS Detoxification,1.335795819203494,2.18064002763232e-06,reaction
+ARTPLM1,R group to palmitate conversion,R Group Synthesis,-1.330509871077651,0.006133253761993402,reaction
+ARGtm,Arginine mitochondrial transport via ornithine carrier,"Transport, Mitochondrial",-1.3203482773883075,2.501940546325023e-06,reaction
+UREAtm,Urea transport via diffusion,Urea cycle/amino group metabolism,1.3203482773883075,2.501940546325023e-06,reaction
+ARGNm,Arginase (m),Urea cycle/amino group metabolism,-1.3203482773883075,2.501940546325023e-06,reaction
+ALAt2r,L alanine reversible transport via proton symport,"Transport, Extracellular",1.30845288135641,0.0002321380919819678,reaction
+CTPS2,CTP synthase (glutamine),Pyrimidine Biosynthesis,1.2762478259064347,5.015097616381268e-06,reaction
+CKc,ATP Creatine kinase (c),Urea cycle/amino group metabolism,1.2526851702943331,7.284471627097165e-06,reaction
+PCREATtmdiffir,Phosphocreatine transport to/from mitochondria via diffusion,Urea cycle/amino group metabolism,-1.2526851702943331,7.284471627097165e-06,reaction
+CREATtmdiffir,Creatine transport to/from mitochondria via diffusion,Urea cycle/amino group metabolism,-1.2526851702943331,7.284471627097165e-06,reaction
+CK,ATP Creatine kinase,Urea cycle/amino group metabolism,-1.2526851702943331,7.284471627097165e-06,reaction
+THRSERNaEx,L-serine/L-threonine Na-dependent exchange (Thr-L in),"Transport, Extracellular",1.1090621669848275,6.633406401621078e-05,reaction
+CO2tm,CO2 transport  diffusion   mitochondrial,"Transport, Mitochondrial",1.0877768533326135,0.0005750828823931188,reaction
+DHCRD2,Dihydroceramide desaturase,Sphingolipid Metabolism,-1.0238162429083624,0.02312887013955398,reaction
+SMS,Sphingomyelin synthase (homo sapiens),Sphingolipid Metabolism,-1.014359323473147,0.00016971292000614763,reaction
+SERPT,Serine C palmitoyltransferase,Sphingolipid Metabolism,-1.014359323473147,0.00016971292000614763,reaction
+3DSPHR,3 Dehydrosphinganine reductase,Sphingolipid Metabolism,-1.014359323473147,0.00016971292000614763,reaction
+DSAT,Dihydrosphingosine N-acyltransferase,Sphingolipid Metabolism,-1.014359323473147,0.00016971292000614763,reaction
+PGPP_hs,Phosphatidylglycerol phosphate phosphatase (homo sapiens),Glycerophospholipid Metabolism,-1.0143593234731432,0.00016971292000614763,reaction
+PGPPT,Phosphatidyl-CMP: glycerophosphate phosphatidyltransferase,Glycerophospholipid Metabolism,-1.0143593234731432,0.00016971292000614763,reaction
+MI1PS,Myo Inositol 1 phosphate synthase,Inositol Phosphate Metabolism,-1.0143593234731298,0.00016971292000614763,reaction
+MI1PP,Myo-inositol 1-phosphatase,Inositol Phosphate Metabolism,-1.0143593234731298,0.00016971292000614763,reaction
+CDIPTr,Phosphatidylinositol synthase (Homo sapiens),Glycerophospholipid Metabolism,-1.0143593234731298,0.00016971292000614763,reaction
+EX_met__L_e,L-Methionine exchange,Extracellular exchange,1.0143593234731227,0.00016971292000614763,reaction
+BIOMASS_mm_1_no_glygln,Biomass mm 1 no glygln,Biomass and maintenance functions,-1.0143593234731167,0.00016971292000614763,reaction
+PPAP,Phosphatidic acid phosphatase,Triacylglycerol Synthesis,-1.0143593234731143,0.00016971292000614763,reaction
+AGPAT1,1-acylglycerol-3-phosphate O-acyltransferase 1,Triacylglycerol Synthesis,-1.0143593234731096,0.00016971292000614763,reaction
+GPAM_hs,Glycerol-3-phosphate acyltransferase,Triacylglycerol Synthesis,-1.0143593234731096,0.00016971292000614763,reaction
+ADPtx,"ADP transporter, peroxisomal","Transport, Peroxisomal",1.0143593234731092,0.00016971292000614763,reaction
+ATPtx,"ATP transporter, peroxisomal","Transport, Peroxisomal",-1.0143593234731092,0.00016971292000614763,reaction
+EX_ile__L_e,L-Isoleucine exchange,Extracellular exchange,1.014359323473107,0.00016971292000614763,reaction
+ILEtec,L-isoleucine transport via diffusion (extracellular to cytosol),"Transport, Extracellular",-1.014359323473107,0.00016971292000614763,reaction
+NADPtxu,"NADP transport, glyoxysome","Transport, Peroxisomal",-1.0143593234730988,0.00016971292000614763,reaction
+NADPHtxu,"NADPH transport, glyoxysome","Transport, Peroxisomal",-1.0143593234730888,0.00016971292000614763,reaction
+URIK1,Uridine kinase  ATPUridine ,Pyrimidine Biosynthesis,-1.0143593234730723,0.00016971292000614763,reaction
+PYNP2r,Pyrimidine-nucleoside phosphorylase (uracil),Pyrimidine Catabolism,1.0143593234730723,0.00016971292000614763,reaction
+EX_asn__L_e,L-Asparagine exchange,Extracellular exchange,1.01435932347306,0.00016971292000614763,reaction
+PPItx,"Diphosphate transporter, peroxisome","Transport, Peroxisomal",1.0143593234730592,0.00016971292000614763,reaction
+GRTTx,Geranyltranstransferase,Cholesterol Metabolism,-1.0143593234730524,0.00016971292000614763,reaction
+FRDPtr,"Lipid, flip-flop intracellular transport","Transport, Peroxisomal",-1.0143593234730524,0.00016971292000614763,reaction
+CO2ter,CO2 endoplasmic reticular transport via diffusion,"Transport, Endoplasmic Reticular",1.0143593234730524,0.00016971292000614763,reaction
+IPDDIx,Isopentenyl-diphosphate D-isomerase,Cholesterol Metabolism,-1.0143593234730524,0.00016971292000614763,reaction
+DMATTx,Dimethylallyltranstransferase,Cholesterol Metabolism,-1.0143593234730524,0.00016971292000614763,reaction
+PPItr,"Diphosphate transporter, endoplasmic reticulum","Transport, Endoplasmic Reticular",1.0143593234730524,0.00016971292000614763,reaction
+HMGCOARx,Hydroxymethylglutaryl CoA reductase (ir),Cholesterol Metabolism,-1.0143593234730475,0.00016971292000614763,reaction
+CO2tp,CO2 peroxisomal transport,"Transport, Peroxisomal",1.0143593234730228,0.00016971292000614763,reaction
+PMEVKx,Phosphomevalonate kinase,Cholesterol Metabolism,-1.0143593234730228,0.00016971292000614763,reaction
+MEVK1x,Mevalonate kinase (atp),Cholesterol Metabolism,-1.0143593234730228,0.00016971292000614763,reaction
+DPMVDx,Diphosphomevalonate decarboxylase,Cholesterol Metabolism,-1.0143593234730228,0.00016971292000614763,reaction
+PItx,"Phosphate transporter, peroxisome","Transport, Peroxisomal",1.0143593234730228,0.00016971292000614763,reaction
+EX_chol_e,Choline exchange,Extracellular exchange,1.0143593234729904,0.00016971292000614763,reaction
+C4STMO1r,"C-4 sterol methyl oxidase (4,4-dimethylzymosterol)",Cholesterol Metabolism,-1.014359323472942,0.00016971292000614763,reaction
+C3STKR2r,C-3 sterol keto reductase (zymosterol),Cholesterol Metabolism,-1.014359323472942,0.00016971292000614763,reaction
+SQLEr,Squalene epoxidase  endoplasmic reticular  NADP ,Cholesterol Metabolism,-1.014359323472942,0.00016971292000614763,reaction
+CHSTEROLt3,Cholesterol intracellular transport,"Transport, Mitochondrial",1.014359323472942,0.00016971292000614763,reaction
+SQLSr,Squalene synthase,Cholesterol Metabolism,-1.014359323472942,0.00016971292000614763,reaction
+FORtr,"FOR transporter, endoplasmic reticulum","Transport, Endoplasmic Reticular",1.014359323472942,0.00016971292000614763,reaction
+CHSTEROLt2,Cholesterol intracellular transport,"Transport, Mitochondrial",-1.014359323472942,0.00016971292000614763,reaction
+LNSTLSr,Lanosterol synthase,Cholesterol Metabolism,-1.014359323472942,0.00016971292000614763,reaction
+C14STRr,C-14 sterol reductase,Cholesterol Metabolism,-1.014359323472942,0.00016971292000614763,reaction
+FADtru,"FAD transporter, endoplasmic reticulum","Transport, Endoplasmic Reticular",-1.014359323472942,0.00016971292000614763,reaction
+FADH2tru,"FADH2 transporter, endoplasmic reticulum","Transport, Endoplasmic Reticular",-1.014359323472942,0.00016971292000614763,reaction
+LNS14DMr,Cytochrome P450 lanosterol 14-alpha-demethylase,Cholesterol Metabolism,-1.014359323472942,0.00016971292000614763,reaction
+PSFLIPm,Phosphatidylserine flippase,"Transport, Mitochondrial",-1.014359323472824,0.00016971292000614763,reaction
+PSDm_hs,Phosphatidylserine decarboxylase,Glycerophospholipid Metabolism,-1.014359323472824,0.00016971292000614763,reaction
+PE_HStm,Phosphatidylethanolamine scramblase,"Transport, Mitochondrial",1.014359323472824,0.00016971292000614763,reaction
+CDS,Phosphatidate cytidylyltransferase,Glycerophospholipid Metabolism,-1.014359323472656,0.00016971292000614763,reaction
+DGK1,Deoxyguanylate kinase (dGMP:ATP),Nucleotides,1.0143593234723896,0.00016971292000614763,reaction
+CLS_hs,Cardiolipin synthase (homo sapiens),Glycerophospholipid Metabolism,-1.0143593234702473,0.00016971292000614763,reaction
+EX_arg__L_e,L-Arginine exchange,Extracellular exchange,0.9702214174132782,0.0002658052538210417,reaction
+PROD2m,Proline dehydrogenase (m),Arginine and Proline Metabolism,-0.9607011655314265,0.014411943768650511,reaction
+DNDPt34m,DGDP transport via dTDP antiport,"Transport, Mitochondrial",-0.9431309239266074,0.0004091528122446675,reaction
+PGI,Glucose-6-phosphate isomerase,Glycolysis/Gluconeogenesis,-0.9340009357054059,0.021990073489560648,reaction
+HEX1,Hexokinase (D-glucose:ATP),Glycolysis/Gluconeogenesis,-0.9322645774804628,0.04238675649153522,reaction
+EX_pyr_e,Pyruvate exchange,Extracellular exchange,0.9288018419656501,0.0004987035907020481,reaction
+PYRt2,Pyruvate transport in via proton symport,"Transport, Extracellular",-0.9288018419656501,0.0004987035907020481,reaction
+CSNATp,Carnitine O acetyltransferase  reverse direction  peroxisomal,Fatty Acid Metabolism,-0.9284898825248046,0.007619985166821266,reaction
+CRNCARtp,Carnitine acetylcarnitine carrier  peroxisomal,"Transport, Peroxisomal",-0.9284898825248046,0.007619985166821266,reaction
+CSNATr_copy2,Carnitine O acetyltransferase,Carnitine shuttle,0.9262013326934841,0.007837685347594233,reaction
+AACOAT,Acetoacetyl-CoA:acetate CoA-transferase,Propanoate Metabolism,0.9238098051775044,0.008072507987145034,reaction
+GLPASE1,Glycogen phosphorylase (glygn2 -> dxtrn),Starch and Sucrose Metabolism,-0.8809260231831104,0.018707904472639265,reaction
+GLDBRAN,Glycogen debranching enzyme,Starch and Sucrose Metabolism,-0.8809260231831104,0.018707904472639265,reaction
+GLPASE2,Glycogen phosphorylase (amyls -> glc-D),Starch and Sucrose Metabolism,-0.8809260231831104,0.018707904472639265,reaction
+GLBRAN,"1,4-alpha-glucan branching enzyme (glygn1 -> glygn2)",Starch and Sucrose Metabolism,-0.8809260231831081,0.018707904472639265,reaction
+GGNG,Glycogenin self-glucosylation,Starch and Sucrose Metabolism,-0.8809260231831081,0.018707904472639265,reaction
+GLGNS1,Glycogen synthase (ggn -> glygn1),Starch and Sucrose Metabolism,-0.8809260231831081,0.018707904472639265,reaction
+EX_ser__L_e,L-Serine exchange,Extracellular exchange,0.8706171525951243,0.020667341899418747,reaction
+EX_so4_e,Sulfate exchange,Extracellular exchange,0.8522946494886615,0.0016948970241821195,reaction
+SULFOX,Sulfite oxidase,Cysteine Metabolism,0.8522946494886615,0.0016948970241821195,reaction
+GK1,Guanylate kinase (GMP:ATP),Nucleotides,-0.851306064891113,0.0016948970241821195,reaction
+TRDR,Thioredoxin reductase (NADPH),Nucleotides,-0.851306064891113,0.0016948970241821195,reaction
+RNDR2,Ribonucleoside-diphosphate reductase (GDP),Nucleotides,-0.851306064891113,0.0016948970241821195,reaction
+3SALATAi,3-sulfino-alanine transaminase (irreversible),Cysteine Metabolism,0.8504668659650887,0.0016948970241821195,reaction
+3SPYRSP,3-sulfinopyruvate hydrolase (spotaneous reaction),Cysteine Metabolism,0.8504668659650887,0.0016948970241821195,reaction
+EX_urea_e,Urea exchange,Extracellular exchange,-0.842113531884871,0.0019267664761333484,reaction
+NAHCO3_HCLt,Bicarbonate transport (HCl/NaHCO3 exchange),"Transport, Extracellular",-0.8193066542585677,0.002775831305644867,reaction
+DNDPt23m,DTDP transport via dGTP antiport,"Transport, Mitochondrial",0.8137729036487833,0.019800800830068525,reaction
+THRCYSNaEx,L-cysteine/L-threonine Na-dependent exchange (Thr-L in),"Transport, Extracellular",-0.8112783945817332,0.003135939854132602,reaction
+ACACT1r_copy2,Acetyl-CoA C-acetyltransferase,Tryptophan metabolism,-0.7997973156173002,0.005129046683698413,reaction
+GLUt2m,"Amino acid transporter (glu-L), mitochondrial","Transport, Mitochondrial",-0.7789869761533096,0.006133253761993402,reaction
+CITtam,Citrate transport  mitochondrial,"Transport, Mitochondrial",0.7778530246790826,0.014516753490367414,reaction
+DHFR,Dihydrofolate reductase,Folate Metabolism,0.7536965493598,0.007619985166821266,reaction
+ATPtm,"ADP/ATP transporter, mitochondrial","Transport, Mitochondrial",-0.7377915112956207,0.010915742185240922,reaction
+C3STDH1r,C-3 sterol dehydrogenase (4-methylzymosterol),Cholesterol Metabolism,-0.7325449036846934,0.012829113222855295,reaction
+FUMSO4tm,"Fumarate:sulfate antiport, mitochondrial","Transport, Mitochondrial",-0.7133664112766127,0.013605073521957696,reaction
+MALSO4tm,"Malate:sulfate antiport, mitochondrial","Transport, Mitochondrial",0.7133664112766127,0.013605073521957696,reaction
+INSTt2,Inositol transport in via proton symport,"Transport, Extracellular",-0.6965768213512393,0.017274287136782862,reaction
+GALUi,UTP-glucose-1-phosphate uridylyltransferase (irreversible),Galactose metabolism,-0.691735962235494,0.02024369485352017,reaction
+ALASERNaEx,L-alanine/L-serine Na-dependent exchange (Ala-L in),"Transport, Extracellular",-0.6837985131577233,0.019800800830068525,reaction
+LEUt5m,Leucine mitochondrial transport,"Transport, Mitochondrial",-0.6747977675467927,0.021990073489560648,reaction
+LEUTAm,Leucine transaminase  mitochondrial,"Valine, Leucine, and Isoleucine Metabolism",-0.6747977675467927,0.021990073489560648,reaction
+4MOPt2im,4-methyl-2-oxopentanoate mitochondrial transport  via proton symport,"Transport, Mitochondrial",0.6720895896378701,0.022522351868796642,reaction
+LEUTA,Leucine transaminase,"Valine, Leucine, and Isoleucine Metabolism",0.6720895896378701,0.022522351868796642,reaction
+PUNP2,Purine-nucleoside phosphorylase (Deoxyadenosine),Purine Catabolism,0.6624263396940704,0.03735481029564344,reaction
+DADNt4,Deoxyadenosine transport via diffusion,"Transport, Extracellular",0.6621948691167597,0.025852766808231703,reaction
+FACOAL160,Fatty acid  CoA ligase  hexadecanoate ,Fatty acid activation,-0.6544705101174476,0.028893212467589288,reaction
+EX_drib_e,Deoxy D Ribose exchange,Extracellular exchange,0.6408808012390674,0.0350358646161637,reaction
+DRIBt,Deoxyribose transport via diffusion,"Transport, Extracellular",-0.6408808012390674,0.0350358646161637,reaction
+THMDt5,Thymidine transport (1:2 Na/Thymd cotransport),"Transport, Extracellular",0.6311506213413045,0.040026515319088615,reaction
+P5CDm,1 pyrroline 5 carboxylate dehydrogenase  mitochondrial,Glutamate metabolism,0.6306869621546171,0.04739984853845057,reaction
+INSTt4_2,Inositol transport via sodium symport,"Transport, Extracellular",0.6246187221857836,0.04355652963259769,reaction
+DESAT18_7,Fatty acyl-CoA desaturase (n-C18:1CoA -> n-C18:2CoA),Fatty acid elongation,-0.6227539470931388,0.04448907527750576,reaction
+Glycolysis/Gluconeogenesis,Glycolysis/Gluconeogenesis,Glycolysis/Gluconeogenesis,,,subsystem
+"Transport, Mitochondrial","Transport, Mitochondrial","Transport, Mitochondrial",,,subsystem
+"Transport, Extracellular","Transport, Extracellular","Transport, Extracellular",,,subsystem
+Fatty acid elongation,Fatty acid elongation,Fatty acid elongation,,,subsystem
+Glyoxylate and Dicarboxylate Metabolism,Glyoxylate and Dicarboxylate Metabolism,Glyoxylate and Dicarboxylate Metabolism,,,subsystem
+Tyrosine metabolism,Tyrosine metabolism,Tyrosine metabolism,,,subsystem
+Extracellular exchange,Extracellular exchange,Extracellular exchange,,,subsystem
+Fructose and Mannose Metabolism,Fructose and Mannose Metabolism,Fructose and Mannose Metabolism,,,subsystem
+Nucleotides,Nucleotides,Nucleotides,,,subsystem
+"Transport, Peroxisomal","Transport, Peroxisomal","Transport, Peroxisomal",,,subsystem
+ROS Detoxification,ROS Detoxification,ROS Detoxification,,,subsystem
+R Group Synthesis,R Group Synthesis,R Group Synthesis,,,subsystem
+Urea cycle/amino group metabolism,Urea cycle/amino group metabolism,Urea cycle/amino group metabolism,,,subsystem
+Pyrimidine Biosynthesis,Pyrimidine Biosynthesis,Pyrimidine Biosynthesis,,,subsystem
+Sphingolipid Metabolism,Sphingolipid Metabolism,Sphingolipid Metabolism,,,subsystem
+Glycerophospholipid Metabolism,Glycerophospholipid Metabolism,Glycerophospholipid Metabolism,,,subsystem
+Inositol Phosphate Metabolism,Inositol Phosphate Metabolism,Inositol Phosphate Metabolism,,,subsystem
+Biomass and maintenance functions,Biomass and maintenance functions,Biomass and maintenance functions,,,subsystem
+Triacylglycerol Synthesis,Triacylglycerol Synthesis,Triacylglycerol Synthesis,,,subsystem
+Pyrimidine Catabolism,Pyrimidine Catabolism,Pyrimidine Catabolism,,,subsystem
+Cholesterol Metabolism,Cholesterol Metabolism,Cholesterol Metabolism,,,subsystem
+"Transport, Endoplasmic Reticular","Transport, Endoplasmic Reticular","Transport, Endoplasmic Reticular",,,subsystem
+Arginine and Proline Metabolism,Arginine and Proline Metabolism,Arginine and Proline Metabolism,,,subsystem
+Fatty Acid Metabolism,Fatty Acid Metabolism,Fatty Acid Metabolism,,,subsystem
+Carnitine shuttle,Carnitine shuttle,Carnitine shuttle,,,subsystem
+Propanoate Metabolism,Propanoate Metabolism,Propanoate Metabolism,,,subsystem
+Starch and Sucrose Metabolism,Starch and Sucrose Metabolism,Starch and Sucrose Metabolism,,,subsystem
+Cysteine Metabolism,Cysteine Metabolism,Cysteine Metabolism,,,subsystem
+Tryptophan metabolism,Tryptophan metabolism,Tryptophan metabolism,,,subsystem
+Folate Metabolism,Folate Metabolism,Folate Metabolism,,,subsystem
+Galactose metabolism,Galactose metabolism,Galactose metabolism,,,subsystem
+"Valine, Leucine, and Isoleucine Metabolism","Valine, Leucine, and Isoleucine Metabolism","Valine, Leucine, and Isoleucine Metabolism",,,subsystem
+Purine Catabolism,Purine Catabolism,Purine Catabolism,,,subsystem
+Fatty acid activation,Fatty acid activation,Fatty acid activation,,,subsystem
+Glutamate metabolism,Glutamate metabolism,Glutamate metabolism,,,subsystem

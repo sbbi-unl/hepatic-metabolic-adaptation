@@ -1,0 +1,83 @@
+2026-05-25 01:51:35,476 - INFO - Pipeline initialized. Log file: Processing_outputs/Step_1_RQ1/pipeline_logs/pipeline_20260525_015135.log
+2026-05-25 01:51:35,476 - INFO - ================================================================================
+2026-05-25 01:51:35,476 - INFO - METABOLIC FLUX ANALYSIS PIPELINE
+2026-05-25 01:51:35,476 - INFO - ================================================================================
+2026-05-25 01:51:35,476 - INFO - Start time: 2026-05-25T01:51:35.476335
+2026-05-25 01:51:35,476 - INFO - Input file: data/GSEMERGED_SCD_HFD_KD_WD_gene_expression.csv
+2026-05-25 01:51:35,476 - INFO - Results directory: Processing_outputs/Step_1_RQ1
+2026-05-25 01:51:35,476 - INFO - Analysis mode: REPLICATE-LEVEL (individual replicates)
+2026-05-25 01:51:35,476 - INFO - ================================================================================
+
+2026-05-25 01:51:35,476 - INFO - Mode: Parallel comparison (corrected vs uncorrected)
+2026-05-25 01:51:35,476 - INFO - 
+================================================================================
+2026-05-25 01:51:35,476 - INFO - BRANCH 1/2: UNCORRECTED ANALYSIS
+2026-05-25 01:51:35,476 - INFO - ================================================================================
+
+2026-05-25 01:51:35,476 - INFO - Running E-Flux analysis...
+2026-05-25 01:51:35,476 - INFO -   Input: data/GSEMERGED_SCD_HFD_KD_WD_gene_expression.csv
+2026-05-25 01:51:35,476 - INFO -   Output: Processing_outputs/Step_1_RQ1/uncorrected
+2026-05-25 01:51:35,476 - INFO -   FVA: Disabled (--no_fva)
+2026-05-25 01:51:35,477 - INFO -   Analysis mode: REPLICATE-LEVEL (individual replicates)
+2026-05-25 01:51:35,477 - INFO - === Starting Stage: flux_analysis_uncorrected ===
+2026-05-25 01:51:35,477 - INFO - Command: python scripts/map_fixv5_multigroupsv8_layered_manuscript_run.py data/GSEMERGED_SCD_HFD_KD_WD_gene_expression.csv --model_file data/iMM1415.json --results_dir Processing_outputs/Step_1_RQ1/uncorrected --test_type mann-whitney --diet_bounds_json data/expanded_diet_bounds_flat.json --eflux_quantile 0.95 --eflux_floor 0.1 --eflux_cap 1000.0 --objective_id BIOMASS_mm_1_no_glygln --objective_sense max --transporter_strategy either --edge_abs_diff_threshold 0.2 --mapping_file data/mouse_entrez_to_symbol.csv --write_replicates_long --rank_product_for HFD,KD,WD --no_fva
+2026-05-25 01:53:45,456 - INFO - [OK] flux_analysis_uncorrected completed successfully (129.98s)
+2026-05-25 01:53:45,456 - INFO -   [OK] Flux output created: Processing_outputs/Step_1_RQ1/uncorrected/flux_analysis/reaction_flux_comparison_extended.csv
+2026-05-25 01:53:45,457 - INFO - Running combined analysis (PCA, PERMANOVA, visuals)...
+2026-05-25 01:53:45,457 - INFO -   Input: Processing_outputs/Step_1_RQ1/uncorrected/flux_analysis/reaction_flux_comparison_extended.csv
+2026-05-25 01:53:45,457 - INFO - === Starting Stage: combined_analysis_uncorrected ===
+2026-05-25 01:53:45,457 - INFO - Command: python scripts/combined_analysis_interactive_generic.py --input Processing_outputs/Step_1_RQ1/uncorrected/flux_analysis/reaction_flux_comparison_extended.csv --output_dir Processing_outputs/Step_1_RQ1/uncorrected/combined_analysis_plots
+2026-05-25 01:53:51,694 - INFO - [OK] combined_analysis_uncorrected completed successfully (6.24s)
+2026-05-25 01:53:51,695 - INFO -   [OK] Combined analysis completed
+2026-05-25 01:53:51,695 - INFO - Branch _uncorrected completed successfully
+2026-05-25 01:53:51,695 - INFO - 
+================================================================================
+2026-05-25 01:53:51,695 - INFO - BRANCH 2/2: BATCH-CORRECTED ANALYSIS
+2026-05-25 01:53:51,695 - INFO - ================================================================================
+
+2026-05-25 01:53:51,696 - INFO - Running E-Flux analysis...
+2026-05-25 01:53:51,696 - INFO -   Input: data/GSEMERGED_SCD_HFD_KD_WD_gene_expression.csv
+2026-05-25 01:53:51,696 - INFO -   Output: Processing_outputs/Step_1_RQ1/batch_corrected
+2026-05-25 01:53:51,696 - INFO -   FVA: Disabled (--no_fva)
+2026-05-25 01:53:51,696 - INFO -   Analysis mode: REPLICATE-LEVEL (individual replicates)
+2026-05-25 01:53:51,696 - INFO - === Starting Stage: flux_analysis_batch_corrected ===
+2026-05-25 01:53:51,696 - INFO - Command: python scripts/map_fixv5_multigroupsv8_layered_manuscript_run.py data/GSEMERGED_SCD_HFD_KD_WD_gene_expression.csv --model_file data/iMM1415.json --results_dir Processing_outputs/Step_1_RQ1/batch_corrected --test_type mann-whitney --diet_bounds_json data/expanded_diet_bounds_flat.json --eflux_quantile 0.95 --eflux_floor 0.1 --eflux_cap 1000.0 --objective_id BIOMASS_mm_1_no_glygln --objective_sense max --transporter_strategy either --edge_abs_diff_threshold 0.2 --mapping_file data/mouse_entrez_to_symbol.csv --write_replicates_long --rank_product_for HFD,KD,WD --no_fva
+2026-05-25 01:56:02,987 - INFO - [OK] flux_analysis_batch_corrected completed successfully (131.29s)
+2026-05-25 01:56:02,987 - INFO -   [OK] Flux output created: Processing_outputs/Step_1_RQ1/batch_corrected/flux_analysis/reaction_flux_comparison_extended.csv
+2026-05-25 01:56:02,988 - INFO - Running batch correction...
+2026-05-25 01:56:02,988 - INFO -   Input: Processing_outputs/Step_1_RQ1/batch_corrected/flux_analysis/reaction_flux_comparison_extended.csv
+2026-05-25 01:56:02,988 - INFO -   Output: Processing_outputs/Step_1_RQ1/batch_corrected/flux_analysis/reaction_flux_comparison_extended_batch_corrected.csv
+2026-05-25 01:56:02,988 - INFO - === Starting Stage: batch_correction_batch_corrected ===
+2026-05-25 01:56:02,988 - INFO - Command: python scripts/batch_correct_flux_by_dataset_3d.py --input Processing_outputs/Step_1_RQ1/batch_corrected/flux_analysis/reaction_flux_comparison_extended.csv --output_csv Processing_outputs/Step_1_RQ1/batch_corrected/flux_analysis/reaction_flux_comparison_extended_batch_corrected.csv --outdir Processing_outputs/Step_1_RQ1/batch_corrected/batch_correction_plots
+2026-05-25 01:56:06,439 - INFO - [OK] batch_correction_batch_corrected completed successfully (3.45s)
+2026-05-25 01:56:06,439 - INFO -   [OK] Batch-corrected file created: Processing_outputs/Step_1_RQ1/batch_corrected/flux_analysis/reaction_flux_comparison_extended_batch_corrected.csv
+2026-05-25 01:56:06,440 - INFO - Running combined analysis (PCA, PERMANOVA, visuals)...
+2026-05-25 01:56:06,440 - INFO -   Input: Processing_outputs/Step_1_RQ1/batch_corrected/flux_analysis/reaction_flux_comparison_extended_batch_corrected.csv
+2026-05-25 01:56:06,440 - INFO - === Starting Stage: combined_analysis_batch_corrected ===
+2026-05-25 01:56:06,440 - INFO - Command: python scripts/combined_analysis_interactive_generic.py --input Processing_outputs/Step_1_RQ1/batch_corrected/flux_analysis/reaction_flux_comparison_extended_batch_corrected.csv --output_dir Processing_outputs/Step_1_RQ1/batch_corrected/combined_analysis_plots
+2026-05-25 01:56:12,485 - INFO - [OK] combined_analysis_batch_corrected completed successfully (6.05s)
+2026-05-25 01:56:12,486 - INFO -   [OK] Combined analysis completed
+2026-05-25 01:56:12,486 - INFO - Branch _batch_corrected completed successfully
+2026-05-25 01:56:12,486 - INFO - 
+================================================================================
+2026-05-25 01:56:12,486 - INFO - PARALLEL COMPARISON COMPLETED SUCCESSFULLY
+2026-05-25 01:56:12,486 - INFO - ================================================================================
+2026-05-25 01:56:12,486 - INFO - 
+================================================================================
+2026-05-25 01:56:12,486 - INFO - FINAL STEP: COMPREHENSIVE ANALYSIS
+2026-05-25 01:56:12,486 - INFO - ================================================================================
+
+2026-05-25 01:56:12,486 - INFO - Running comprehensive flux analysis...
+2026-05-25 01:56:12,486 - INFO -   Input: Processing_outputs/Step_1_RQ1/batch_corrected/flux_analysis/reaction_flux_comparison_extended_batch_corrected.csv
+2026-05-25 01:56:12,486 - INFO -   Output: Processing_outputs/Step_1_RQ1/Comprehensive_Analysis
+2026-05-25 01:56:12,486 - INFO - === Starting Stage: comprehensive_analysis ===
+2026-05-25 01:56:12,486 - INFO - Command: python scripts/comprehensive_flux_analysis.py --input Processing_outputs/Step_1_RQ1/batch_corrected/flux_analysis/reaction_flux_comparison_extended_batch_corrected.csv --output Processing_outputs/Step_1_RQ1/Comprehensive_Analysis
+2026-05-25 01:56:56,669 - INFO - [OK] comprehensive_analysis completed successfully (44.18s)
+2026-05-25 01:56:56,669 - INFO -   [OK] Comprehensive analysis completed
+2026-05-25 01:56:56,674 - INFO - Manifest saved: Processing_outputs/Step_1_RQ1/pipeline_manifests/manifest_20260525_015656.yaml and Processing_outputs/Step_1_RQ1/pipeline_manifests/manifest_20260525_015656.json
+2026-05-25 01:56:56,674 - INFO - 
+================================================================================
+2026-05-25 01:56:56,674 - INFO - Pipeline completed in 321.19 seconds (5.35 minutes)
+2026-05-25 01:56:56,674 - INFO - Status: SUCCESS
+2026-05-25 01:56:56,674 - INFO - ================================================================================
+

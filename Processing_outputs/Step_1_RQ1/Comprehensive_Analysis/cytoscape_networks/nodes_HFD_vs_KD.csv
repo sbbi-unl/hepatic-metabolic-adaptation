@@ -1,0 +1,37 @@
+id,label,subsystem,effect_size,qvalue,type
+DESAT16_2,Palmitoyl-CoA desaturase (n-C16:0CoA -> n-C16:1CoA),Fatty acid elongation,1.7858731146152242,0.049659002874481335,reaction
+TRIOK,Triokinase,Fructose and Mannose Metabolism,1.6779900641543462,7.22121440293243e-08,reaction
+KHK,Ketohexokinase,Fructose and Mannose Metabolism,1.6779900641543462,7.22121440293243e-08,reaction
+FBA2,D Fructose 1 phosphate D glyceraldehyde 3 phosphate lyase,Fructose and Mannose Metabolism,1.6779900641543462,7.22121440293243e-08,reaction
+CYSALANaEx,L-alanine/L-cysteine Na-dependent exchange (Cys-L in),"Transport, Extracellular",1.618385284582875,7.790419686938897e-06,reaction
+FACOAL160,Fatty acid  CoA ligase  hexadecanoate ,Fatty acid activation,1.443387430467594,0.049659002874481335,reaction
+DCMPDA,DCMP deaminase,Pyrimidine Catabolism,-1.3650368885715412,0.0016779200287426997,reaction
+NDPK7m,"ATP:dCDP phosphotransferase, mitochondria",Nucleotides,1.3121467684839008,0.005802789642045519,reaction
+DM_dctp_m,DCTP demand,Intracellular demand,1.3121467684839008,0.005802789642045519,reaction
+ASPTA,Aspartate transaminase,Alanine and Aspartate Metabolism,-1.0878660331531873,0.049659002874481335,reaction
+THRSERNaEx,L-serine/L-threonine Na-dependent exchange (Thr-L in),"Transport, Extracellular",-0.9518452232029181,0.005802789642045519,reaction
+CTPS2,CTP synthase (glutamine),Pyrimidine Biosynthesis,-0.8868433195865505,0.049659002874481335,reaction
+4HOXPACDOX_NADP,4HOXPACDOX LPAREN NADP RPAREN ,Tyrosine metabolism,0.84380288909417,0.049659002874481335,reaction
+TYRCBOX,L-Tyrosine carboxy-lyase,Tyrosine metabolism,0.84380288909417,0.049659002874481335,reaction
+HPACtr,Hydroxyphenylacetate transport via diffusion,"Transport, Extracellular",0.84380288909417,0.049659002874481335,reaction
+TYROXDAc,Tyramine:oxygen oxidoreductase(deaminating)(flavin-containing) (cytosol),Tyrosine metabolism,0.84380288909417,0.049659002874481335,reaction
+EX_4hphac_e,4 hydroxyphenylacetate exchange,Extracellular exchange,0.84380288909417,0.049659002874481335,reaction
+FBA4,D-Fructose 1-phosphate D-glyceraldehyde-3-phosphate-lyase,Glyoxylate and Dicarboxylate Metabolism,-0.742286817930008,0.049659002874481335,reaction
+GCALDD,Glycolaldehyde dehydrogenase,Glyoxylate and Dicarboxylate Metabolism,-0.742286817930008,0.049659002874481335,reaction
+KHK2,Ketohexokinase (D-xylulose),Glyoxylate and Dicarboxylate Metabolism,-0.742286817930008,0.049659002874481335,reaction
+IDHPOXOX3,Iodide:hydrogen-peroxide oxidoreductase 3,Tyrosine metabolism,-0.7422868179300007,0.049659002874481335,reaction
+EX_triodthy_e,Triiodothyronine exchange,Extracellular exchange,-0.7422868179300007,0.049659002874481335,reaction
+TRIODTHYt2,T3 transport via facilitated diffusion,"Transport, Extracellular",0.7422868179300007,0.049659002874481335,reaction
+THMDt4,Thymidine transport in via sodium symport,"Transport, Extracellular",-0.7422868179299992,0.049659002874481335,reaction
+Fatty acid elongation,Fatty acid elongation,Fatty acid elongation,,,subsystem
+Fructose and Mannose Metabolism,Fructose and Mannose Metabolism,Fructose and Mannose Metabolism,,,subsystem
+"Transport, Extracellular","Transport, Extracellular","Transport, Extracellular",,,subsystem
+Fatty acid activation,Fatty acid activation,Fatty acid activation,,,subsystem
+Pyrimidine Catabolism,Pyrimidine Catabolism,Pyrimidine Catabolism,,,subsystem
+Nucleotides,Nucleotides,Nucleotides,,,subsystem
+Intracellular demand,Intracellular demand,Intracellular demand,,,subsystem
+Alanine and Aspartate Metabolism,Alanine and Aspartate Metabolism,Alanine and Aspartate Metabolism,,,subsystem
+Pyrimidine Biosynthesis,Pyrimidine Biosynthesis,Pyrimidine Biosynthesis,,,subsystem
+Tyrosine metabolism,Tyrosine metabolism,Tyrosine metabolism,,,subsystem
+Extracellular exchange,Extracellular exchange,Extracellular exchange,,,subsystem
+Glyoxylate and Dicarboxylate Metabolism,Glyoxylate and Dicarboxylate Metabolism,Glyoxylate and Dicarboxylate Metabolism,,,subsystem

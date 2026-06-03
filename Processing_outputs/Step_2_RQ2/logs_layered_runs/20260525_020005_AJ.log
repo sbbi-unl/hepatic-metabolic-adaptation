@@ -1,0 +1,84 @@
+Job: AJ
+Started: 2026-05-25T02:00:05
+Working directory: /home/romylland/repo
+Command: python scripts/map_fixv5_multigroupsv8_layered_manuscript_run.py data/GSE182668/male-AJ-GSE182668_HFD_SCD_gene_expression.csv --model_file data/iMM1415.json --test_type t-test --diet_bounds_json data/expanded_diet_bounds_flat.json --eflux_quantile 0.95 --eflux_floor 0.1 --eflux_cap 1000 --objective_id BIOMASS_mm_1_no_glygln --objective_sense max --transporter_strategy either --edge_abs_diff_threshold 0.2 --mapping_file data/mouse_entrez_to_symbol.csv --write_replicates_long --rank_product_for HFD,KD,WD --no_fva --aggregate --results_dir Processing_outputs/Step_2_RQ2/results_AJ_GSE182668
+====================================================================================================
+
+[INFO] Loading gene symbol-to-entrez mapping from: data/mouse_entrez_to_symbol.csv
+[INFO] Loaded 4601 symbol->entrez mappings
+[INFO] Detected groups: ['HFD', 'SCD'] (baseline=SCD)
+[INFO] Configuring global solver: gurobi
+[INFO] Global solver successfully configured: gurobi
+[STEP] Loading model...
+Set parameter WLSAccessID
+Set parameter WLSSecret
+Set parameter LicenseID to value 2827139
+Academic license 2827139 - for non-commercial use only - registered to rm___@huskers.unl.edu
+[INFO] Model loaded with solver: optlang.gurobi_interface
+[INFO] Objective set to: BIOMASS_mm_1_no_glygln (Biomass mm 1 no glygln) | sense=max
+[INFO] Gene ID conversion: 1121 matched, 13212 unmatched
+[DEBUG] Sample gene conversions:
+[DEBUG] Converted genes that exist in model: 1121/1121
+[DEBUG] HFD: matched 3 RNA-seq columns -> ['HFD_AJ_GSM5534390_m_bxd_010579', 'HFD_AJ_GSM5534391_m_bxd_010585', 'HFD_AJ_GSM5534392_m_bxd_010586']
+[DEBUG] SCD: matched 3 RNA-seq columns -> ['SCD_AJ_GSM5534384_m_bxd_009771', 'SCD_AJ_GSM5534385_m_bxd_009773', 'SCD_AJ_GSM5534386_m_bxd_009775']
+[INFO] Reaction classes: EX=416 | Transporters=534 | Internal=2776
+Read LP format model from file /tmp/tmphm74ds3d.lp
+Reading time = 0.01 seconds
+: 2775 rows, 7452 columns, 28106 nonzeros
+[WARN] Diet lists EX_lnlc_e but it is not in model. Skipping.
+[WARN] Diet lists EX_dca_e but it is not in model. Skipping.
+[WARN] Diet lists EX_actn_e but it is not in model. Skipping.
+[WARN] Diet lists EX_cbl1_e but it is not in model. Skipping.
+[WARN] Diet lists EX_phyQ_e but it is not in model. Skipping.
+[WARN] Diet lists EX_mg2_e but it is not in model. Skipping.
+[WARN] Diet lists EX_zn2_e but it is not in model. Skipping.
+[WARN] Diet lists EX_cu2_e but it is not in model. Skipping.
+[WARN] Diet lists EX_mn2_e but it is not in model. Skipping.
+[WARN] Diet lists EX_cobalt2_e but it is not in model. Skipping.
+[WARN] Diet lists EX_mobd_e but it is not in model. Skipping.
+[INFO] Layer 1 (Diet) applied to 69 EX_ reactions for code=HFD.
+[INFO] Layer L2: expression constraints applied to 237 reactions in scope=534. Genes matched: 1100
+[INFO] Layer L3: expression constraints applied to 1783 reactions in scope=2776. Genes matched: 1100
+[HFD] objective=0.040363 | L1=69 | L2_rxns=237 | L3_rxns=1783
+Read LP format model from file /tmp/tmpt1gcvzm1.lp
+Reading time = 0.01 seconds
+: 2775 rows, 7452 columns, 28106 nonzeros
+[WARN] Diet lists EX_lnlc_e but it is not in model. Skipping.
+[WARN] Diet lists EX_dca_e but it is not in model. Skipping.
+[WARN] Diet lists EX_cbl1_e but it is not in model. Skipping.
+[WARN] Diet lists EX_phyQ_e but it is not in model. Skipping.
+[WARN] Diet lists EX_mg2_e but it is not in model. Skipping.
+[WARN] Diet lists EX_zn2_e but it is not in model. Skipping.
+[WARN] Diet lists EX_cu2_e but it is not in model. Skipping.
+[WARN] Diet lists EX_mn2_e but it is not in model. Skipping.
+[WARN] Diet lists EX_cobalt2_e but it is not in model. Skipping.
+[WARN] Diet lists EX_mobd_e but it is not in model. Skipping.
+[INFO] Layer 1 (Diet) applied to 61 EX_ reactions for code=SCD.
+[INFO] Layer L2: expression constraints applied to 237 reactions in scope=534. Genes matched: 1100
+[INFO] Layer L3: expression constraints applied to 1783 reactions in scope=2776. Genes matched: 1100
+[SCD] objective=0.043442 | L1=61 | L2_rxns=237 | L3_rxns=1783
+[INFO] Extended flux comparison saved to: Processing_outputs/Step_2_RQ2/results_AJ_GSE182668/flux_analysis/reaction_flux_comparison_extended.csv
+[INFO] Replicate-level long table saved to: Processing_outputs/Step_2_RQ2/results_AJ_GSE182668/flux_analysis/flux_replicates_long.csv
+[INFO] PCA plot saved to: Processing_outputs/Step_2_RQ2/results_AJ_GSE182668/flux_analysis/flux_pca.png
+[INFO] FVA analysis skipped (--no_fva flag set)
+[INFO] Mean flux heatmap saved to: Processing_outputs/Step_2_RQ2/results_AJ_GSE182668/extended_visuals/mean_flux_heatmap.png
+[INFO] Pairwise stats + BH-FDR saved to: Processing_outputs/Step_2_RQ2/results_AJ_GSE182668/stats_comparison/flux_pairwise_stats.csv
+[INFO] Global distance matrix saved to: Processing_outputs/Step_2_RQ2/results_AJ_GSE182668/stats_comparison/flux_global_distance_matrix.csv
+[INFO] Rank-product saved to: Processing_outputs/Step_2_RQ2/results_AJ_GSE182668/rank_product.csv
+[INFO] Rank-product computed for targets=['HFD', 'KD', 'WD']: Processing_outputs/Step_2_RQ2/results_AJ_GSE182668/rank_product.csv (top5):
+  ReactionID  RankProduct  RankProductRank  Diff(HFD-SCD)
+0    EX_o2_e          1.5                1       2.114033
+1        O2t          1.5                2      -2.114033
+2       CO2t          3.5                3       1.311118
+3   EX_co2_e          3.5                4      -1.311118
+4    ARTFR41          5.5                5      -1.167237
+[INFO] Cytoscape edges (240 rows) saved to: Processing_outputs/Step_2_RQ2/results_AJ_GSE182668/cytoscape_edges/edges_HFD_vs_SCD.csv
+[INFO] Cytoscape edges written to: Processing_outputs/Step_2_RQ2/results_AJ_GSE182668/cytoscape_edges
+[INFO] Analysis report written to: Processing_outputs/Step_2_RQ2/results_AJ_GSE182668/analysis_report.json
+[INFO] Layered multi-group analysis complete.
+Warning: environment still referenced so free is deferred (Continue to use WLS)
+
+====================================================================================================
+Ended: 2026-05-25T02:00:14
+Elapsed seconds: 8.81
+Return code: 0

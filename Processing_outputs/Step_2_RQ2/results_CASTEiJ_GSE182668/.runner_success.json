@@ -1,0 +1,7 @@
+{
+  "job": "CASTEiJ",
+  "completed_at": "2026-05-25T02:00:23",
+  "elapsed_seconds": 8.96,
+  "command": "python scripts/map_fixv5_multigroupsv8_layered_manuscript_run.py data/GSE182668/male-CASTEiJ-GSE182668_HFD_SCD_gene_expression.csv --model_file data/iMM1415.json --test_type t-test --diet_bounds_json data/expanded_diet_bounds_flat.json --eflux_quantile 0.95 --eflux_floor 0.1 --eflux_cap 1000 --objective_id BIOMASS_mm_1_no_glygln --objective_sense max --transporter_strategy either --edge_abs_diff_threshold 0.2 --mapping_file data/mouse_entrez_to_symbol.csv --write_replicates_long --rank_product_for HFD,KD,WD --no_fva --aggregate --results_dir Processing_outputs/Step_2_RQ2/results_CASTEiJ_GSE182668",
+  "log_file": "/home/romylland/repo/Processing_outputs/Step_2_RQ2/logs_layered_runs/20260525_020014_CASTEiJ.log"
+}

@@ -1,0 +1,1376 @@
+query,entrez,name,symbol,alias,taxid,MGI
+239559,239559,"alpha 1,4-galactosyltransferase",A4galt,,10090,MGI:3512453
+333424,333424,"alpha-1,4-N-acetylglucosaminyltransferase",A4gnt,"Alpha4gnt, Gm798",10090,MGI:2143261
+78894,78894,acetoacetyl-CoA synthetase,Aacs,"2210408B16Rik, SUR5",10090,MGI:1926144
+67758,67758,arylacetamide deacetylase,Aadac,"5033417E09Rik, Aada",10090,MGI:1915008
+23923,23923,aminoadipate aminotransferase,Aadat,"Aadt, KATII, Kat2, Kyat2, mKat-2",10090,MGI:1345167
+11298,11298,arylalkylamine N-acetyltransferase,Aanat,"AA-NAT, Nat-2, Nat4, Snat",10090,MGI:1328365
+30956,30956,aminoadipate-semialdehyde synthase,Aass,"LKR, LKR/SDH, LOR, LOR/SDH, Lorsdh",10090,MGI:1353573
+268860,268860,4-aminobutyrate aminotransferase,Abat,"9630038C02Rik, Gabaat, Gabat, Gm9851, I54",10090,MGI:2443582
+11303,11303,"ATP-binding cassette, sub-family A member 1",Abca1,"ABC-1, Abc1",10090,MGI:99607
+27413,27413,"ATP-binding cassette, sub-family B member 11",Abcb11,"ABC16, Bsep, Lith1, PFIC2, PGY4",10090,MGI:1351619
+18670,18670,"ATP-binding cassette, sub-family B member 4",Abcb4,"Mdr2, Pgy-2, Pgy2, mdr-2",10090,MGI:97569
+17250,17250,"ATP-binding cassette, sub-family C member 1",Abcc1,"Abcc1a, Abcc1b, MRP, Mdrap, Mrp1",10090,MGI:102676
+76408,76408,"ATP-binding cassette, sub-family C member 3",Abcc3,"1700019L09Rik, ABC31, MLP2, MOAT-D, MRP3",10090,MGI:1923658
+239273,239273,"ATP-binding cassette, sub-family C member 4",Abcc4,"ABCC4-N1, D630049P08Rik, MOATB, MRP4",10090,MGI:2443111
+27416,27416,"ATP-binding cassette, sub-family C member 5",Abcc5,"2900011L11Rik, Abcc5a, Abcc5b, Mrp5",10090,MGI:1351644
+113868,113868,acetyl-Coenzyme A acyltransferase 1A,Acaa1a,"Acaa, Acaa1, D9Ertd25e, PTL",10090,MGI:2148491
+107476,107476,acetyl-Coenzyme A carboxylase alpha,Acaca,"A530025K05Rik, Acac, Acc1, Gm738",10090,MGI:108451
+100705,100705,acetyl-Coenzyme A carboxylase beta,Acacb,"Acc2, Accb",10090,MGI:2140940
+71985,71985,"acyl-Coenzyme A dehydrogenase family, member 10",Acad10,2410021P16Rik,10090,MGI:1919235
+102632,102632,"acyl-Coenzyme A dehydrogenase family, member 11",Acad11,5730439E10Rik,10090,MGI:2143169
+66948,66948,"acyl-Coenzyme A dehydrogenase family, member 8",Acad8,2310016C19Rik,10090,MGI:1914198
+229211,229211,"acyl-Coenzyme A dehydrogenase family, member 9",Acad9,"2600017P15Rik, 4732402K02, C630012L17Rik, NPD002",10090,MGI:1914272
+11364,11364,"acyl-Coenzyme A dehydrogenase, medium chain",Acadm,MCAD,10090,MGI:87867
+11409,11409,"acyl-Coenzyme A dehydrogenase, short chain",Acads,"Bcd-1, Bcd1, Hdlq8, SCAD",10090,MGI:87868
+66885,66885,"acyl-Coenzyme A dehydrogenase, short/branched chain",Acadsb,"1300003O09Rik, 2-MEBCAD, SBCAD",10090,MGI:1914135
+110446,110446,acetyl-Coenzyme A acetyltransferase 1,Acat1,"6330585C21Rik, Acat",10090,MGI:87870
+224530,224530,acetyl-Coenzyme A acetyltransferase 3,Acat3,ACTL,10090,MGI:109182
+11423,11423,acetylcholinesterase,Ache,,10090,MGI:87876
+104112,104112,ATP citrate lyase,Acly,A730098H14Rik,10090,MGI:103251
+266645,266645,amino carboxymuconate semialdehyde decarboxylase,Acmsd,,10090,MGI:2386323
+11428,11428,aconitase 1,Aco1,"Aco-1, Irebp, Irp1",10090,MGI:87879
+11429,11429,"aconitase 2, mitochondrial",Aco2,"Aco-2, Aco3, D10Wsu183e, Irp1",10090,MGI:87880
+74156,74156,acyl-CoA thioesterase 12,Acot12,"1300004O04Rik, 4930449F15Rik, CACH-1, Cach, mCACH-1",10090,MGI:1921406
+171210,171210,acyl-CoA thioesterase 2,Acot2,"MTE-I, Mte1",10090,MGI:2159605
+170789,170789,acyl-CoA thioesterase 8,Acot8,"PTE-1, PTE-2, Pte1",10090,MGI:2158201
+11430,11430,"acyl-Coenzyme A oxidase 1, palmitoyl",Acox1,"AOX, Acox, D130055E20Rik, Paox",10090,MGI:1330812
+93732,93732,"acyl-Coenzyme A oxidase 2, branched chain",Acox2,THCCox,10090,MGI:1934852
+80911,80911,"acyl-Coenzyme A oxidase 3, pristanoyl",Acox3,"EST-s59, PCOX",10090,MGI:1933156
+11431,11431,"acid phosphatase 1, soluble",Acp1,"4632432E04Rik, Acp-1, LMW-PTP, Lmptp",10090,MGI:87881
+11432,11432,"acid phosphatase 2, lysosomal",Acp2,"Acp-2, LAP",10090,MGI:87882
+14081,14081,acyl-CoA synthetase long-chain family member 1,Acsl1,"Acas, Acas1, Acs, FACS, Facl2",10090,MGI:102797
+74205,74205,acyl-CoA synthetase long-chain family member 3,Acsl3,"2610510B12Rik, Acs3, Facl3, LACS 3, Pro2194",10090,MGI:1921455
+50790,50790,acyl-CoA synthetase long-chain family member 4,Acsl4,"9430020A05Rik, ACS4, Facl4, Lacs4",10090,MGI:1354713
+433256,433256,acyl-CoA synthetase long-chain family member 5,Acsl5,"1700030F05Rik, ACS2, ACS5, Facl5",10090,MGI:1919129
+117147,117147,acyl-CoA synthetase medium-chain family member 1,Acsm1,"Acas3, Bucs1, Macs",10090,MGI:2152200
+68738,68738,acyl-CoA synthetase short-chain family member 1,Acss1,"1110032O15Rik, Acas2, Acas2l, AceCS2",10090,MGI:1915988
+60525,60525,acyl-CoA synthetase short-chain family member 2,Acss2,"1110017C11Rik, ACAS, ACS, Acas1, Acas2",10090,MGI:1890410
+109652,109652,aminoacylase 1,Acy1,"1110014J22Rik, Acy-1",10090,MGI:87913
+71670,71670,aminoacylase 3,Acy3,"0610006H10Rik, AA3, AAIII, Acy-3, HCBP1",10090,MGI:1918920
+66204,66204,acylphosphatase 1,Acyp1,1110039O14Rik,10090,MGI:1913454
+75572,75572,"acylphosphatase 2, muscle type",Acyp2,2310004B09Rik,10090,MGI:1922822
+11486,11486,adenosine deaminase,Ada,,10090,MGI:87916
+432530,432530,adenylate cyclase 1,Adcy1,"AC1, D11Bwg1392e, I-AC, brl",10090,MGI:99677
+271639,271639,adenylate cyclase 10,Adcy10,"4930431D04Rik, 4931412F17, Sacy, sAC",10090,MGI:2660854
+210044,210044,adenylate cyclase 2,Adcy2,mKIAA1060,10090,MGI:99676
+104111,104111,adenylate cyclase 3,Adcy3,"AC3, ACIII, mKIAA0511",10090,MGI:99675
+104110,104110,adenylate cyclase 4,Adcy4,mKIAA4004,10090,MGI:99674
+224129,224129,adenylate cyclase 5,Adcy5,Ac5,10090,MGI:99673
+11512,11512,adenylate cyclase 6,Adcy6,"AC6, mKIAA0422",10090,MGI:87917
+11513,11513,adenylate cyclase 7,Adcy7,,10090,MGI:102891
+11514,11514,adenylate cyclase 8,Adcy8,AC8,10090,MGI:1341110
+11515,11515,adenylate cyclase 9,Adcy9,"AC9, ACtp10, D16Wsu65e, mKIAA0520",10090,MGI:108450
+11532,11532,"alcohol dehydrogenase 5 (class III), chi polypeptide",Adh5,"Adh-5, Adh3, GSNOR",10090,MGI:87929
+11534,11534,adenosine kinase,Adk,"2310026J05Rik, 5033405D03Rik, Ak",10090,MGI:87930
+11564,11564,adenylosuccinate lyase,Adsl,"Adl, Asl",10090,MGI:103202
+11565,11565,adenylosuccinate synthase 1,Adss1,"Adss, Adssl1",10090,MGI:87947
+11566,11566,adenylosuccinate synthase 2,Adss2,"AS, Adss, adSS 2",10090,MGI:87948
+11593,11593,aspartylglucosaminidase,Aga,,10090,MGI:104873
+77559,77559,"amylo-1,6-glucosidase, 4-alpha-glucanotransferase",Agl,"1110061O17Rik, 9430004C13Rik, 9630046L06Rik",10090,MGI:1924809
+75986,75986,agmatinase,Agmat,5033405N08Rik,10090,MGI:1923236
+55979,55979,1-acylglycerol-3-phosphate O-acyltransferase 1,Agpat1,"1-AGP, 1-AGPAT",10090,MGI:1932075
+67512,67512,1-acylglycerol-3-phosphate O-acyltransferase 2,Agpat2,"1-AGPAT 2, 2510002J07Rik, BSCL, BSCL1, LPAAB",10090,MGI:1914762
+28169,28169,1-acylglycerol-3-phosphate O-acyltransferase 3,Agpat3,"D10Jhu12e, lpaat3",10090,MGI:1336186
+68262,68262,1-acylglycerol-3-phosphate O-acyltransferase 4,Agpat4,1500003P24Rik,10090,MGI:1915512
+52123,52123,1-acylglycerol-3-phosphate O-acyltransferase 5,Agpat5,"1110013A05Rik, D8Ertd319e",10090,MGI:1196345
+228061,228061,alkylglycerone phosphate synthase,Agps,"5832437L22, 9930035G10Rik, Adaps, Adas, Adhaps",10090,MGI:2443065
+11611,11611,alanine-glyoxylate aminotransferase,Agxt,"AGT, Agt1, Agxt1, SPT",10090,MGI:1329033
+268782,268782,alanine-glyoxylate aminotransferase 2,Agxt2,,10090,MGI:2146052
+269378,269378,S-adenosylhomocysteine hydrolase,Ahcy,"CuBP, SAHH",10090,MGI:87968
+229709,229709,S-adenosylhomocysteine hydrolase-like 1,Ahcyl1,"1110034F20Rik, Ahcy-rs3, DCAL, Irbit",10090,MGI:2385184
+74340,74340,S-adenosylhomocysteine hydrolase-like 2,Ahcyl2,"4631427C17Rik, Adohcyase3, mKIAA0828",10090,MGI:1921590
+11628,11628,activation-induced cytidine deaminase,Aicda,"Aid, Arp2",10090,MGI:1342279
+11636,11636,adenylate kinase 1,Ak1,"Ak-1, B430205N08Rik",10090,MGI:87977
+56248,56248,adenylate kinase 3,Ak3,"AK-3, Ak3l, Ak3l1, Akl3l",10090,MGI:1860835
+229949,229949,adenylate kinase 5,Ak5,,10090,MGI:2677491
+78801,78801,adenylate kinase 7,Ak7,"4930502N02Rik, AK 7",10090,MGI:1926051
+58810,58810,"aldo-keto reductase family 1, member A1",Akr1a1,"2610201A18Rik, Akr1a4",10090,MGI:1929955
+11677,11677,aldo-keto reductase family 1 member B,Akr1b1,"ALR2, AR, Ahr-1, Ahr1, Akr1b3",10090,MGI:1353494
+77337,77337,"aldo-keto reductase family 1, member C21",Akr1c21,9430025F20Rik,10090,MGI:1924587
+83702,83702,"aldo-keto reductase family 1, member C6",Akr1c6,"3alpha-HSD, Akr1c1, Hsd17b5",10090,MGI:1933427
+208665,208665,"aldo-keto reductase family 1, member D1",Akr1d1,,10090,MGI:2384785
+110198,110198,"aldo-keto reductase family 7, member A5",Akr7a5,"0610025K21Rik, Afar, Afar1, Akr7a2",10090,MGI:107796
+17025,17025,"aminolevulinate, delta-, dehydratase",Alad,"ALADH, Lv",10090,MGI:96853
+11655,11655,aminolevulinic acid synthase 1,Alas1,"ALAS, ALAS-N, Alas-1, Alas-h",10090,MGI:87989
+11656,11656,"aminolevulinic acid synthase 2, erythroid",Alas2,"ALAS, ALAS-E, ALASE, Alas-2",10090,MGI:87990
+56454,56454,"aldehyde dehydrogenase 18 family, member A1",Aldh18a1,"2810433K04Rik, Pycs",10090,MGI:1888908
+11668,11668,"aldehyde dehydrogenase family 1, subfamily A1",Aldh1a1,"ALDH-E1, ALHDII, Ahd-2, Ahd2, Aldh1",10090,MGI:1353450
+19378,19378,"aldehyde dehydrogenase family 1, subfamily A2",Aldh1a2,"Aldh1a7, Raldh1, Raldh2",10090,MGI:107928
+56847,56847,"aldehyde dehydrogenase family 1, subfamily A3",Aldh1a3,"ALDH6, RALDH3, V1",10090,MGI:1861722
+72535,72535,"aldehyde dehydrogenase 1 family, member B1",Aldh1b1,2700007F14Rik,10090,MGI:1919785
+107747,107747,"aldehyde dehydrogenase 1 family, member L1",Aldh1l1,"1810048F20Rik, FDH, Fthfd, Neut2",10090,MGI:1340024
+11669,11669,"aldehyde dehydrogenase 2, mitochondrial",Aldh2,"AHD-M1, ALDH-E2, ALDHI, Ahd-5, Ahd5",10090,MGI:99600
+11670,11670,"aldehyde dehydrogenase family 3, subfamily A1",Aldh3a1,"Ahd-4, Ahd4, Aldh, Aldh3",10090,MGI:1353451
+11671,11671,"aldehyde dehydrogenase family 3, subfamily A2",Aldh3a2,"Ahd-3, Ahd-3r, Ahd3, Ahd3-r, Aldh4",10090,MGI:1353452
+67689,67689,"aldehyde dehydrogenase 3 family, member B1",Aldh3b1,"1700001N19Rik, ALDH4, ALDH7",10090,MGI:1914939
+212647,212647,"aldehyde dehydrogenase 4 family, member A1",Aldh4a1,"A930035F14Rik, Ahd-1, Ahd1, Aldh4, Aldh5a1",10090,MGI:2443883
+214579,214579,"aldhehyde dehydrogenase family 5, subfamily A1",Aldh5a1,"6330403E24Rik, Ahd-1, Ahd1, D630032B01Rik, SSADH",10090,MGI:2441982
+104776,104776,"aldehyde dehydrogenase family 6, subfamily A1",Aldh6a1,"1110038I05Rik, Mmsdh",10090,MGI:1915077
+110695,110695,"aldehyde dehydrogenase family 7, member A1",Aldh7a1,"Atq1, D18Wsu181e",10090,MGI:108186
+56752,56752,"aldehyde dehydrogenase 9, subfamily A1",Aldh9a1,"Abaldh, ESTM40, TMABA-DH, Tmabadh",10090,MGI:1861622
+11674,11674,"aldolase A, fructose-bisphosphate",Aldoa,"Aldo-1, Aldo1",10090,MGI:87994
+230163,230163,"aldolase B, fructose-bisphosphate",Aldob,"Aldo-2, Aldo2",10090,MGI:87995
+11676,11676,"aldolase C, fructose-bisphosphate",Aldoc,"Aldo3, Scrg2",10090,MGI:101863
+208211,208211,ALG1 chitobiosyldiphosphodolichol beta-mannosyltransferase,Alg1,"HMAT1, HMT1",10090,MGI:2384774
+380959,380959,"ALG10 alpha-1,2-glucosyltransferase",Alg10b,"Deaf1, Gm917, nse5",10090,MGI:2146159
+56737,56737,"ALG2 alpha-1,3/1,6-mannosyltransferase",Alg2,"1110018A23Rik, 1300013N08Rik, ALPG2, CDGIi, MNCb-5081",10090,MGI:1914731
+208624,208624,"ALG3 alpha-1,3- mannosyltransferase",Alg3,"D16Ertd36e, not",10090,MGI:1098592
+66248,66248,ALG5 dolichyl-phosphate beta-glucosyltransferase,Alg5,"1500026A19Rik, 2600005J22Rik",10090,MGI:1913498
+320438,320438,"ALG6 alpha-1,3-glucosyltransferase",Alg6,E230028F23Rik,10090,MGI:2444031
+381903,381903,"ALG8 alpha-1,3-glucosyltransferase",Alg8,Gm1089,10090,MGI:2141959
+11684,11684,arachidonate 12-lipoxygenase,Alox12,"9930022G08Rik, Alox12p, P-12LO",10090,MGI:87998
+11686,11686,"arachidonate 12-lipoxygenase, 12R type",Alox12b,"12R-LOX, Aloxe2, e-LOX2",10090,MGI:1274782
+11687,11687,arachidonate 15-lipoxygenase,Alox15,"12-LO, 12/15-LO, 15-LOX, Alox12l, L-12LO",10090,MGI:87997
+11689,11689,arachidonate 5-lipoxygenase,Alox5,"5-LO, 5-LOX, 5LO, 5LX, F730011J02",10090,MGI:87999
+11688,11688,arachidonate 8-lipoxygenase,Alox8,"15-LOX-2, 15-LOX-B, 8-LOX, 8S-LOX, Alox15b",10090,MGI:1098228
+76768,76768,"alkaline phosphatase, intestinal",Alpi,"2010001C14Rik, Akp6, gIAP",10090,MGI:1924018
+11647,11647,"alkaline phosphatase, liver/bone/kidney",Alpl,"ALP, APTNAP, Akp-2, Akp2, TNAP",10090,MGI:87983
+11650,11650,"alkaline phosphatase, placental-like 2",Alppl2,"Akp5, Alpg, D1Ertd816e, EAP",10090,MGI:108009
+17117,17117,alpha-methylacyl-CoA racemase,Amacr,Macr1,10090,MGI:1098273
+11702,11702,S-adenosylmethionine decarboxylase 1,Amd1,"AdoMetDC, Amd-1, SAMDC, SAMDC 1, adoMetDC1",10090,MGI:88004
+245847,245847,amidohydrolase domain containing 2,Amdhd2,5730457F11Rik,10090,MGI:2443978
+229665,229665,adenosine monophosphate deaminase 1,Ampd1,Ampd-1,10090,MGI:88015
+109674,109674,adenosine monophosphate deaminase 2,Ampd2,"1200014F01Rik, Ampd-2, m4521Dajl",10090,MGI:88016
+11717,11717,adenosine monophosphate deaminase 3,Ampd3,,10090,MGI:1096344
+434437,434437,aminomethyltransferase,Amt,"EG434437, GCVT",10090,MGI:3646700
+11722,11722,"amylase 1, salivary",Amy1,"Amy-1, Amy1a, C030014B17Rik",10090,MGI:88019
+100043684,100043684,amylase 2a4,Amy2a4,"Amy2, Amy2a, PA, mAmy2-3",10090,MGI:3711258
+16790,16790,"alanyl aminopeptidase, membrane",Anpep,"AP-M, AP-N, Apn, Cd13, P150",10090,MGI:5000466
+76507,76507,"amine oxidase, copper-containing 1",Aoc1,"1600012D06Rik, Abp1, DAO",10090,MGI:1923757
+237940,237940,amine oxidase copper containing 2,Aoc2,RAO,10090,MGI:2668431
+11754,11754,"amine oxidase, copper containing 3",Aoc3,"SSAO, VAP1",10090,MGI:1306797
+11761,11761,aldehyde oxidase 1,Aox1,"Ao, Aox-1, Aox-2, Aox2, Moro",10090,MGI:88035
+11821,11821,adenine phosphoribosyl transferase,Aprt,,10090,MGI:88061
+11833,11833,aquaporin 8,Aqp8,AQP-8,10090,MGI:1195271
+64008,64008,aquaporin 9,Aqp9,"1700020I22Rik, AQP-9",10090,MGI:1891066
+11846,11846,"arginase, liver",Arg1,"AI, Arg-1, PGIF",10090,MGI:88070
+11847,11847,arginase type II,Arg2,AII,10090,MGI:1330806
+11883,11883,arylsulfatase A,Arsa,"AS-A, ASA, As-2, As2, TISP73",10090,MGI:88077
+11881,11881,arylsulfatase B,Arsb,"1110007C02Rik, As-1, As-1r, As-1s, As-1t",10090,MGI:88075
+11886,11886,N-acylsphingosine amidohydrolase 1,Asah1,"2310081N20Rik, AC, Asah",10090,MGI:1277124
+109900,109900,argininosuccinate lyase,Asl,"2510006M18Rik, ASAL",10090,MGI:88084
+27053,27053,asparagine synthetase,Asns,,10090,MGI:1350929
+11484,11484,aspartoacylase,Aspa,"Acy-2, Acy2, nur7",10090,MGI:87914
+66514,66514,asparaginase like 1,Asrgl1,"2410004D18Rik, ALP, ALP1",10090,MGI:1913764
+11898,11898,argininosuccinate synthetase 1,Ass1,"ASS, Ass-1, fold",10090,MGI:88090
+108147,108147,5-aminoimidazole-4-carboxamide ribonucleotide formyltransferase/IMP cyclohydrolase,Atic,2610509C24Rik,10090,MGI:1351352
+11982,11982,"ATPase, class V, type 10A",Atp10a,"Atp10c, pfatp",10090,MGI:1330809
+67972,67972,"ATPase, Ca++ transporting, plasma membrane 1",Atp2b1,"2810442I22Rik, E130111D10Rik, Pmca1",10090,MGI:104653
+11941,11941,"ATPase, Ca++ transporting, plasma membrane 2",Atp2b2,"D6Abb2e, Gena300, PMCA2, Tmy, dfw",10090,MGI:105368
+320707,320707,"ATPase, Ca++ transporting, plasma membrane 3",Atp2b3,"6430519O13Rik, Pmca3",10090,MGI:1347353
+381290,381290,"ATPase, Ca++ transporting, plasma membrane 4",Atp2b4,Pmca4,10090,MGI:88111
+11944,11944,"ATPase, H+/K+ exchanging, gastric, alpha polypeptide",Atp4a,,10090,MGI:88113
+11945,11945,"ATPase, H+/K+ exchanging, beta polypeptide",Atp4b,,10090,MGI:88114
+11946,11946,ATP synthase F1 subunit alpha,Atp5f1a,"Atp5a1, Atpm, D18Ertd206e, Mom2",10090,MGI:88115
+11947,11947,ATP synthase F1 subunit beta,Atp5f1b,Atp5b,10090,MGI:107801
+11949,11949,ATP synthase F1 subunit gamma,Atp5f1c,"1700094F02Rik, Atp5c1",10090,MGI:1261437
+66043,66043,ATP synthase F1 subunit delta,Atp5f1d,"0610008F14Rik, 1500000I11Rik, Atp5d",10090,MGI:1913293
+11951,11951,ATP synthase membrane subunit c locus 1,Atp5mc1,Atp5g1,10090,MGI:107653
+228033,228033,ATP synthase membrane subunit c locus 3,Atp5mc3,"6030447M23, Atp5g3",10090,MGI:2442035
+11958,11958,ATP synthase membrane subunit e,Atp5me,"2610008D24Rik, Atp5i, Atp5k, Lfm1",10090,MGI:106636
+57423,57423,ATP synthase membrane subunit f,Atp5mf,"1110019H14Rik, Atp5j2",10090,MGI:1927558
+11950,11950,ATP synthase peripheral stalk-membrane subunit b,Atp5pb,Atp5f1,10090,MGI:1100495
+11957,11957,ATP synthase peripheral stalk subunit F6,Atp5pf,"Atp5j, CF6",10090,MGI:107777
+11975,11975,"ATPase, H+ transporting, lysosomal V0 subunit A1",Atp6v0a1,"ATP6a1, Atp6n1, Atp6n1a, Atpv0a1, Vpp-1",10090,MGI:103286
+21871,21871,"ATPase, H+ transporting, lysosomal V0 subunit A2",Atp6v0a2,"8430408C20Rik, ATP6a2, Atp6n1d, Atp6n2, ISF",10090,MGI:104855
+140494,140494,"ATPase, H+ transporting, lysosomal V0 subunit A4",Atp6v0a4,"Atp6n1b, a4",10090,MGI:2153480
+114143,114143,"ATPase, H+ transporting, lysosomal V0 subunit B",Atp6v0b,"2310024H13Rik, Atp6f, VMA16",10090,MGI:1890510
+11984,11984,"ATPase, H+ transporting, lysosomal V0 subunit C",Atp6v0c,"Atp6c, Atp6c2, Atp6l, Atpl, Atpl-rs1",10090,MGI:88116
+11972,11972,"ATPase, H+ transporting, lysosomal V0 subunit D1",Atp6v0d1,"Ac39, Atp6d, P39, VATX, Vma6",10090,MGI:1201778
+242341,242341,"ATPase, H+ transporting, lysosomal V0 subunit D2",Atp6v0d2,"1620401A02Rik, V-ATPase",10090,MGI:1924415
+11974,11974,"ATPase, H+ transporting, lysosomal V0 subunit E",Atp6v0e,"Atp6k, Atp6v0e1, M9.2",10090,MGI:1328318
+11964,11964,"ATPase, H+ transporting, lysosomal V1 subunit A",Atp6v1a,"Atp6a1, Atp6a2, Atp6v1a1, VA68, VPP2",10090,MGI:1201780
+110935,110935,"ATPase, H+ transporting, lysosomal V1 subunit B1",Atp6v1b1,"Atp6b1, D630003L15, D630030L16Rik, D630039P21Rik, Vpp-3",10090,MGI:103285
+11966,11966,"ATPase, H+ transporting, lysosomal V1 subunit B2",Atp6v1b2,"Atp6b2, HO57",10090,MGI:109618
+66335,66335,"ATPase, H+ transporting, lysosomal V1 subunit C1",Atp6v1c1,1700025B18Rik,10090,MGI:1913585
+68775,68775,"ATPase, H+ transporting, lysosomal V1 subunit C2",Atp6v1c2,1110038G14Rik,10090,MGI:1916025
+73834,73834,"ATPase, H+ transporting, lysosomal V1 subunit D",Atp6v1d,"1110004P10Rik, Atp6m, VATD, Vma8",10090,MGI:1921084
+11973,11973,"ATPase, H+ transporting, lysosomal V1 subunit E1",Atp6v1e1,"2410029D23Rik, Atp6e, Atp6e2, Atp6v1e, D6Ertd385e",10090,MGI:894326
+74915,74915,"ATPase, H+ transporting, lysosomal V1 subunit E2",Atp6v1e2,"4930500C14Rik, Atp6e1, E1",10090,MGI:1922165
+66144,66144,"ATPase, H+ transporting, lysosomal V1 subunit F",Atp6v1f,1110004G16Rik,10090,MGI:1913394
+66290,66290,"ATPase, H+ transporting, lysosomal V1 subunit G1",Atp6v1g1,"1810024D14Rik, ATP6J, Atp6g1, VAG1, Vma10",10090,MGI:1913540
+66237,66237,"ATPase, H+ transporting, lysosomal V1 subunit G2",Atp6v1g2,"1500002D01Rik, Atp6g2, NG38, VAG2",10090,MGI:1913487
+338375,338375,"ATPase, H+ transporting, lysosomal V1 subunit G3",Atp6v1g3,,10090,MGI:2450548
+108664,108664,"ATPase, H+ transporting, lysosomal V1 subunit H",Atp6v1h,"0710001F19Rik, CGI-11, SFD, SFDalpha, SFDbeta",10090,MGI:1914864
+11980,11980,ATPase phospholipid transporting 8A1,Atp8a1,"APLT, Atp3a2, B230107D19Rik, ClassI",10090,MGI:1330848
+11992,11992,AU RNA binding protein/enoyl-coenzyme A hydratase,Auh,,10090,MGI:1338011
+242669,242669,antizyme inhibitor 2,Azin2,"4933429I20Rik, Adc, Azi2, B930082O19, ODC-p",10090,MGI:2442093
+26879,26879,"UDP-GalNAc:betaGlcNAc beta 1,3-galactosaminyltransferase, polypeptide 1",B3galnt1,"B3galt3, Mbrn 1, b3GT3, b3Gal-T3, beta-3-Gx-T3",10090,MGI:1349405
+54218,54218,"UDP-Gal:betaGlcNAc beta 1,3-galactosyltransferase, polypeptide 4",B3galt4,"Gal-T2, Galt2",10090,MGI:1859517
+93961,93961,"UDP-Gal:betaGlcNAc beta 1,3-galactosyltransferase, polypeptide 5",B3galt5,"1190002B21Rik, b3Galt-V",10090,MGI:2136878
+117592,117592,"UDP-Gal:betaGal beta 1,3-galactosyltransferase, polypeptide 6",B3galt6,GalTII,10090,MGI:2152819
+76898,76898,"beta-1,3-glucuronyltransferase 1",B3gat1,"0710007K08Rik, GlcAT-P, Glcatp, Hnk1",10090,MGI:1924148
+280645,280645,"beta-1,3-glucuronyltransferase 2",B3gat2,"GlcAT-S, Glcats",10090,MGI:2389490
+72727,72727,"beta-1,3-glucuronyltransferase 3",B3gat3,2810405M13Rik,10090,MGI:1919977
+53625,53625,"UDP-GlcNAc:betaGal beta-1,3-N-acetylglucosaminyltransferase 2",B3gnt2,"B3Galt6, B3gnt1, BGnT-1, BGnT-2, BGnT1",10090,MGI:1889505
+72297,72297,"UDP-GlcNAc:betaGal beta-1,3-N-acetylglucosaminyltransferase 3",B3gnt3,2210008L19Rik,10090,MGI:2152535
+231727,231727,"UDP-GlcNAc:betaGal beta-1,3-N-acetylglucosaminyltransferase 4",B3gnt4,"1010001G17Rik, BGnT-4",10090,MGI:2680208
+108105,108105,"UDP-GlcNAc:betaGal beta-1,3-N-acetylglucosaminyltransferase 5",B3gnt5,beta3GnT5,10090,MGI:2137302
+272411,272411,"UDP-GlcNAc:betaGal beta-1,3-N-acetylglucosaminyltransferase 6",B3gnt6,"Core-3, Core3",10090,MGI:3039603
+227327,227327,"UDP-GlcNAc:betaGal beta-1,3-N-acetylglucosaminyltransferase 7",B3gnt7,"C330001H22Rik, beta-3GnT7",10090,MGI:2384394
+232984,232984,"UDP-GlcNAc:betaGal beta-1,3-N-acetylglucosaminyltransferase 8",B3gnt8,"B3galt7, B7galt7",10090,MGI:2385269
+14421,14421,"beta-1,4-N-acetyl-galactosaminyl transferase 1",B4galnt1,"4933429D13Rik, Gal-NAc-T, GalNAc-T, GalNAcT, Galgt1",10090,MGI:1342057
+14595,14595,"UDP-Gal:betaGlcNAc beta 1,4- galactosyltransferase, polypeptide 1",B4galt1,"B-1, 4-GalT, B-1, 4-GalT1, GalT",10090,MGI:95705
+53418,53418,"UDP-Gal:betaGlcNAc beta 1,4- galactosyltransferase, polypeptide 2",B4galt2,"Ggtb2, b4Gal-T2, beta4Gal-T2",10090,MGI:1858493
+57370,57370,"UDP-Gal:betaGlcNAc beta 1,4-galactosyltransferase, polypeptide 3",B4galt3,"9530061M23Rik, ESTM26, ESTM6",10090,MGI:1928767
+56336,56336,"UDP-Gal:betaGlcNAc beta 1,4-galactosyltransferase, polypeptide 5",B4galt5,9430078I07Rik,10090,MGI:1927169
+218271,218271,"beta-1,4-galactosyltransferase 7",B4galt7,"XGPT, XGalT-1",10090,MGI:2384987
+108902,108902,"beta-1,4-glucuronyltransferase 1",B4gat1,"1500032M01Rik, B3gnt1, B3gnt6, BETA3GNT1, iGAT",10090,MGI:1919680
+12012,12012,bile acid-Coenzyme A: amino acid N-acyltransferase,Baat,BAT,10090,MGI:106642
+170442,170442,gamma-butyrobetaine hydroxylase 1,Bbox1,,10090,MGI:1891372
+12035,12035,"branched chain aminotransferase 1, cytosolic",Bcat1,"BCATc, Eca39",10090,MGI:104861
+12036,12036,"branched chain aminotransferase 2, mitochondrial",Bcat2,"Bcat(m), Bcat-2, Eca40",10090,MGI:1276534
+12039,12039,"branched chain ketoacid dehydrogenase E1, alpha polypeptide",Bckdha,"BCKAD, BCKDE1A, E1[a]",10090,MGI:107701
+12040,12040,"branched chain ketoacid dehydrogenase E1, beta polypeptide",Bckdhb,"BCKDE1B, BCKDH E1-beta",10090,MGI:88137
+63857,63857,beta-carotene oxygenase 1,Bco1,"Bcdo, Bcdo1, Bcmo1, CMO1, Cmoi",10090,MGI:1926923
+71911,71911,"3-hydroxybutyrate dehydrogenase, type 1",Bdh1,"2310032J20Rik, Bdh",10090,MGI:1919161
+12116,12116,betaine-homocysteine methyltransferase,Bhmt,,10090,MGI:1339972
+64918,64918,betaine-homocysteine methyltransferase 2,Bhmt2,D13Ucla2,10090,MGI:1891379
+109778,109778,biliverdin reductase A,Blvra,"0610006A11Rik, 2500001N03Rik, Blvr",10090,MGI:88170
+233016,233016,biliverdin reductase B,Blvrb,,10090,MGI:2385271
+12183,12183,"2,3-bisphosphoglycerate mutase",Bpgm,,10090,MGI:1098242
+23827,23827,"3'(2'), 5'-bisphosphate nucleotidase 1",Bpnt1,BPntase,10090,MGI:1338800
+26363,26363,biotinidase,Btd,,10090,MGI:1347001
+94192,94192,"core 1 synthase, glycoprotein-N-acetylgalactosamine 3-beta-galactosyltransferase, 1",C1galt1,"2210410E06Rik, T-synthase",10090,MGI:2151071
+17711,17711,cytochrome b,CYTB,,10090,MGI:102501
+69719,69719,"carbamoyl-phosphate synthetase 2, aspartate transcarbamylase, and dihydroorotase",Cad,"2410008J01Rik, Cpad",10090,MGI:1916969
+76025,76025,calcium activated nucleotidase 1,Cant1,"5830420C20Rik, Apy1h, D11Bwg0554e, Entpd8, SCAN-1",10090,MGI:1923275
+12346,12346,carbonic anhydrase 1,Car1,"Ca1, Car-1",10090,MGI:88268
+76459,76459,carbonic anhydrase 12,Car12,"2310047E01Rik, CA-XII, Ca12",10090,MGI:1923709
+71934,71934,carbonic anhydrase 13,Car13,"2310075C21Rik, Ca13",10090,MGI:1931322
+23831,23831,carbonic anhydrase 14,Car14,"CA-XIV, Ca14",10090,MGI:1344341
+12349,12349,carbonic anhydrase 2,Car2,"CAII, Ca2, Car-2, Ltw-5, Lvtw-5",10090,MGI:88269
+12350,12350,carbonic anhydrase 3,Car3,"Ca3, Car-3",10090,MGI:88270
+12351,12351,carbonic anhydrase 4,Car4,Ca4,10090,MGI:1096574
+12352,12352,"carbonic anhydrase 5a, mitochondrial",Car5a,"CAV, Ca5a, Car5",10090,MGI:101946
+56078,56078,"carbonic anhydrase 5b, mitochondrial",Car5b,"7330410H16Rik, CAVB, Ca5b, CarVb, D730005F19Rik",10090,MGI:1926249
+12354,12354,carbonic anhydrase 7,Car7,Ca7,10090,MGI:103100
+230099,230099,carbonic anhydrase 9,Car9,"CAIX, Ca9, MN/CA9",10090,MGI:2447188
+12359,12359,catalase,Cat,"2210418N07, Cas-1, Cas1, Cs-1",10090,MGI:88271
+12408,12408,carbonyl reductase 1,Cbr1,"CR, Cbr, PG-9-KR",10090,MGI:88284
+12411,12411,cystathionine beta-synthase,Cbs,HIP4,10090,MGI:88285
+12494,12494,CD38 antigen,Cd38,"ADPRC 1, Cd38-rs1, I-19",10090,MGI:107474
+72269,72269,cytidine deaminase,Cda,2210401N16Rik,10090,MGI:1919519
+52858,52858,CDP-diacylglycerol--inositol 3-phosphatidyltransferase,Cdipt,"9530042F15Rik, D7Bwg0575e, Pis, Pis1",10090,MGI:105491
+12583,12583,"cysteine dioxygenase 1, cytosolic",Cdo1,"1300002L19Rik, Cdo, D18Ucla3",10090,MGI:105925
+74596,74596,CDP-diacylglycerol synthase 1,Cds1,4833409J18Rik,10090,MGI:1921846
+110911,110911,CDP-diacylglycerol synthase 2,Cds2,"5730450N06Rik, 5730460C18Rik, D2Wsu127e",10090,MGI:1332236
+99712,99712,choline/ethanolaminephosphotransferase 1,Cept1,"9930118K05Rik, mCEPT1",10090,MGI:2139793
+223753,223753,ceramide kinase,Cerk,"D330016D08Rik, mKIAA1646",10090,MGI:2386052
+68018,68018,ceramide transporter 1,Cert1,"2810404O15Rik, 9230101K08Rik, CERT, Col4a3bp, GPBP",10090,MGI:1915268
+436059,436059,carboxylesterase 2H,Ces2h,"Ces2, Gm5744",10090,MGI:3648740
+12642,12642,cholesterol 25-hydroxylase,Ch25h,m25OH,10090,MGI:1333869
+12647,12647,choline O-acetyltransferase,Chat,"B230380D24Rik, CHOACTase",10090,MGI:88392
+218865,218865,choline dehydrogenase,Chdh,D630034H06Rik,10090,MGI:1860776
+81600,81600,"chitinase, acidic 1",Chia1,"2200003E03Rik, AMCase, Chia, YNL",10090,MGI:1932052
+71884,71884,chitinase 1,Chit1,2300002L19Rik,10090,MGI:1919134
+12660,12660,choline kinase alpha,Chka,"CK, CK/EK-alpha, Chetk-alpha, Chk, ChoK",10090,MGI:107760
+12651,12651,choline kinase beta,Chkb,"Chetk, Chkl, Ck, Ck/Ek, Ck/Ek-beta",10090,MGI:1328313
+74241,74241,chondroitin polymerizing factor,Chpf,"1700028N03Rik, D1Bwg1363e",10090,MGI:106576
+212862,212862,choline phosphotransferase 1,Chpt1,,10090,MGI:2384841
+76969,76969,carbohydrate sulfotransferase 1,Chst1,"2610008E20Rik, C6ST, GST-1, Gst1, KS6ST",10090,MGI:1924219
+58250,58250,carbohydrate sulfotransferase 11,Chst11,"1110020P09Rik, C4ST, C4ST-1, C4ST1, C4s",10090,MGI:1927166
+59031,59031,carbohydrate sulfotransferase 12,Chst12,"C4S-2, C4ST2",10090,MGI:1929064
+71797,71797,carbohydrate sulfotransferase 13,Chst13,"1110067M19Rik, C4ST-3",10090,MGI:1919047
+72136,72136,carbohydrate sulfotransferase 14,Chst14,"2600016L03Rik, D4ST-1, D4st1",10090,MGI:1919386
+54371,54371,carbohydrate sulfotransferase 2,Chst2,"C130041E03Rik, Chts2, GST-2, GlcNAc6ST, Gn6st",10090,MGI:1891160
+53374,53374,carbohydrate sulfotransferase 3,Chst3,"C6ST, C6ST-1, GST-0",10090,MGI:1858224
+26887,26887,carbohydrate sulfotransferase 4,Chst4,"GST-3, Gn6st-2, HEC-GlcNAc6ST",10090,MGI:1349479
+56773,56773,carbohydrate sulfotransferase 5,Chst5,"GST-4, Gn6st-3, I-GlcNAc-6-ST",10090,MGI:1931825
+60322,60322,carbohydrate sulfotransferase 7,Chst7,"2600013M07Rik, C6ST-2, GST5, Gn6st-4, glcNAc6ST-4",10090,MGI:1891767
+269941,269941,chondroitin sulfate synthase 1,Chsy1,skt,10090,MGI:2681120
+78923,78923,chondroitin sulfate synthase 3,Chsy3,4833446K15Rik,10090,MGI:1926173
+12709,12709,"creatine kinase, brain",Ckb,"B-CK, Bck, CPK-B, Ck-3, Ck3",10090,MGI:88407
+12715,12715,"creatine kinase, muscle",Ckm,"CPK-M, Ckmm, M-CK, MCK",10090,MGI:88413
+76722,76722,"creatine kinase, mitochondrial 2",Ckmt2,"2300008A19Rik, S-MtCK, ScCKmit, mib-CK",10090,MGI:1923972
+69634,69634,citrate lyase beta like,Clybl,"0610033J05Rik, 2310014M14Rik, Clb",10090,MGI:1916884
+12764,12764,cytidine monophospho-N-acetylneuraminic acid synthetase,Cmas,"CMPNeu5Ac, D6Bwg0250e",10090,MGI:1337124
+66588,66588,cytidine/uridine monophosphate kinase 1,Cmpk1,"0610011D08Rik, CK, Cmpk, UMP-CMPk",10090,MGI:1913838
+338403,338403,carnosine dipeptidase 1,Cndp1,Cn1,10090,MGI:2451097
+71743,71743,Coenzyme A synthase,Coasy,"1300003G02Rik, Dpck, Ppat, Ukr1",10090,MGI:1918993
+12846,12846,catechol-O-methyltransferase,Comt,"Comt1, D16Wsu103e, D330014B15Rik",10090,MGI:88470
+69156,69156,catechol-O-methyltransferase domain containing 1,Comtd1,"1810030M08Rik, MT773",10090,MGI:1916406
+71883,71883,coenzyme Q2 4-hydroxybenzoate polyprenyltransferase,Coq2,"2310002F18Rik, PHB:PPT",10090,MGI:1919133
+230027,230027,coenzyme Q3 methyltransferase,Coq3,4732433J24,10090,MGI:101813
+217707,217707,coenzyme Q6 monooxygenase,Coq6,5930427M12Rik,10090,MGI:1924408
+12850,12850,demethyl-Q 7,Coq7,clk-1,10090,MGI:107207
+12892,12892,coproporphyrinogen oxidase,Cpox,"CPX, Cpo, HCP, M100835, Rgsc835",10090,MGI:104841
+227231,227231,carbamoyl-phosphate synthetase 1,Cps1,"4732433M03Rik, CPS, D1Ucla3",10090,MGI:891996
+12894,12894,"carnitine palmitoyltransferase 1a, liver",Cpt1a,"C730027G07, CPTI, Cpt1",10090,MGI:1098296
+12895,12895,"carnitine palmitoyltransferase 1b, muscle",Cpt1b,"Cpt1, Cpt1-m, Cpti, Cpti-m, M-cpti",10090,MGI:1098297
+78070,78070,carnitine palmitoyltransferase 1c,Cpt1c,"6530437J22Rik, 9630004I06Rik, CPT I-C, CPT IC, CPT1-B",10090,MGI:2446526
+12896,12896,carnitine palmitoyltransferase 2,Cpt2,CPTII,10090,MGI:109176
+12908,12908,carnitine acetyltransferase,Crat,CARAT,10090,MGI:109501
+66586,66586,cardiolipin synthase 1,Crls1,"0610009I22Rik, 4930557M15Rik, 5730490M08Rik",10090,MGI:1913836
+74114,74114,carnitine O-octanoyltransferase,Crot,1200003H03Rik,10090,MGI:1921364
+12974,12974,citrate synthase,Cs,"2610511A05Rik, 9030605P22Rik, Ahl4, Cis",10090,MGI:88529
+246277,246277,cysteine sulfinic acid decarboxylase,Csad,Csd,10090,MGI:2180098
+234356,234356,chondroitin sulfate N-acetylgalactosaminyltransferase 1,Csgalnact1,"4732435N03Rik, CSGalNAcT-1",10090,MGI:2442354
+78752,78752,chondroitin sulfate N-acetylgalactosaminyltransferase 2,Csgalnact2,"4632415D10Rik, Galnact2",10090,MGI:1926002
+107869,107869,cystathionine gamma lyase,Cth,"0610010I13Rik, CGL, CSE, Cys3",10090,MGI:1339968
+51797,51797,cytidine 5'-triphosphate synthase 1,Ctps1,Ctps,10090,MGI:1858304
+55936,55936,cytidine 5'-triphosphate synthase 2,Ctps2,"A830031M15Rik, Ctpsh",10090,MGI:1933185
+19025,19025,cathepsin A,Ctsa,"PPCA, Ppgb",10090,MGI:97748
+73649,73649,cytochrome b reductase 1,Cybrd1,"2210407P13Rik, Dcytb",10090,MGI:2654575
+66445,66445,cytochrome c-1,Cyc1,"2610002H19Rik, Cyct1",10090,MGI:1913695
+13070,13070,"cytochrome P450, family 11, subfamily a, polypeptide 1",Cyp11a1,"Cyp11a, Cypxia1, D9Ertd411e, P450scc, Scc",10090,MGI:88582
+110115,110115,"cytochrome P450, family 11, subfamily b, polypeptide 1",Cyp11b1,"CPN1, Cyp11b, Cyp11b-1, FHI",10090,MGI:88583
+13072,13072,"cytochrome P450, family 11, subfamily b, polypeptide 2",Cyp11b2,"ALDOS, Cpn2, Cyp11b, Cyp11b-2",10090,MGI:88584
+13074,13074,"cytochrome P450, family 17, subfamily a, polypeptide 1",Cyp17a1,"Cyp17, p450c17",10090,MGI:88586
+13075,13075,"cytochrome P450, family 19, subfamily a, polypeptide 1",Cyp19a1,"Ar, ArKO, Cyp19, Int-5, Int5",10090,MGI:88587
+13076,13076,"cytochrome P450, family 1, subfamily a, polypeptide 1",Cyp1a1,"AHH, AHRR, CP11, CYPIA1, P450-1",10090,MGI:88588
+13077,13077,"cytochrome P450, family 1, subfamily a, polypeptide 2",Cyp1a2,"CP12, CYPIA2, P450-3",10090,MGI:88589
+13078,13078,"cytochrome P450, family 1, subfamily b, polypeptide 1",Cyp1b1,"CP1B, CYPIB1, P4501b1",10090,MGI:88590
+13079,13079,"cytochrome P450, family 21, subfamily a, polypeptide 1",Cyp21a1,"21-OH, 21OH, 21OHA, 21OHB, CYP21OH-A",10090,MGI:88591
+13081,13081,"cytochrome P450, family 24, subfamily a, polypeptide 1",Cyp24a1,"24-OHase, CP24, Cyp24",10090,MGI:88593
+104086,104086,"cytochrome P450, family 27, subfamily a, polypeptide 1",Cyp27a1,"1300013A03Rik, Cyp27",10090,MGI:88594
+13115,13115,"cytochrome P450, family 27, subfamily b, polypeptide 1",Cyp27b1,"Cp2b, Cyp1, Cyp27b, Cyp40, P450c1",10090,MGI:1098274
+404195,404195,"cytochrome P450, family 2, subfamily c, polypeptide 54",Cyp2c54,EG404195,10090,MGI:3642960
+72082,72082,"cytochrome P450, family 2, subfamily c, polypeptide 55",Cyp2c55,"2010318C06Rik, CYPIIC55",10090,MGI:1919332
+69888,69888,"cytochrome P450, family 2, subfamily c, polypeptide 66",Cyp2c66,2010301M18Rik,10090,MGI:1917138
+56448,56448,"cytochrome P450, family 2, subfamily d, polypeptide 22",Cyp2d22,2D22,10090,MGI:1929474
+13106,13106,"cytochrome P450, family 2, subfamily e, polypeptide 1",Cyp2e1,"CYPIIE1, Cyp2e",10090,MGI:88607
+13107,13107,"cytochrome P450, family 2, subfamily f, polypeptide 2",Cyp2f2,Cyp2f,10090,MGI:88608
+56050,56050,"cytochrome P450, family 39, subfamily a, polypeptide 1",Cyp39a1,mCYP39A1,10090,MGI:1927096
+13113,13113,"cytochrome P450, family 3, subfamily a, polypeptide 13",Cyp3a13,IIIAm2,10090,MGI:88610
+56388,56388,"cytochrome P450, family 3, subfamily a, polypeptide 25",Cyp3a25,,10090,MGI:1930638
+100041375,100041375,"cytochrome P450, family 3, subfamily a, polypeptide 41B",Cyp3a41b,,10090,MGI:3714859
+13116,13116,"cytochrome P450, family 46, subfamily a, polypeptide 1",Cyp46a1,"CH24H, Cyp46",10090,MGI:1341877
+13117,13117,"cytochrome P450, family 4, subfamily a, polypeptide 10",Cyp4a10,"Cyp4a, D4Rp1, Msp-3, RP1",10090,MGI:88611
+64385,64385,"cytochrome P450, family 4, subfamily f, polypeptide 14",Cyp4f14,"1300014O15Rik, cyp4f-14",10090,MGI:1927669
+106648,106648,"cytochrome P450, family 4, subfamily f, polypeptide 15",Cyp4f15,Cyp4f-15,10090,MGI:2146921
+208285,208285,"cytochrome P450, family 4, subfamily f, polypeptide 17",Cyp4f17,EG208285,10090,MGI:3646233
+72054,72054,"cytochrome P450, family 4, subfamily f, polypeptide 18",Cyp4f18,"1810054N16Rik, CYPIVF3, Cyp4f3, Cypf18",10090,MGI:1919304
+13121,13121,"cytochrome P450, family 51",Cyp51,"CYPLI, Cyp51a1, Ldm, P450-14DM, P450LI",10090,MGI:106040
+13122,13122,"cytochrome P450, family 7, subfamily a, polypeptide 1",Cyp7a1,"CYPVII, CYPVIIc",10090,MGI:106091
+13123,13123,"cytochrome P450, family 7, subfamily b, polypeptide 1",Cyp7b1,"D3Ertd552e, hct-1",10090,MGI:104978
+13124,13124,"cytochrome P450, family 8, subfamily b, polypeptide 1",Cyp8b1,,10090,MGI:1338044
+13135,13135,defender against cell death 1,Dad1,,10090,MGI:101912
+13142,13142,D-amino acid oxidase,Dao,"DAAO, DAMOX, Dao-1, Dao1",10090,MGI:94859
+13166,13166,dopamine beta hydroxylase,Dbh,,10090,MGI:94864
+13171,13171,dihydrolipoamide branched chain transacylase E2,Dbt,"BCKAD E2, BCKAD-E2, D3Wsu60e",10090,MGI:105386
+13178,13178,deoxycytidine kinase,Dck,,10090,MGI:102726
+13190,13190,dopachrome tautomerase,Dct,"DT, TRP-2, TRP2, Tyrp-2, Tyrp2",10090,MGI:102563
+320685,320685,dCMP deaminase,Dctd,6030466N05Rik,10090,MGI:2444529
+67880,67880,dicarbonyl L-xylulose reductase,Dcxr,"0610038K04Rik, 1810027P18Rik, XR",10090,MGI:1915130
+13195,13195,dopa decarboxylase,Ddc,Aadc,10090,MGI:94876
+70503,70503,D-aspartate oxidase,Ddo,"5330420D20Rik, 5730402C02Rik, DASPO",10090,MGI:1925528
+13200,13200,dolichyl-di-phosphooligosaccharide-protein glycotransferase,Ddost,,10090,MGI:1194508
+13244,13244,"delta 4-desaturase, sphingolipid 1",Degs1,"Degs, Des1, Mdes",10090,MGI:1097711
+13350,13350,diacylglycerol O-acyltransferase 1,Dgat1,"ARAT, D15Ertd23e, Dgat",10090,MGI:1333825
+67800,67800,diacylglycerol O-acyltransferase 2,Dgat2,"0610010B06Rik, ARAT, DGAT-2",10090,MGI:1915050
+320127,320127,"diacylglycerol kinase, iota",Dgki,"6430604M11Rik, C130010K08Rik",10090,MGI:2443430
+104418,104418,diacylglycerol kinase zeta,Dgkz,"E130307B02Rik, F730209L11Rik, mDGK[z]",10090,MGI:1278339
+27369,27369,deoxyguanosine kinase,Dguok,"dGK, dGK1, dGK2, dGK3",10090,MGI:1351602
+74754,74754,24-dehydrocholesterol reductase,Dhcr24,"2310076D10Rik, 5830417J06Rik, mKIAA0018",10090,MGI:1922004
+13360,13360,7-dehydrocholesterol reductase,Dhcr7,,10090,MGI:1298378
+13361,13361,dihydrofolate reductase,Dhfr,8430436I03Rik,10090,MGI:94890
+56749,56749,dihydroorotate dehydrogenase,Dhodh,2810417D19Rik,10090,MGI:1928378
+235339,235339,dihydrolipoamide S-acetyltransferase,Dlat,"6332404G05Rik, DLTA, PDC-E2",10090,MGI:2385311
+13382,13382,dihydrolipoamide dehydrogenase,Dld,,10090,MGI:107450
+78920,78920,dihydrolipoamide S-succinyltransferase,Dlst,"1600017E01Rik, 4632413C10Rik, 4930529O08Rik, DLTS",10090,MGI:1926170
+74129,74129,dimethylglycine dehydrogenase precursor,Dmgdh,1200014D15Rik,10090,MGI:1921379
+13433,13433,DNA methyltransferase 1,Dnmt1,"Cxxc9, Dnmt, Dnmt1o, MCMT, MTase",10090,MGI:94912
+13435,13435,DNA methyltransferase 3A,Dnmt3a,MmuIIIA,10090,MGI:1261827
+13436,13436,DNA methyltransferase 3B,Dnmt3b,MmuIIIB,10090,MGI:1261819
+57170,57170,dolichyl pyrophosphate phosphatase 1,Dolpp1,"0610011H20Rik, LSFR2",10090,MGI:1914093
+208266,208266,DOT1 like histone lysine methyltransferase,Dot1l,"A630076O07, Dot1, KMT4, mDot1",10090,MGI:2143886
+13478,13478,dolichyl-phosphate N-acetylglucosaminephosphotransferase 1,Dpagt1,"Dpagt2, G1PT, GPT, Gnpta",10090,MGI:1196396
+13480,13480,"dolichyl-phosphate mannosyltransferase subunit 1, catalytic",Dpm1,,10090,MGI:1330239
+13481,13481,"dolichyl-phosphate mannosyltransferase subunit 2, regulatory",Dpm2,,10090,MGI:1330238
+68563,68563,dolichyl-phosphate mannosyltransferase polypeptide 3,Dpm3,1110001H19Rik,10090,MGI:1915813
+99586,99586,dihydropyrimidine dehydrogenase,Dpyd,"DHPDHase, DPD, E330028L06Rik",10090,MGI:2139667
+64705,64705,dihydropyrimidinase,Dpys,"1200017I10Rik, 1300004I01Rik, DHP, DHPase",10090,MGI:1928679
+12934,12934,dihydropyrimidinase-like 2,Dpysl2,"Crmp2, DRP2, Musunc33, TOAD-64, Ulip2",10090,MGI:1349763
+22240,22240,dihydropyrimidinase-like 3,Dpysl3,"CRMP-4, DRP-3, TUC4, ULIP-1, Ulip",10090,MGI:1349762
+21915,21915,deoxythymidylate kinase,Dtymk,"CDC8, D10Ertd203e, TMPK, TYPK, Tmk",10090,MGI:108396
+99439,99439,dual oxidase 1,Duox1,"9930101G15Rik, Duox2, LNOX1, LNOX2, NOXEF1",10090,MGI:2139422
+214593,214593,dual oxidase 2,Duox2,"A430065P05Rik, LNOX2, NOXEF2, P138-TOX, THOX2",10090,MGI:3036280
+110074,110074,deoxyuridine triphosphatase,Dut,"5031412I06Rik, 5133400F09Rik, D2Bwg0749e, Dutp, dUTPase",10090,MGI:1346051
+13595,13595,EBP cholestenol delta-isomerase,Ebp,"Pabp, SI, Td, mSI",10090,MGI:107822
+51798,51798,"enoyl coenzyme A hydratase 1, peroxisomal",Ech1,,10090,MGI:1858208
+52430,52430,enoyl Coenzyme A hydratase domain containing 2,Echdc2,"1300017C12Rik, 2610009M20Rik, D4Ertd765e",10090,MGI:1289238
+93747,93747,"enoyl Coenzyme A hydratase, short chain, 1, mitochondrial",Echs1,"SCEH, mECH, mECH1",10090,MGI:2136460
+13177,13177,enoyl-Coenzyme A delta isomerase 1,Eci1,"Dci, eci",10090,MGI:94871
+74147,74147,"enoyl-Coenzyme A, hydratase/3-hydroxyacyl Coenzyme A dehydrogenase",Ehhadh,"1300002P22Rik, HD, L-PBE, LBFP, LBP",10090,MGI:1277964
+77683,77683,euchromatic histone methyltransferase 1,Ehmt1,"9230102N17Rik, D330003E03, Eu-HMTase1, GLP, GLP1",10090,MGI:1924933
+110147,110147,euchromatic histone lysine N-methyltransferase 2,Ehmt2,"Bat8, D17Ertd710e, G9a, KMT1C, NG36",10090,MGI:2148922
+83603,83603,ELOVL fatty acid elongase 4,Elovl4,,10090,MGI:1933331
+217364,217364,endo-beta-N-acetylglucosaminidase,Engase,"C130099A03, D230014K01Rik",10090,MGI:2443788
+13806,13806,"enolase 1, alpha non-neuron",Eno1,"Eno-1, MBP-1, NNE",10090,MGI:95393
+13807,13807,"enolase 2, gamma neuronal",Eno2,"D6Ertd375e, Eno-2, NSE",10090,MGI:95394
+13808,13808,"enolase 3, beta muscle",Eno3,"Eno-3, MSE",10090,MGI:95395
+18605,18605,ectonucleotide pyrophosphatase/phosphodiesterase 1,Enpp1,"4833416E15Rik, CD203c, E-NPP 1, E-NPP1, Ly-41",10090,MGI:97370
+18606,18606,ectonucleotide pyrophosphatase/phosphodiesterase 2,Enpp2,"ATX, E-NPP 2, Npps2, PD-Ialpha, Pdnp2",10090,MGI:1321390
+209558,209558,ectonucleotide pyrophosphatase/phosphodiesterase 3,Enpp3,CD203c,10090,MGI:2143702
+12495,12495,ectonucleoside triphosphate diphosphohydrolase 1,Entpd1,"2610206B08Rik, ATP-DPH, Cd39, E130009M23Rik, NTPDase-1",10090,MGI:102805
+12496,12496,ectonucleoside triphosphate diphosphohydrolase 2,Entpd2,"Cd39l1, NTPDase2",10090,MGI:1096863
+215446,215446,ectonucleoside triphosphate diphosphohydrolase 3,Entpd3,"Cd39l3, HB6, NTPDase-3",10090,MGI:1321386
+67464,67464,ectonucleoside triphosphate diphosphohydrolase 4,Entpd4,"1200014F22Rik, 4930513O14Rik, A430102M06Rik, Lysal1, mKIAA0392",10090,MGI:1914714
+12499,12499,ectonucleoside triphosphate diphosphohydrolase 5,Entpd5,"Cd39l4, ER-UDPase, NTPDase-5, NTPDase5, Pcph",10090,MGI:1321385
+12497,12497,ectonucleoside triphosphate diphosphohydrolase 6,Entpd6,"2700026H11Rik, Cd39l2, NTPDase-6",10090,MGI:1202295
+13861,13861,eosinophil peroxidase,Epx,EPO,10090,MGI:107569
+13885,13885,esterase D/formylglutathione hydrolase,Esd,"Es-10, Es10, FGH, sid478",10090,MGI:95421
+110842,110842,"electron transferring flavoprotein, alpha polypeptide",Etfa,"2010200I21Rik, D9Ertd394e",10090,MGI:106092
+110826,110826,"electron transferring flavoprotein, beta polypeptide",Etfb,"0610009I16Rik, 2810441H06Rik",10090,MGI:106098
+66841,66841,"electron transferring flavoprotein, dehydrogenase",Etfdh,0610010I20Rik,10090,MGI:106100
+75320,75320,ethanolamine kinase 1,Etnk1,"1110061E11Rik, 4930555L11Rik, D6Ertd3e, EKI1",10090,MGI:1922570
+214253,214253,ethanolamine kinase 2,Etnk2,"4933417N20Rik, EKI 2, Eki2, Tuc1",10090,MGI:2443760
+71760,71760,ethanolamine phosphate phospholyase,Etnppl,"1300019H02Rik, Agxt2l1",10090,MGI:1919010
+14042,14042,exostosin glycosyltransferase 1,Ext1,,10090,MGI:894663
+14043,14043,exostosin glycosyltransferase 2,Ext2,,10090,MGI:108050
+56219,56219,exostosin-like glycosyltransferase 1,Extl1,D430033M16Rik,10090,MGI:1888742
+58193,58193,exostosin-like glycosyltransferase 2,Extl2,3000001D04Rik,10090,MGI:1889574
+54616,54616,exostosin-like glycosyltransferase 3,Extl3,"2900009G18Rik, Ext1l, mKIAA0519",10090,MGI:1860765
+76267,76267,fatty acid desaturase 1,Fads1,"0710001O03Rik, A930006B21Rik, DSD",10090,MGI:1923517
+56473,56473,fatty acid desaturase 2,Fads2,"2900042M13Rik, Fads2a, Fadsd2",10090,MGI:1930079
+14085,14085,fumarylacetoacetate hydrolase,Fah,swst,10090,MGI:95482
+14104,14104,fatty acid synthase,Fasn,"A630082H08Rik, FAS",10090,MGI:95485
+14121,14121,fructose bisphosphatase 1,Fbp1,"Fbp-2, Fbp2, Fbp3",10090,MGI:95492
+14120,14120,fructose bisphosphatase 2,Fbp2,"Fbp-1, Fbp1, Rae-30",10090,MGI:95491
+234730,234730,fucose kinase,Fcsk,"1110046B12Rik, Fuk",10090,MGI:1916071
+14137,14137,farnesyl diphosphate farnesyl transferase 1,Fdft1,"SQS, SS",10090,MGI:102706
+110196,110196,farnesyl diphosphate synthetase,Fdps,"6030492I17Rik, Fdpsl1, mKIAA1293",10090,MGI:104888
+14151,14151,ferrochelatase,Fech,"Fcl, fch",10090,MGI:95513
+14194,14194,fumarate hydratase 1,Fh1,"Fh, Fh-1",10090,MGI:95530
+319945,319945,flavin adenine dinucleotide synthetase 1,Flad1,"A930017E24Rik, Pp591",10090,MGI:2443030
+14287,14287,folylpolyglutamyl synthetase,Fpgs,,10090,MGI:95576
+75540,75540,fucose-1-phosphate guanylyltransferase,Fpgt,1700016E03Rik,10090,MGI:1922790
+14317,14317,formiminotransferase cyclodeaminase,Ftcd,,10090,MGI:1339962
+71665,71665,"fucosidase, alpha-L- 1, tissue",Fuca1,"0610006A03Rik, 9530055J05Rik, Afuc, Fuca",10090,MGI:95593
+66848,66848,"fucosidase, alpha-L- 2, plasma",Fuca2,"0610025O11Rik, 5530401P20Rik",10090,MGI:1914098
+14343,14343,fucosyltransferase 1,Fut1,MFUT-1,10090,MGI:109375
+53618,53618,fucosyltransferase 8,Fut8,,10090,MGI:1858901
+14348,14348,fucosyltransferase 9,Fut9,"mFUT9, mFuc-TIX",10090,MGI:1330859
+14377,14377,glucose-6-phosphatase catalytic subunit 1,G6pc1,"G6Pase, G6pc, G6pt, Glc-6-Pase",10090,MGI:95607
+14378,14378,"glucose-6-phosphatase, catalytic, 2",G6pc2,"G6pc-rs, IGRP",10090,MGI:1277193
+68401,68401,"glucose 6 phosphatase, catalytic, 3",G6pc3,"0710001K01Rik, UGRP",10090,MGI:1915651
+14381,14381,glucose-6-phosphate dehydrogenase X-linked,G6pdx,"G28A, G6pd, Gpdx",10090,MGI:105979
+14387,14387,"glucosidase, alpha, acid",Gaa,E430018M07Rik,10090,MGI:95609
+14415,14415,glutamate decarboxylase 1,Gad1,"EP10, Gad-1",10090,MGI:95632
+14417,14417,glutamic acid decarboxylase 2,Gad2,"6330404F12Rik, GAD(65), GAD65, Gad-2",10090,MGI:95634
+53897,53897,galactose-3-O-sulfotransferase 1,Gal3st1,"Cst, Gcst",10090,MGI:1858277
+14420,14420,galactosylceramidase,Galc,"2310068B06Rik, A930008M05Rik, Gacy, twi, twitcher",10090,MGI:95636
+74246,74246,"galactose-4-epimerase, UDP",Gale,2310002A12Rik,10090,MGI:1921496
+14635,14635,galactokinase 1,Galk1,"GALK, Gk, Glk, Glk1",10090,MGI:95730
+69976,69976,galactokinase 2,Galk2,"2810017M24Rik, Gk2",10090,MGI:1917226
+50917,50917,galactosamine (N-acetyl)-6-sulfatase,Galns,mFLJ00319,10090,MGI:1355303
+14430,14430,galactose-1-phosphate uridyl transferase,Galt,,10090,MGI:95638
+14431,14431,guanidinoacetate methyltransferase,Gamt,Spintz1,10090,MGI:1098221
+76051,76051,"glucosidase, alpha; neutral C",Ganc,"5830445O15Rik, 9330160A12, mFLJ00088",10090,MGI:1923301
+14447,14447,"glyceraldehyde-3-phosphate dehydrogenase, spermatogenic",Gapdhs,"Gapd-s, Gapds",10090,MGI:95653
+14450,14450,phosphoribosylglycinamide formyltransferase,Gart,"Gaps, Prgs",10090,MGI:95654
+67092,67092,glycine amidinotransferase (L-arginine:glycine amidinotransferase),Gatm,"1810003P21Rik, AT",10090,MGI:1914342
+14466,14466,glucosylceramidase beta 1,Gba1,"GC, GCase, GLUC, Gba, betaGC",10090,MGI:95665
+74185,74185,"1,4-alpha-glucan branching enzyme 1",Gbe1,"2310045H19Rik, 2810426P10Rik, D16Ertd536e",10090,MGI:1921435
+227671,227671,"globoside alpha-1,3-N-acetylgalactosaminyltransferase 1",Gbgt1,"Fgs, Fs",10090,MGI:2449143
+26912,26912,glycine C-acetyltransferase (2-amino-3-ketobutyrate-coenzyme A ligase),Gcat,Kbl,10090,MGI:1349389
+270076,270076,glutaryl-Coenzyme A dehydrogenase,Gcdh,"9030411L18, GCD",10090,MGI:104541
+14528,14528,GTP cyclohydrolase 1,Gch1,"GTP-CH, GTP-CH-I, GTPCH, Gch",10090,MGI:95675
+103988,103988,glucokinase,Gck,"GLK, Gk, Gls006, HK4, HKIV",10090,MGI:1270854
+14629,14629,"glutamate-cysteine ligase, catalytic subunit",Gclc,"D9Wsu168e, GLCL-H, Ggcs-hs, Glclc",10090,MGI:104990
+14630,14630,"glutamate-cysteine ligase, modifier subunit",Gclm,"Gcmc, Glclr",10090,MGI:104995
+14537,14537,"glucosaminyl (N-acetyl) transferase 1, core 2",Gcnt1,"5630400D21Rik, B130048E03, C2 GlcNAcT, C2GNT, C2GlcNAcT",10090,MGI:95676
+14538,14538,glucosaminyl (N-acetyl) transferase 2 (I blood group),Gcnt2,"5330430K10Rik, IGnT, IGnTA, IGnTB, IGnTC",10090,MGI:1100870
+72077,72077,"glucosaminyl (N-acetyl) transferase 3, mucin type",Gcnt3,"2010013H22Rik, 2210021I22Rik, 2210401J11Rik",10090,MGI:1919327
+68133,68133,glycine cleavage system protein H (aminomethyl carrier),Gcsh,"1100001L02Rik, 5730591C18Rik",10090,MGI:1915383
+14544,14544,guanine deaminase,Gda,GAH,10090,MGI:95678
+14583,14583,glutamine fructose-6-phosphate transaminase 1,Gfpt1,"2810423A18Rik, GFA, GFAT, GFAT1, GFAT1m",10090,MGI:95698
+14584,14584,glutamine fructose-6-phosphate transaminase 2,Gfpt2,GFAT2,10090,MGI:1338883
+22122,22122,GDP-L-fucose synthase,Gfus,"FX, Tsta3, Tstap35b",10090,MGI:98857
+14593,14593,geranylgeranyl diphosphate synthase 1,Ggps1,"1810026C22Rik, 9530089B04Rik, GGPPS",10090,MGI:1341724
+14598,14598,gamma-glutamyltransferase 1,Ggt1,"CD224, GGT, GGT 1, GGT-1, Ggtp",10090,MGI:95706
+23887,23887,gamma-glutamyltransferase 5,Ggt5,"GGL, GGT-REL, Ggtla1",10090,MGI:1346063
+14933,14933,glycerol kinase,Gk,"D930012N15Rik, Gyk",10090,MGI:106594
+14626,14626,glycerol kinase 2,Gk2,"GKTA, Gk-rs2",10090,MGI:1329027
+11605,11605,"galactosidase, alpha",Gla,Ags,10090,MGI:1347344
+12091,12091,"galactosidase, beta 1",Glb1,"Bge, Bgl, Bgl-e, Bgl-s, Bgl-t",10090,MGI:88151
+93683,93683,glucuronyl C5-epimerase,Glce,"1110017N23Rik, C130034A12Rik, Hsepi",10090,MGI:2136405
+104174,104174,glycine decarboxylase,Gldc,"D030049L12Rik, D19Wsu57e, b2b2679Clo",10090,MGI:1341155
+109801,109801,glyoxalase 1,Glo1,"0610009E22Rik, 1110008E19Rik, 2510049H23Rik, GLY1, Glo-1",10090,MGI:95742
+93692,93692,glutaredoxin,Glrx,"D13Wsu156e, Glrx1, Grx1, TTase",10090,MGI:2135625
+69367,69367,glutaredoxin 2,Glrx2,"1700010P22Rik, Grx2",10090,MGI:1916617
+14660,14660,glutaminase,Gls,"6330442B14, B230365M23Rik",10090,MGI:95752
+216456,216456,"glutaminase 2 (liver, mitochondrial)",Gls2,"A330074B06Rik, GA, GLS, Lga",10090,MGI:2143539
+14645,14645,glutamate-ammonia ligase,Glul,"GS, Glns",10090,MGI:95739
+100043349,100043349,glyceraldehyde-3-phosphate dehydrogenase pseudogene,Gm13882,,10090,MGI:3650052
+100043472,100043472,"NADH dehydrogenase (ubiquinone) 1, alpha/beta subcomplex, 1 pseudogene",Gm4459,,10090,MGI:3782643
+433923,433923,solute carrier family 25 member 5 pseudogene,Gm5560,"EG433923, Slc25a5",10090,MGI:3647980
+619653,619653,thymidine kinase 1 pseudogene,Gm6091,EG619653,10090,MGI:3648068
+626571,626571,cytochrome b5 domain containing 1 pseudogene,Gm6685,EG626571,10090,MGI:3704119
+627998,627998,"ATP synthase, H+ transporting, mitochondrial F0 complex, subunit g pseudogene",Gm6822,EG627998,10090,MGI:3644721
+218138,218138,"GDP-mannose 4, 6-dehydratase",Gmds,,10090,MGI:1891112
+69080,69080,GDP-mannose pyrophosphorylase A,Gmppa,1810012N01Rik,10090,MGI:1916330
+331026,331026,GDP-mannose pyrophosphorylase B,Gmppb,E430010H19,10090,MGI:2660880
+66355,66355,guanosine monophosphate reductase,Gmpr,"2310004P21Rik, GMPR 1",10090,MGI:1913605
+105446,105446,guanosine monophosphate reductase 2,Gmpr2,"1810008P16Rik, 5730544D12Rik, GMPR 2",10090,MGI:1917903
+229363,229363,guanine monophosphate synthetase,Gmps,"670032, Gm9479",10090,MGI:2448526
+50798,50798,glucosamine (UDP-N-acetyl)-2-epimerase/N-acetylmannosamine kinase,Gne,"2310066H07Rik, DMRV, GLCNE, IBM2, NM",10090,MGI:1354951
+14711,14711,glycine N-methyltransferase,Gnmt,,10090,MGI:1202304
+14712,14712,glyceronephosphate O-acyltransferase,Gnpat,"D1Ertd819e, DHAPAT",10090,MGI:1343460
+26384,26384,glucosamine-6-phosphate deaminase 1,Gnpda1,"GNPDA, Gnp1, Gnpi, oscillin",10090,MGI:1347054
+67980,67980,glucosamine-6-phosphate deaminase 2,Gnpda2,"4921523I18Rik, 4933412A11Rik, GNPDA, Gnp2, Sb52",10090,MGI:1915230
+54342,54342,glucosamine-phosphate N-acetyltransferase 1,Gnpnat1,"EMeg32, Gpnat1, Gsnpat",10090,MGI:1858963
+75612,75612,glucosamine (N-acetyl)-6-sulfatase,Gns,"2610016K11Rik, G6S",10090,MGI:1922862
+14718,14718,"glutamic-oxaloacetic transaminase 1, soluble",Got1,"Got-1, cAspAT, cCAT",10090,MGI:95791
+14719,14719,"glutamatic-oxaloacetic transaminase 2, mitochondrial",Got2,"FABP-pm, Got-2, Kyat4, mAspAT",10090,MGI:95792
+14731,14731,GPI anchor attachment protein 1,Gpaa1,mGAA1,10090,MGI:1202392
+14732,14732,"glycerol-3-phosphate acyltransferase, mitochondrial",Gpam,"GPAT, GPAT-1, GPAT1, P90",10090,MGI:109162
+102247,102247,glycerol-3-phosphate acyltransferase 4,Gpat4,"Agpat6, Tsarg7",10090,MGI:2142716
+14555,14555,glycerol-3-phosphate dehydrogenase 1 (soluble),Gpd1,"GPD-C, GPDH-C, Gdc-1, Gdc1",10090,MGI:95679
+14571,14571,"glycerol phosphate dehydrogenase 2, mitochondrial",Gpd2,"GPDH, Gdm1, Gpd-m, Gpdh-m, TISP38",10090,MGI:99778
+14751,14751,glucose-6-phosphate isomerase 1,Gpi1,"Amf, Gpi, Gpi-1, Gpi-1r, Gpi-1s",10090,MGI:95797
+76282,76282,"glutamic pyruvic transaminase, soluble",Gpt,"1300007J06Rik, 2310022B03Rik, ALT, ALT1, Gpt-1",10090,MGI:95802
+108682,108682,glutamic pyruvate transaminase (alanine aminotransferase) 2,Gpt2,"4631422C05Rik, ALT2",10090,MGI:1915391
+14775,14775,glutathione peroxidase 1,Gpx1,"CGPx, GPx-1, GSHPx-1, Gpx",10090,MGI:104887
+14776,14776,glutathione peroxidase 2,Gpx2,"GI-GPx, GPx-GI, GSHPx-2, GSHPx-GI",10090,MGI:106609
+14778,14778,glutathione peroxidase 3,Gpx3,"EGPx, GPx, GSHPx-3, GSHPx-P",10090,MGI:105102
+625249,625249,glutathione peroxidase 4,Gpx4,"GPx-4, GSHPx-4, PHGPx, mtPHGPx, snGPx",10090,MGI:104767
+75512,75512,glutathione peroxidase 6,Gpx6,"1700020G18Rik, Ry2d1, olfactory",10090,MGI:1922762
+76238,76238,glyoxylate reductase/hydroxypyruvate reductase,Grhpr,"1110059D05Rik, 6430629L09Rik, Glxr",10090,MGI:1923488
+14782,14782,glutathione reductase,Gsr,"D8Ertd238e, Gr-1, Gr1",10090,MGI:95804
+14854,14854,glutathione synthetase,Gss,"GS-A/GS-B, GSH-S",10090,MGI:95852
+14863,14863,"glutathione S-transferase, mu 2",Gstm2,"Gstb-2, Gstb2",10090,MGI:95861
+14874,14874,glutathione transferase zeta 1 (maleylacetoacetate isomerase),Gstz1,"GSTZ1-1, MAAI",10090,MGI:1341859
+60596,60596,"guanylate cyclase 1, soluble, alpha 1",Gucy1a1,"1200016O07Rik, GCS-alpha-1, GCS-alpha-3, Gucy1a3, sGC-alpha1",10090,MGI:1926562
+234889,234889,"guanylate cyclase 1, soluble, alpha 2",Gucy1a2,"6330407I18Rik, A230060L24Rik",10090,MGI:2660877
+54195,54195,"guanylate cyclase 1, soluble, beta 1",Gucy1b1,"GC-S-beta-1, GCbeta1, Gucy1b3",10090,MGI:1860604
+14917,14917,guanylate cyclase 2c,Gucy2c,"GC-C, Gcc",10090,MGI:106903
+14919,14919,guanylate cyclase 2e,Gucy2e,"GC-E, GC1, ROS-GC1",10090,MGI:105123
+245650,245650,guanylate cyclase 2f,Gucy2f,"A930002I06, GC-F, GC2",10090,MGI:105119
+14923,14923,guanylate kinase 1,Guk1,"Gmk, Guk-1",10090,MGI:95871
+110006,110006,"glucuronidase, beta",Gusb,"Gur, Gus, Gus-r, Gus-s, Gus-t",10090,MGI:95872
+27357,27357,glycogenin 1,Gyg1,"GN1, Gyg",10090,MGI:1351614
+14936,14936,"glycogen synthase 1, muscle",Gys1,"Gys3, MGS",10090,MGI:101805
+232493,232493,glycogen synthase 2,Gys2,LGS,10090,MGI:2385254
+100198,100198,hexose-6-phosphate dehydrogenase (glucose 1-dehydrogenase),H6pd,"G6pd1, Gpd-1, Gpd1",10090,MGI:2140356
+107766,107766,"3-hydroxyanthranilate 3,4-dioxygenase",Haao,"0610007K21Rik, 0610012J07Rik, 3-HAO, 3-HAOxase, 3HAO",10090,MGI:1349444
+15107,15107,hydroxyacyl-Coenzyme A dehydrogenase,Hadh,"HCDH, Hadhsc, Schad",10090,MGI:96009
+97212,97212,hydroxyacyl-CoA dehydrogenase trifunctional multienzyme complex subunit alpha,Hadha,"Mtpa, TP-alpha",10090,MGI:2135593
+231086,231086,hydroxyacyl-CoA dehydrogenase trifunctional multienzyme complex subunit beta,Hadhb,"4930479F15Rik, Mtpb, TP-beta",10090,MGI:2136381
+14651,14651,hydroxyacyl glutathione hydrolase,Hagh,"Glo-2, Glo2, Rsp29",10090,MGI:95745
+68977,68977,hydroxyacylglutathione hydrolase-like,Haghl,"1500017E18Rik, 2810014I23Rik, C330022E15Rik",10090,MGI:1919877
+15109,15109,histidine ammonia lyase,Hal,"Hsd, his, histidase",10090,MGI:96010
+15112,15112,"hydroxyacid oxidase 1, liver",Hao1,"GOX, Gox1, Hao-1",10090,MGI:96011
+56185,56185,hydroxyacid oxidase 2,Hao2,"Hao-2, Hao3, Haox3",10090,MGI:96012
+15116,15116,hyaluronan synthase 1,Has1,HAS,10090,MGI:106590
+15117,15117,hyaluronan synthase 2,Has2,,10090,MGI:107821
+15118,15118,hyaluronan synthase 3,Has3,,10090,MGI:109599
+23900,23900,hematopoietic cell signal transducer,Hcst,"DAP10, KAP10",10090,MGI:1344360
+15186,15186,histidine decarboxylase,Hdc,"Hdc-a, Hdc-c, Hdc-e, Hdc-s",10090,MGI:96062
+15211,15211,hexosaminidase A,Hexa,Hex-1,10090,MGI:96073
+15212,15212,hexosaminidase B,Hexb,,10090,MGI:96074
+15233,15233,"homogentisate 1, 2-dioxygenase",Hgd,"Hgo, aku",10090,MGI:96078
+58875,58875,3-hydroxyisobutyrate dehydrogenase,Hibadh,6430402H10Rik,10090,MGI:1889802
+227095,227095,3-hydroxyisobutyryl-Coenzyme A hydrolase,Hibch,"2610509I15Rik, HIBYL-COA-H",10090,MGI:1923792
+15275,15275,hexokinase 1,Hk1,"Hk-1, Hk1-s, dea, mHk1-s",10090,MGI:96103
+15277,15277,hexokinase 2,Hk2,HKII,10090,MGI:1315197
+212032,212032,hexokinase 3,Hk3,"HK III, HK-III",10090,MGI:2670962
+216019,216019,hexokinase domain containing 1,Hkdc1,,10090,MGI:2384910
+110948,110948,holocarboxylase synthetase (biotin- [propriony-Coenzyme A-carboxylase (ATP-hydrolysing)] ligase),Hlcs,"410I21.SP6, D16Jhu34",10090,MGI:894646
+15288,15288,hydroxymethylbilane synthase,Hmbs,"PBGD, Ups, Uros1",10090,MGI:96112
+15356,15356,3-hydroxy-3-methylglutaryl-Coenzyme A lyase,Hmgcl,HL,10090,MGI:96158
+208982,208982,3-hydroxymethyl-3-methylglutaryl-Coenzyme A lyase-like 1,Hmgcll1,,10090,MGI:2446108
+15357,15357,3-hydroxy-3-methylglutaryl-Coenzyme A reductase,Hmgcr,"HMG-CoAR, Red",10090,MGI:96159
+208715,208715,3-hydroxy-3-methylglutaryl-Coenzyme A synthase 1,Hmgcs1,B130032C06Rik,10090,MGI:107592
+15360,15360,3-hydroxy-3-methylglutaryl-Coenzyme A synthase 2,Hmgcs2,"1300002P16, mHS",10090,MGI:101939
+15368,15368,heme oxygenase 1,Hmox1,"D8Wsu38e, HO-1, HO1, Hemox, Hmox",10090,MGI:96163
+15369,15369,heme oxygenase 2,Hmox2,"HO-2, HO2",10090,MGI:109373
+140483,140483,histamine N-methyltransferase,Hnmt,1500031F01Rik,10090,MGI:2153181
+15445,15445,4-hydroxyphenylpyruvic acid dioxygenase,Hpd,"4HPPD, Fla, Flp, Hppd, Laf",10090,MGI:96213
+54486,54486,hematopoietic prostaglandin D synthase,Hpgds,"H-PGDS, Ptgds2",10090,MGI:1859384
+15452,15452,hypoxanthine phosphoribosyltransferase 1,Hprt1,"HPGRT, Hprt",10090,MGI:96217
+23908,23908,heparan sulfate 2-O-sulfotransferase 1,Hs2st1,"2OST, Hs2st, mKIAA0448",10090,MGI:1346049
+15476,15476,heparan sulfate (glucosamine) 3-O-sulfotransferase 1,Hs3st1,"3-Ost, D5Wsu110e, Hsg3ost",10090,MGI:1201606
+195646,195646,heparan sulfate (glucosamine) 3-O-sulfotransferase 2,Hs3st2,"6430516N12Rik, A830061E14Rik",10090,MGI:1333802
+15478,15478,heparan sulfate (glucosamine) 3-O-sulfotransferase 3A1,Hs3st3a1,"3Ost3a, Hs3st3a",10090,MGI:1333861
+54710,54710,heparan sulfate (glucosamine) 3-O-sulfotransferase 3B1,Hs3st3b1,"3-OST-3B, 3OST3B1, 3Ost3b, Hs3st3b, m3-OST-3B",10090,MGI:1333853
+628779,628779,heparan sulfate (glucosamine) 3-O-sulfotransferase 4,Hs3st4,Gm6915,10090,MGI:1333792
+319415,319415,heparan sulfate (glucosamine) 3-O-sulfotransferase 5,Hs3st5,"D930005L05Rik, Gm1151, Hs3ost5",10090,MGI:2441996
+328779,328779,heparan sulfate (glucosamine) 3-O-sulfotransferase 6,Hs3st6,3-OST-6,10090,MGI:3580487
+50785,50785,heparan sulfate 6-O-sulfotransferase 1,Hs6st1,6Ost1,10090,MGI:1354958
+50786,50786,heparan sulfate 6-O-sulfotransferase 2,Hs6st2,6OST2,10090,MGI:1354959
+50787,50787,heparan sulfate 6-O-sulfotransferase 3,Hs6st3,"6OST3, HS6ST-3",10090,MGI:1354960
+15483,15483,hydroxysteroid 11-beta dehydrogenase 1,Hsd11b1,,10090,MGI:103562
+15484,15484,hydroxysteroid 11-beta dehydrogenase 2,Hsd11b2,11HSD2,10090,MGI:104720
+15485,15485,hydroxysteroid (17-beta) dehydrogenase 1,Hsd17b1,"17HSDB1, 17beta-HSD, E2DH, Hsd17ba",10090,MGI:105077
+15108,15108,hydroxysteroid (17-beta) dehydrogenase 10,Hsd17b10,"17bHSD10, Ads9, ERAB, Hadh2, MHBD",10090,MGI:1333871
+15486,15486,hydroxysteroid (17-beta) dehydrogenase 2,Hsd17b2,,10090,MGI:1096386
+15487,15487,hydroxysteroid (17-beta) dehydrogenase 3,Hsd17b3,,10090,MGI:107177
+15488,15488,hydroxysteroid (17-beta) dehydrogenase 4,Hsd17b4,"17-beta-HSD, 17[b]-HSD, DBP, MFE-2, MFP2",10090,MGI:105089
+15490,15490,hydroxysteroid (17-beta) dehydrogenase 7,Hsd17b7,ERG27,10090,MGI:1330808
+14979,14979,hydroxysteroid 17-beta dehydrogenase 8,Hsd17b8,"D17H6S112E, H-2Ke6, H2-Ke6, Ke-6, Ke6",10090,MGI:95911
+15492,15492,"hydroxy-delta-5-steroid dehydrogenase, 3 beta- and steroid delta-isomerase 1",Hsd3b1,"3-beta-HSD I, D3Ertd383e",10090,MGI:96233
+15493,15493,"hydroxy-delta-5-steroid dehydrogenase, 3 beta- and steroid delta-isomerase 2",Hsd3b2,3-beta-HSD II,10090,MGI:96234
+101502,101502,"hydroxy-delta-5-steroid dehydrogenase, 3 beta- and steroid delta-isomerase 7",Hsd3b7,,10090,MGI:2141879
+15926,15926,"isocitrate dehydrogenase 1 (NADP+), soluble",Idh1,"E030024J03Rik, Id-1, Idh-1, Idpc",10090,MGI:96413
+269951,269951,"isocitrate dehydrogenase 2 (NADP+), mitochondrial",Idh2,"E430004F23, IDPm, Idh-2",10090,MGI:96414
+67834,67834,isocitrate dehydrogenase 3 (NAD+) alpha,Idh3a,"1110003P10Rik, 1500012E04Rik",10090,MGI:1915084
+170718,170718,isocitrate dehydrogenase 3 (NAD+) beta,Idh3b,,10090,MGI:2158650
+15929,15929,"isocitrate dehydrogenase 3 (NAD+), gamma",Idh3g,,10090,MGI:1099463
+319554,319554,isopentenyl-diphosphate delta isomerase,Idi1,"4832416K17Rik, IPPI1",10090,MGI:2442264
+15930,15930,"indoleamine 2,3-dioxygenase 1",Ido1,"Ido, Indo",10090,MGI:96416
+15931,15931,iduronate 2-sulfatase,Ids,,10090,MGI:96417
+15932,15932,"iduronidase, alpha-L",Idua,6030426D08,10090,MGI:96418
+55980,55980,inositol (myo)-1(or 4)-monophosphatase 1,Impa1,"2610002K09Rik, 2900059K10Rik",10090,MGI:1933158
+114663,114663,inositol monophosphatase 2,Impa2,"2210415D20Rik, IMP 2, IMPase 2",10090,MGI:2149728
+23917,23917,inosine monophosphate dehydrogenase 1,Impdh1,"B930086D20Rik, IMPDH-I",10090,MGI:96567
+23918,23918,inosine monophosphate dehydrogenase 2,Impdh2,"IMPD, IMPD 2, IMPDH-II",10090,MGI:109367
+21743,21743,indolethylamine N-methyltransferase,Inmt,Temt,10090,MGI:102963
+16329,16329,inositol polyphosphate-1-phosphatase,Inpp1,2300002C06Rik,10090,MGI:104848
+269180,269180,"inositol polyphosphate-4-phosphatase, type I",Inpp4a,"107kDa, 9630012D15, D130048C09Rik",10090,MGI:1931123
+234515,234515,"inositol polyphosphate-4-phosphatase, type II",Inpp4b,E130107I17Rik,10090,MGI:2158925
+212111,212111,inositol polyphosphate-5-phosphatase A,Inpp5a,,10090,MGI:2686961
+16330,16330,inositol polyphosphate-5-phosphatase B,Inpp5b,"5PTase, INPP5P",10090,MGI:103257
+16331,16331,inositol polyphosphate-5-phosphatase D,Inpp5d,"SHIP, SHIP-1, SHIP1, SIP-145, p150Ship",10090,MGI:107357
+64436,64436,inositol polyphosphate-5-phosphatase E,Inpp5e,"1200002L24Rik, 72kDa, mKIAA0123",10090,MGI:1927753
+16332,16332,inositol polyphosphate phosphatase-like 1,Inppl1,"51C, SHIP2",10090,MGI:1333787
+27399,27399,inositol hexaphosphate kinase 1,Ip6k1,"1200016D08Rik, Ihpk1, InsP6, InsP6k1, Itpk6",10090,MGI:1351633
+76500,76500,inositol hexaphosphate kinase 2,Ip6k2,"1500005N04Rik, Ihpk2",10090,MGI:1923750
+271424,271424,inositol hexaphosphate kinase 3,Ip6k3,"D830007E07Rik, Ihpk3",10090,MGI:3045325
+69718,69718,inositol polyphosphate multikinase,Ipmk,"2410017C19Rik, Impk",10090,MGI:1916968
+64602,64602,iron responsive element binding protein 2,Ireb2,"D9Ertd85e, Irp2",10090,MGI:1928268
+71780,71780,myo-inositol 1-phosphate synthase A1,Isyna1,"1300017C10Rik, IPS 1",10090,MGI:1919030
+16434,16434,inosine triphosphatase (nucleoside triphosphate pyrophosphatase),Itpa,"2010016I08Rik, ITPase, Itp, NTPase",10090,MGI:96622
+228550,228550,"inositol 1,4,5-trisphosphate 3-kinase A",Itpka,,10090,MGI:1333822
+320404,320404,"inositol 1,4,5-trisphosphate 3-kinase B",Itpkb,"1110033J02Rik, E130307H12Rik",10090,MGI:109235
+233011,233011,"inositol 1,4,5-trisphosphate 3-kinase C",Itpkc,"9130023N17Rik, IP3K C",10090,MGI:2442554
+56357,56357,isovaleryl coenzyme A dehydrogenase,Ivd,"1300016K07Rik, 6720455E18Rik",10090,MGI:1929242
+70750,70750,3-ketodihydrosphingosine reductase,Kdsr,"6330410P18Rik, 9430079B08Rik, Fvt1",10090,MGI:1918000
+16548,16548,ketohexokinase,Khk,,10090,MGI:1096353
+98256,98256,kynurenine 3-monooxygenase,Kmo,,10090,MGI:2138151
+231051,231051,lysine (K)-specific methyltransferase 2C,Kmt2c,"E330008K23Rik, HALR, Mll3",10090,MGI:2444959
+67956,67956,lysine methyltransferase 5A,Kmt5a,"2410195B05Rik, PR-SET7, PR/SET07, Setd8",10090,MGI:1915206
+70266,70266,kynurenine aminotransferase 1,Kyat1,"2010009K05Rik, Ccbl1, Gtk, Kat1, KatI",10090,MGI:1917516
+70789,70789,kynureninase,Kynu,4432411A05Rik,10090,MGI:1918039
+16770,16770,"lactalbumin, alpha",Lalba,Lyzg,10090,MGI:96742
+16816,16816,lecithin cholesterol acyltransferase,Lcat,D8Wsu61e,10090,MGI:96755
+226413,226413,lactase,Lct,"Gm100, LAC, LPH, Lphl",10090,MGI:104576
+16828,16828,lactate dehydrogenase A,Ldha,"Ldh1, Ldhm, l7R2",10090,MGI:96759
+106557,106557,lactate dehydrogenase A-like 6B,Ldhal6b,"4933402O15Rik, LDHL, Ldhal",10090,MGI:2146830
+16832,16832,lactate dehydrogenase B,Ldhb,"H-Ldh, LDH-B, LDH-H, Ldh-2, Ldh2",10090,MGI:96763
+16833,16833,lactate dehydrogenase C,Ldhc,"LDH-C4, Ldh-3, Ldh-x, Ldh3, Ldhc4",10090,MGI:96764
+52815,52815,lactate dehydrogenase D,Ldhd,"4733401P21Rik, D8Bwg1320e, DLD",10090,MGI:106428
+266744,266744,"lengsin, lens protein with glutamine synthetase domain",Lgsn,"Gluld1, Lgs, lengsin",10090,MGI:2672844
+15450,15450,"lipase, hepatic",Lipc,"HL, Hpl",10090,MGI:96216
+67717,67717,"lipase, gastric",Lipf,2310051B21Rik,10090,MGI:1914967
+16891,16891,"lipase, endothelial",Lipg,"3110013K01Rik, EL, lipase, mEDL",10090,MGI:1341803
+16956,16956,lipoprotein lipase,Lpl,,10090,MGI:96820
+79235,79235,lecithin-retinol acyltransferase (phosphatidylcholine-retinol-O-acyltransferase),Lrat,1300010A18Rik,10090,MGI:1891259
+16987,16987,lanosterol synthase,Lss,"2810025N20Rik, D10Ertd116e, Osc",10090,MGI:1336155
+16993,16993,leukotriene A4 hydrolase,Lta4h,,10090,MGI:96836
+17001,17001,leukotriene C4 synthase,Ltc4s,,10090,MGI:107498
+17155,17155,"mannosidase 1, alpha",Man1a,"Man1a1, PCR1",10090,MGI:104677
+17156,17156,"mannosidase, alpha, class 1A, member 2",Man1a2,"Man1b, PCR2",10090,MGI:104676
+227619,227619,"mannosidase, alpha, class 1B, member 1",Man1b1,"E430019H13Rik, ERMan1, Gm108, MANA-ER",10090,MGI:2684954
+230815,230815,"mannosidase, alpha, class 1C, member 1",Man1c1,,10090,MGI:2446214
+17158,17158,"mannosidase 2, alpha 1",Man2a1,"Mana-2, Mana2, Map-2",10090,MGI:104669
+17159,17159,"mannosidase 2, alpha B1",Man2b1,LAMAN,10090,MGI:107286
+73744,73744,"mannosidase, alpha, class 2C, member 1",Man2c1,1110025H24Rik,10090,MGI:1920994
+110173,110173,"mannosidase, beta A, lysosomal",Manba,"2410030O07Rik, B930014J03Rik, Bmn",10090,MGI:88175
+67729,67729,MANSC domain containing 1,Mansc1,9130403P13Rik,10090,MGI:1914979
+17161,17161,monoamine oxidase A,Maoa,1110061B18Rik,10090,MGI:96915
+109731,109731,monoamine oxidase B,Maob,"6330414K01Rik, MAO-B",10090,MGI:96916
+11720,11720,methionine adenosyltransferase 1A,Mat1a,"AdoMet, Ams, MAT, MATA1, SAMS",10090,MGI:88017
+232087,232087,methionine adenosyltransferase 2A,Mat2a,"D630045P18Rik, MAT 2",10090,MGI:2443731
+108645,108645,methionine adenosyltransferase 2 non-catalytic beta subunit methionine,Mat2b,"1110064C04Rik, 2410018D16Rik, MAT-II, MATIIbeta, TGR",10090,MGI:1913667
+223722,223722,malonyl CoA:ACP acyltransferase (mitochondrial),Mcat,,10090,MGI:2388651
+72039,72039,methylcrotonoyl-Coenzyme A carboxylase 1 (alpha),Mccc1,"1810045E08Rik, 2310058B18Rik, MCCalpha, Mcca",10090,MGI:1919289
+78038,78038,methylcrotonoyl-Coenzyme A carboxylase 2 (beta),Mccc2,"4930552N12Rik, MCCB",10090,MGI:1925288
+73724,73724,methylmalonyl CoA epimerase,Mcee,1110007A04Rik,10090,MGI:1920974
+17449,17449,"malate dehydrogenase 1, NAD (soluble)",Mdh1,"B230377B03Rik, KAR, MDH-s, MDHA, Mor-2",10090,MGI:97051
+76668,76668,"malate dehydrogenase 1B, NAD (soluble)",Mdh1b,1700124B08Rik,10090,MGI:1923918
+17448,17448,"malate dehydrogenase 2, NAD (mitochondrial)",Mdh2,"MDH, Mdh-2, Mor-1, Mor1",10090,MGI:97050
+17436,17436,"malic enzyme 1, NADP(+)-dependent, cytosolic",Me1,"D9Ertd267e, Mdh-1, Mod-1, Mod1",10090,MGI:97043
+107029,107029,"malic enzyme 2, NAD(+)-dependent, mitochondrial",Me2,"D030040L20Rik, NAD-ME",10090,MGI:2147351
+109264,109264,"malic enzyme 3, NADP(+)-dependent, mitochondrial",Me3,"1700020C08Rik, B230207H15Rik",10090,MGI:1916679
+232714,232714,maltase-glucoamylase,Mgam,"6030407P20Rik, MGA",10090,MGI:1203495
+17308,17308,mannoside acetylglucosaminyltransferase 1,Mgat1,Mgat-1,10090,MGI:96973
+217664,217664,mannoside acetylglucosaminyltransferase 2,Mgat2,"CDGS2, GLCNACTII, GNT-II, GNT2",10090,MGI:2384966
+17309,17309,mannoside acetylglucosaminyltransferase 3,Mgat3,"1110038J12Rik, GnT-III",10090,MGI:104532
+269181,269181,"mannoside acetylglucosaminyltransferase 4, isoenzyme A",Mgat4a,"9530018I07Rik, GnT-IVa, glcNAc-T-IVa",10090,MGI:2662992
+103534,103534,"mannoside acetylglucosaminyltransferase 4, isoenzyme B",Mgat4b,GnTIVb,10090,MGI:2143974
+107895,107895,mannoside acetylglucosaminyltransferase 5,Mgat5,"4930471A21Rik, 5330407H02Rik, GlcNAc-TV",10090,MGI:894701
+23945,23945,monoglyceride lipase,Mgll,"Magl, Mgl",10090,MGI:1346042
+211666,211666,microsomal glutathione S-transferase 2,Mgst2,"GST2, MGST-II",10090,MGI:2448481
+66447,66447,microsomal glutathione S-transferase 3,Mgst3,"2010012L10Rik, 2010306B17Rik, 2700004G04Rik, GST-III",10090,MGI:1913697
+56727,56727,myo-inositol oxygenase,Miox,"0610009I10Rik, Aldrl6, RSOR",10090,MGI:1891725
+56690,56690,malonyl-CoA decarboxylase,Mlycd,Mcd,10090,MGI:1928485
+109136,109136,methylmalonic aciduria (cobalamin deficiency) type A,Mmaa,2810018E08Rik,10090,MGI:1923805
+17850,17850,methylmalonyl-Coenzyme A mutase,Mmut,"D230010K02Rik, Mcm, Mut",10090,MGI:97239
+68393,68393,monoacylglycerol O-acyltransferase 1,Mogat1,"0610030A14Rik, 1110064N14Rik, Dgat2l, Dgat2l1, MGAT1",10090,MGI:1915643
+233549,233549,monoacylglycerol O-acyltransferase 2,Mogat2,"DGAT2L5, MGAT2, Mgat1l",10090,MGI:2663253
+57377,57377,mannosyl-oligosaccharide glucosidase,Mogs,"1810017N02Rik, Gcs1",10090,MGI:1929872
+59012,59012,"monooxygenase, DBH-like 1",Moxd1,"3230402N08Rik, MNCb-5203",10090,MGI:1921582
+110119,110119,mannose phosphate isomerase,Mpi,"1110002E17Rik, Mpi-1, Mpi1",10090,MGI:97075
+17523,17523,myeloperoxidase,Mpo,mKIAA4033,10090,MGI:97137
+246221,246221,mercaptopyruvate sulfurtransferase,Mpst,"3MST, Mst",10090,MGI:2179733
+66234,66234,methylsterol monoxygenase 1,Msmo1,"1500001G16Rik, DESP4, ERG25, Sc4mol",10090,MGI:1913484
+66902,66902,methylthioadenosine phosphorylase,Mtap,"1300019I21Rik, MSAP",10090,MGI:1914152
+108156,108156,"methylenetetrahydrofolate dehydrogenase (NADP+ dependent), methenyltetrahydrofolate cyclohydrolase, formyltetrahydrofolate synthase",Mthfd1,"Dcs, E430024A07Rik, Mthfd",10090,MGI:1342005
+270685,270685,methylenetetrahydrofolate dehydrogenase (NADP+ dependent) 1-like,Mthfd1l,"2410004L15Rik, Fthfsdc1",10090,MGI:1924836
+17768,17768,"methylenetetrahydrofolate dehydrogenase (NAD+ dependent), methenyltetrahydrofolate cyclohydrolase",Mthfd2,NMDMC,10090,MGI:1338850
+17769,17769,methylenetetrahydrofolate reductase,Mthfr,,10090,MGI:106639
+107885,107885,"5, 10-methenyltetrahydrofolate synthetase",Mthfs,"1110034I12Rik, 2310020H23Rik",10090,MGI:1340032
+74302,74302,myotubularin related protein 3,Mtmr3,"1700092A20Rik, FYVE-DSP1, ZFYVE10, mKIAA0371",10090,MGI:1921552
+238505,238505,5-methyltetrahydrofolate-homocysteine methyltransferase,Mtr,"D830038K18Rik, MS",10090,MGI:894292
+192156,192156,mevalonate (diphospho) decarboxylase,Mvd,Mpd,10090,MGI:2179327
+17855,17855,mevalonate kinase,Mvk,"2310010A05Rik, MK",10090,MGI:107624
+17716,17716,NADH dehydrogenase subunit 1,ND1,,10090,MGI:101787
+17717,17717,NADH dehydrogenase subunit 2,ND2,,10090,MGI:102500
+17718,17718,NADH dehydrogenase subunit 3,ND3,,10090,MGI:102499
+17719,17719,NADH dehydrogenase subunit 4,ND4,,10090,MGI:102498
+17720,17720,NADH dehydrogenase subunit 4L,ND4L,,10090,MGI:102497
+17721,17721,NADH dehydrogenase subunit 5,ND5,,10090,MGI:102496
+192185,192185,NAD kinase,Nadk,4432404C02Rik,10090,MGI:2183149
+78914,78914,NAD synthetase 1,Nadsyn1,9130012B15Rik,10090,MGI:1926164
+17939,17939,"N-acetyl galactosaminidase, alpha",Naga,,10090,MGI:1261422
+56174,56174,N-acetylglucosamine kinase,Nagk,Gnk,10090,MGI:1860418
+27419,27419,alpha-N-acetylglucosaminidase (Sanfilippo disease IIIB),Naglu,,10090,MGI:1351641
+217214,217214,N-acetylglutamate synthase,Nags,"1700120E20Rik, argA",10090,MGI:2387600
+94181,94181,N-acetylneuraminic acid synthase (sialic acid synthase),Nans,"4632418E04Rik, Sas",10090,MGI:2149820
+15531,15531,N-deacetylase/N-sulfotransferase (heparan glucosaminyl) 1,Ndst1,"1200015G06Rik, HSNST, HSNST 1, Hsst, N-HSST",10090,MGI:104719
+17423,17423,N-deacetylase/N-sulfotransferase (heparan glucosaminyl) 2,Ndst2,"Mndns, NDST-2",10090,MGI:97040
+83398,83398,N-deacetylase/N-sulfotransferase (heparan glucosaminyl) 3,Ndst3,"4921531K01Rik, 4930511P15Rik, N-HSST 3, NDST-3",10090,MGI:1932544
+64580,64580,N-deacetylase/N-sulfotransferase (heparin glucosaminyl) 4,Ndst4,4930439H17Rik,10090,MGI:1932545
+54405,54405,NADH:ubiquinone oxidoreductase subunit A1,Ndufa1,"1810049F12Rik, MWFE",10090,MGI:1929511
+67273,67273,NADH:ubiquinone oxidoreductase subunit A10,Ndufa10,2900053E13Rik,10090,MGI:1914523
+69875,69875,NADH:ubiquinone oxidoreductase subunit A11,Ndufa11,"2010012C24Rik, B14.7",10090,MGI:1917125
+66414,66414,NADH:ubiquinone oxidoreductase subunit A12,Ndufa12,"2410011G03Rik, CI-B17.2, CIB17.2",10090,MGI:1913664
+67184,67184,NADH:ubiquinone oxidoreductase subunit A13,Ndufa13,"2700054G14Rik, CDA016, CGI-39, CI-B16.6, GRIM-19",10090,MGI:1914434
+17991,17991,NADH:ubiquinone oxidoreductase subunit A2,Ndufa2,"B8, C1-B8, CI-B8",10090,MGI:1343103
+66091,66091,NADH:ubiquinone oxidoreductase subunit A3,Ndufa3,"1010001M12Rik, 1700022J01Rik",10090,MGI:1913341
+17992,17992,"Ndufa4, mitochondrial complex associated",Ndufa4,MLRQ,10090,MGI:107686
+68202,68202,NADH:ubiquinone oxidoreductase subunit A5,Ndufa5,"2900002J19Rik, CI-13kD-B",10090,MGI:1915452
+67130,67130,NADH:ubiquinone oxidoreductase subunit A6,Ndufa6,"14kDa, 2700038D15Rik, B230217P19Rik",10090,MGI:1914380
+66416,66416,NADH:ubiquinone oxidoreductase subunit A7,Ndufa7,"14.5kDa, 2400007M02Rik, CI-B14.5a",10090,MGI:1913666
+68375,68375,NADH:ubiquinone oxidoreductase subunit A8,Ndufa8,"0610033L03Rik, CI-19kD, CI-PGIV",10090,MGI:1915625
+66108,66108,NADH:ubiquinone oxidoreductase subunit A9,Ndufa9,1010001N11Rik,10090,MGI:1913358
+68342,68342,NADH:ubiquinone oxidoreductase subunit B10,Ndufb10,"0610011B04Rik, 22kDa, PDSW",10090,MGI:1915592
+68198,68198,NADH:ubiquinone oxidoreductase subunit B2,Ndufb2,"1810011O01Rik, 8kDa, AGGG, CI-AGGG",10090,MGI:1915448
+66495,66495,NADH:ubiquinone oxidoreductase subunit B3,Ndufb3,"2700033I16Rik, CI-B12",10090,MGI:1913745
+66046,66046,NADH:ubiquinone oxidoreductase subunit B5,Ndufb5,"0610007D05Rik, CI-SGDH, SGDH",10090,MGI:1913296
+230075,230075,NADH:ubiquinone oxidoreductase subunit B6,Ndufb6,"CI-B17, Gm137",10090,MGI:2684983
+66916,66916,NADH:ubiquinone oxidoreductase subunit B7,Ndufb7,1110002H15Rik,10090,MGI:1914166
+67264,67264,NADH:ubiquinone oxidoreductase subunit B8,Ndufb8,"2900010I05Rik, CI-ASHI",10090,MGI:1914514
+66218,66218,NADH:ubiquinone oxidoreductase subunit B9,Ndufb9,"1190008J14Rik, CI-B22",10090,MGI:1913468
+66377,66377,NADH:ubiquinone oxidoreductase subunit C1,Ndufc1,"2310016K22Rik, CI-KFYI, KFYI",10090,MGI:1913627
+68197,68197,NADH:ubiquinone oxidoreductase subunit C2,Ndufc2,"1810004I06Rik, 2010300P09Rik, G1",10090,MGI:1344370
+227197,227197,NADH:ubiquinone oxidoreductase core subunit S1,Ndufs1,"5830412M15Rik, 9930026A05Rik",10090,MGI:2443241
+226646,226646,NADH:ubiquinone oxidoreductase core subunit S2,Ndufs2,CI-49kD,10090,MGI:2385112
+68349,68349,NADH:ubiquinone oxidoreductase core subunit S3,Ndufs3,"0610010M09Rik, CI-30kD",10090,MGI:1915599
+17993,17993,NADH:ubiquinone oxidoreductase core subunit S4,Ndufs4,"6720411N02Rik, C1-18k",10090,MGI:1343135
+595136,595136,NADH:ubiquinone oxidoreductase core subunit S5,Ndufs5,,10090,MGI:1890889
+407785,407785,NADH:ubiquinone oxidoreductase core subunit S6,Ndufs6,IP13,10090,MGI:107932
+75406,75406,NADH:ubiquinone oxidoreductase core subunit S7,Ndufs7,"1010001M04Rik, CI-20kD",10090,MGI:1922656
+225887,225887,NADH:ubiquinone oxidoreductase core subunit S8,Ndufs8,"CI-23kD, TYKY",10090,MGI:2385079
+17995,17995,NADH:ubiquinone oxidoreductase core subunit V1,Ndufv1,CI-51kD,10090,MGI:107851
+72900,72900,NADH:ubiquinone oxidoreductase core subunit V2,Ndufv2,2900010C23Rik,10090,MGI:1920150
+78330,78330,NADH:ubiquinone oxidoreductase core subunit V3,Ndufv3,1500032D16Rik,10090,MGI:1890894
+18010,18010,neuraminidase 1,Neu1,"Aglp, Apl, Bat-7, Bat7, G9",10090,MGI:97305
+23956,23956,neuraminidase 2,Neu2,"MBS, MSS, MTS",10090,MGI:1344417
+241159,241159,sialidase 4,Neu4,9330166I04,10090,MGI:2661364
+18102,18102,NME/NM23 nucleoside diphosphate kinase 1,Nme1,"NDPK-A, NM23-M1, NM23A",10090,MGI:97355
+18103,18103,NME/NM23 nucleoside diphosphate kinase 2,Nme2,"NM23-H2, NM23B, nm23-M2",10090,MGI:97356
+79059,79059,NME/NM23 nucleoside diphosphate kinase 3,Nme3,"1810009F08Rik, DR-nm23, Ndk3, Nm23-DR, Nm23-M3",10090,MGI:1930182
+56520,56520,NME/NM23 nucleoside diphosphate kinase 4,Nme4,"2610027N22Rik, 2810024O08Rik, 5730493H09Rik, NDK, NDPKD",10090,MGI:1931148
+54369,54369,NME/NM23 nucleoside diphosphate kinase 6,Nme6,"NDK 6, nm23-M6",10090,MGI:1861676
+171567,171567,NME/NM23 family member 7,Nme7,"D530024H21Rik, Nm23-M7, Nm23-r7, nm23-H7",10090,MGI:2449121
+66454,66454,nicotinamide nucleotide adenylyltransferase 1,Nmnat1,"2610529L11Rik, 5730441G13Rik, D4Cole1e, nmnat",10090,MGI:1913704
+226518,226518,nicotinamide nucleotide adenylyltransferase 2,Nmnat2,"D030041I09Rik, PNAT1, PNAT2",10090,MGI:2444155
+74080,74080,nicotinamide nucleotide adenylyltransferase 3,Nmnat3,"4933408N02Rik, PNAT3",10090,MGI:1921330
+225994,225994,nicotinamide riboside kinase 1,Nmrk1,"D630020N23Rik, Nrk1",10090,MGI:2147434
+18113,18113,nicotinamide N-methyltransferase,Nnmt,,10090,MGI:1099443
+18115,18115,nicotinamide nucleotide transhydrogenase,Nnt,4930423F13Rik,10090,MGI:109279
+18125,18125,"nitric oxide synthase 1, neuronal",Nos1,"2310005C01Rik, N-NOS, NC-NOS, NO, NOS",10090,MGI:97360
+18126,18126,"nitric oxide synthase 2, inducible",Nos2,"MAC-NOS, NOS-II, Nos-2, Nos2a, i-NOS",10090,MGI:97361
+18127,18127,"nitric oxide synthase 3, endothelial cell",Nos3,"2310065A03Rik, Nos-3, eNOS, ecNOS",10090,MGI:97362
+18160,18160,natriuretic peptide receptor 1,Npr1,"GC-A, NPR-A, NPRA, Pndr",10090,MGI:97371
+230103,230103,natriuretic peptide receptor 2,Npr2,"GC-B, GC-B2, GC-B3, cn, mNPR-B",10090,MGI:97372
+18194,18194,NAD(P) dependent steroid dehydrogenase-like,Nsdhl,"Bpa, H105E3, Str, XAP104",10090,MGI:1099438
+18195,18195,N-ethylmaleimide sensitive fusion protein,Nsf,SKD2,10090,MGI:104560
+50773,50773,"5',3'-nucleotidase, cytosolic",Nt5c,"Dnt, Dnt1, Umph-2, Umph2",10090,MGI:1354954
+76952,76952,"5'-nucleotidase, cytosolic II",Nt5c2,"2010002I23Rik, CnII, Gm9751, Gmp, Nt5b",10090,MGI:2178563
+107569,107569,"5'-nucleotidase, cytosolic III",Nt5c3,"1600024P05Rik, 2610206B05Rik, 3110004A18Rik, Nt5c3a, Nt5y",10090,MGI:1927186
+23959,23959,"5' nucleotidase, ecto",Nt5e,"2210401F01Rik, 5'-NT, CD73, NT, Nt5",10090,MGI:99782
+103850,103850,"5',3'-nucleotidase, mitochondrial",Nt5m,"2010013E09Rik, dNT-2",10090,MGI:1917127
+66401,66401,nudix hydrolase 2,Nudt2,"2310051L06Rik, APAH1",10090,MGI:1913651
+53893,53893,nudix hydrolase 5,Nudt5,,10090,MGI:1858232
+74167,74167,nudix hydrolase 9,Nudt9,"1190002C07Rik, ADPR-PPase",10090,MGI:1921417
+18242,18242,ornithine aminotransferase,Oat,rhg,10090,MGI:97394
+320634,320634,"OCRL, inositol polyphosphate-5-phosphatase",Ocrl,"9530014D17Rik, OCRL1",10090,MGI:109589
+18263,18263,"ornithine decarboxylase, structural 1",Odc1,ODC,10090,MGI:97402
+18293,18293,oxoglutarate (alpha-ketoglutarate) dehydrogenase (lipoamide),Ogdh,"2210403E04Rik, 2210412K19Rik, E1o, OGDH-E1, d1401",10090,MGI:1098267
+99035,99035,oleoyl-ACP hydrolase,Olah,"E230009B14Rik, Thedc1",10090,MGI:2139018
+75475,75475,5-oxoprolinase (ATP-hydrolysing),Oplah,"1700010G02Rik, 5-OPase",10090,MGI:1922725
+18416,18416,ornithine transcarbamylase,Otc,"Sf, spf",10090,MGI:97448
+67041,67041,3-oxoacid CoA transferase 1,Oxct1,"2610008O03Rik, Oxct, Oxct2a, SCOT, Scot-s",10090,MGI:1914291
+64059,64059,3-oxoacid CoA transferase 2A,Oxct2a,"Oxct, Oxct2, Scot, Scot-t1",10090,MGI:1891061
+18451,18451,"procollagen-proline, 2-oxoglutarate 4-dioxygenase (proline 4-hydroxylase), alpha 1 polypeptide",P4ha1,P4ha,10090,MGI:97463
+18452,18452,"procollagen-proline, 2-oxoglutarate 4-dioxygenase (proline 4-hydroxylase), alpha II polypeptide",P4ha2,P4hl,10090,MGI:894286
+18453,18453,"prolyl 4-hydroxylase, beta polypeptide",P4hb,"ERp59, PDI, Pdia1, Thbp",10090,MGI:97464
+18472,18472,"platelet-activating factor acetylhydrolase, isoform 1b, subunit 1",Pafah1b1,"LIS-1, Lis1, MMS10-U, Mdsh, Ms10u",10090,MGI:109520
+18475,18475,"platelet-activating factor acetylhydrolase, isoform 1b, subunit 2",Pafah1b2,"2610005M20Rik, Pafahb, mus[b]",10090,MGI:108415
+18476,18476,"platelet-activating factor acetylhydrolase, isoform 1b, subunit 3",Pafah1b3,"Pafahg, mus[g]",10090,MGI:108414
+100163,100163,platelet-activating factor acetylhydrolase 2,Pafah2,2310074E22Rik,10090,MGI:2140321
+18478,18478,phenylalanine hydroxylase,Pah,,10090,MGI:97473
+67054,67054,"phosphoribosylaminoimidazole carboxylase, phosphoribosylaminoribosylaminoimidazole, succinocarboxamide synthetase",Paics,"2610511I09Rik, ADE2H1, AIRC, PAIS",10090,MGI:1914304
+75735,75735,pantothenate kinase 1,Pank1,"Pank, Pank1b",10090,MGI:1922985
+74450,74450,pantothenate kinase 2,Pank2,"4933409I19Rik, hPanK2",10090,MGI:1921700
+211347,211347,pantothenate kinase 3,Pank3,,10090,MGI:2387464
+269614,269614,pantothenate kinase 4,Pank4,"D030031I12Rik, Gm42363",10090,MGI:2387466
+23971,23971,3'-phosphoadenosine 5'-phosphosulfate synthase 1,Papss1,"Asapk, SK1",10090,MGI:1330587
+23972,23972,3'-phosphoadenosine 5'-phosphosulfate synthase 2,Papss2,"1810018P12Rik, AtpsU2, Atpsk2, Sk2, bm",10090,MGI:1330223
+13180,13180,pterin 4 alpha carbinolamine dehydratase/dimerization cofactor of hepatocyte nuclear factor 1 alpha (TCF1) 1,Pcbd1,"Dcoh, Pcbd, Pcd, Phs",10090,MGI:94873
+110821,110821,"propionyl-Coenzyme A carboxylase, alpha polypeptide",Pcca,,10090,MGI:97499
+66904,66904,"propionyl Coenzyme A carboxylase, beta polypeptide",Pccb,1300012P06Rik,10090,MGI:1914154
+18534,18534,"phosphoenolpyruvate carboxykinase 1, cytosolic",Pck1,"PEPCK, PEPCK-C, Pck-1",10090,MGI:97501
+74551,74551,phosphoenolpyruvate carboxykinase 2 (mitochondrial),Pck2,"1810010O14Rik, 9130022B02Rik, PEPCK-M",10090,MGI:1860456
+18563,18563,pyruvate carboxylase,Pcx,"Pc, Pcb",10090,MGI:97520
+13026,13026,"phosphate cytidylyltransferase 1, choline, alpha isoform",Pcyt1a,"CTalpha, Cctalpha, Ctpct, Cttalpha",10090,MGI:88557
+236899,236899,"phosphate cytidylyltransferase 1, choline, beta isoform",Pcyt1b,CTTbeta,10090,MGI:2147987
+68671,68671,"phosphate cytidylyltransferase 2, ethanolamine",Pcyt2,"1110033E03Rik, ET",10090,MGI:1915921
+23984,23984,phosphodiesterase 10A,Pde10a,,10090,MGI:1345143
+241489,241489,phosphodiesterase 11A,Pde11a,"6330414F14Rik, A630086N24Rik, Gm350, PDE11A1",10090,MGI:3036251
+18573,18573,"phosphodiesterase 1A, calmodulin-dependent",Pde1a,,10090,MGI:1201792
+18574,18574,"phosphodiesterase 1B, Ca2+-calmodulin dependent",Pde1b,Pde1b1,10090,MGI:97523
+18575,18575,phosphodiesterase 1C,Pde1c,,10090,MGI:108413
+207728,207728,"phosphodiesterase 2A, cGMP-stimulated",Pde2a,"CGS-PDE, cGSPDE",10090,MGI:2446107
+54611,54611,"phosphodiesterase 3A, cGMP inhibited",Pde3a,A930022O17Rik,10090,MGI:1860764
+18576,18576,"phosphodiesterase 3B, cGMP-inhibited",Pde3b,9830102A01Rik,10090,MGI:1333863
+18578,18578,"phosphodiesterase 4B, cAMP specific",Pde4b,"Dpde4, dunce",10090,MGI:99557
+110385,110385,"phosphodiesterase 4C, cAMP specific",Pde4c,"Dpde1, E130301F19Rik, dunce",10090,MGI:99556
+238871,238871,"phosphodiesterase 4D, cAMP specific",Pde4d,"9630011N22Rik, Dpde3",10090,MGI:99555
+242202,242202,"phosphodiesterase 5A, cGMP-specific",Pde5a,"Cgbpde, Cn5n, PDE5a2, Pde5, Pde5a1",10090,MGI:2651499
+225600,225600,"phosphodiesterase 6A, cGMP-specific, rod, alpha",Pde6a,"Pdea, nmf282",10090,MGI:97524
+18587,18587,"phosphodiesterase 6B, cGMP, rod receptor, beta polypeptide",Pde6b,"Pdeb, r, rd, rd-1, rd1",10090,MGI:97525
+110855,110855,"phosphodiesterase 6C, cGMP specific, cone, alpha prime",Pde6c,cpfl1,10090,MGI:105956
+18582,18582,"phosphodiesterase 6D, cGMP-specific, rod, delta",Pde6d,PrBP/delta,10090,MGI:1270843
+18588,18588,"phosphodiesterase 6G, cGMP-specific, rod, gamma",Pde6g,"Pdeg, p3AT",10090,MGI:97526
+78600,78600,"phosphodiesterase 6H, cGMP-specific, cone, gamma",Pde6h,"A930033D18Rik, PDEgamma",10090,MGI:1925850
+18583,18583,phosphodiesterase 7A,Pde7a,,10090,MGI:1202402
+29863,29863,phosphodiesterase 7B,Pde7b,,10090,MGI:1352752
+18584,18584,phosphodiesterase 8A,Pde8a,Pde8,10090,MGI:1277116
+218461,218461,phosphodiesterase 8B,Pde8b,"B230331L10Rik, C030047E14Rik",10090,MGI:2443999
+18597,18597,pyruvate dehydrogenase E1 alpha 1,Pdha1,Pdha-1,10090,MGI:97532
+18598,18598,pyruvate dehydrogenase E1 alpha 2,Pdha2,Pdhal,10090,MGI:97533
+68263,68263,pyruvate dehydrogenase (lipoamide) beta,Pdhb,2610103L06Rik,10090,MGI:1915513
+27402,27402,"pyruvate dehydrogenase complex, component X",Pdhx,"E3bp, Pdx1",10090,MGI:1351627
+216134,216134,"pyridoxal (pyridoxine, vitamin B6) kinase",Pdxk,2310036D04Rik,10090,MGI:1351869
+57028,57028,"pyridoxal (pyridoxine, vitamin B6) phosphatase",Pdxp,"1600027H05Rik, PLPP",10090,MGI:1919282
+18618,18618,phosphatidylethanolamine N-methyltransferase,Pemt,"PEAMT, PEMT2, PLMT, Pempt, Pempt2",10090,MGI:104535
+237823,237823,phosphoribosylformylglycinamidine synthase (FGAR amidotransferase),Pfas,"4432409B16Rik, FGAMS, FGAR-AT, FGARAT, Gm18",10090,MGI:2684864
+18639,18639,"6-phosphofructo-2-kinase/fructose-2,6-biphosphatase 1",Pfkfb1,PFK/FBPase 1,10090,MGI:107816
+18640,18640,"6-phosphofructo-2-kinase/fructose-2,6-biphosphatase 2",Pfkfb2,4930568D07Rik,10090,MGI:107815
+170768,170768,"6-phosphofructo-2-kinase/fructose-2,6-biphosphatase 3",Pfkfb3,"E330010H22Rik, iPFK-2, uPFK-2",10090,MGI:2181202
+270198,270198,"6-phosphofructo-2-kinase/fructose-2,6-biphosphatase 4",Pfkfb4,C230090D14,10090,MGI:2687284
+18641,18641,"phosphofructokinase, liver, B-type",Pfkl,"ATP-PFK, PFK-B, PFK-L",10090,MGI:97547
+18642,18642,"phosphofructokinase, muscle",Pfkm,"ATP-PFK, PFK-A, PFK-M, Pfk-4, Pfk4",10090,MGI:97548
+56421,56421,"phosphofructokinase, platelet",Pfkp,"1200015H23Rik, 9330125N24Rik, ATP-PFK, PFK-C, PFK-P",10090,MGI:1891833
+18648,18648,phosphoglycerate mutase 1,Pgam1,"2310050F24Rik, Pgam-1",10090,MGI:97552
+56012,56012,phosphoglycerate mutase 2,Pgam2,,10090,MGI:1933118
+241062,241062,post-GPI attachment to proteins 1,Pgap1,"5033403E17Rik, 9030223K07Rik, A530084K22, D230012E17Rik, oto",10090,MGI:2443342
+110208,110208,phosphogluconate dehydrogenase,Pgd,0610042A05Rik,10090,MGI:97553
+212974,212974,protein glucosylgalactosylhydroxylysine glucosidase,Pgghg,"5730511L01Rik, Athl1",10090,MGI:2444047
+18655,18655,phosphoglycerate kinase 1,Pgk1,Pgk-1,10090,MGI:97555
+18663,18663,phosphoglycerate kinase 2,Pgk2,"Pgk-2, Tcp-2",10090,MGI:97563
+66171,66171,6-phosphogluconolactonase,Pgls,"1110030K05Rik, Plgs",10090,MGI:1913421
+72157,72157,phosphoglucomutase 1,Pgm1,"2610020G18Rik, Pgm-2, Pgm1a, Pgm2",10090,MGI:97565
+66681,66681,phosphoglucomutase 2,Pgm2,"3230402E02Rik, Pgm-1, Pgm1",10090,MGI:97564
+109785,109785,phosphoglucomutase 3,Pgm3,"2810473H05Rik, Agm1, PAGM, Pgm-3",10090,MGI:97566
+74451,74451,phosphatidylglycerophosphate synthase 1,Pgs1,"2610019F11Rik, 4933424M23Rik, SAF",10090,MGI:1921701
+236539,236539,3-phosphoglycerate dehydrogenase,Phgdh,"3-PGDH, 3PGDH, 4930479N23, A10, PGAD",10090,MGI:1355330
+237928,237928,"phosphatase, orphan 1",Phospho1,"D11Moh36, Phospo1",10090,MGI:2447348
+16922,16922,phytanoyl-CoA hydroxylase,Phyh,"Lnap1, PAHX",10090,MGI:891978
+84095,84095,phosphatidylinositol 4-kinase type 2 alpha,Pi4k2a,Pi4k2,10090,MGI:1934031
+224020,224020,phosphatidylinositol 4-kinase alpha,Pi4ka,"PI4K-alpha, Pik4ca",10090,MGI:2448506
+107650,107650,phosphatidylinositol 4-kinase beta,Pi4kb,"ESTM41, PI4K-beta, PI4Kbeta, Pik4cb",10090,MGI:1334433
+18700,18700,"phosphatidylinositol glycan anchor biosynthesis, class A",Piga,Pig-a,10090,MGI:99461
+55981,55981,"phosphatidylinositol glycan anchor biosynthesis, class B",Pigb,Pig-b,10090,MGI:1891825
+67292,67292,"phosphatidylinositol glycan anchor biosynthesis, class C",Pigc,3110030E07Rik,10090,MGI:1914542
+18701,18701,"phosphatidylinositol glycan anchor biosynthesis, class F",Pigf,,10090,MGI:99462
+433931,433931,"phosphatidylinositol glycan anchor biosynthesis, class G",Pigg,Gpi7,10090,MGI:3576484
+110417,110417,"phosphatidylinositol glycan anchor biosynthesis, class H",Pigh,"2210416H01Rik, A930028P05Rik, PIG-H",10090,MGI:99463
+329777,329777,"phosphatidylinositol glycan anchor biosynthesis, class K",Pigk,"3000001O05Rik, Gm38470, PIG-K",10090,MGI:1913863
+327942,327942,"phosphatidylinositol glycan anchor biosynthesis, class L",Pigl,Gm737,10090,MGI:2681271
+67556,67556,"phosphatidylinositol glycan anchor biosynthesis, class M",Pigm,"4933437L05Rik, C920011G20Rik",10090,MGI:1914806
+27392,27392,"phosphatidylinositol glycan anchor biosynthesis, class N",Pign,"Gm20308, PIG-N",10090,MGI:1351629
+56703,56703,"phosphatidylinositol glycan anchor biosynthesis, class O",Pigo,PIG-O,10090,MGI:1861452
+56176,56176,"phosphatidylinositol glycan anchor biosynthesis, class P",Pigp,"Dcrc, Dscr5",10090,MGI:1860433
+14755,14755,"phosphatidylinositol glycan anchor biosynthesis, class Q",Pigq,"Gpi1, Gpi1h, Gpi1p, Gpih",10090,MGI:1333114
+276846,276846,"phosphatidylinositol glycan anchor biosynthesis, class S",Pigs,"Gm393, Gm689",10090,MGI:2687325
+78928,78928,"phosphatidylinositol glycan anchor biosynthesis, class T",Pigt,"2510012P17Rik, 4930534E15Rik, CGI-06, NDAP, Ndap7",10090,MGI:1926178
+228812,228812,"phosphatidylinositol glycan anchor biosynthesis, class U",Pigu,"5430426F17Rik, Cdc91l1",10090,MGI:3039607
+230801,230801,"phosphatidylinositol glycan anchor biosynthesis, class V",Pigv,"B330013B03, D430024F16Rik",10090,MGI:2442480
+70325,70325,"phosphatidylinositol glycan anchor biosynthesis, class W",Pigw,"2610044A17Rik, Gwt1, PIG-W",10090,MGI:1917575
+72084,72084,"phosphatidylinositol glycan anchor biosynthesis, class X",Pigx,"2010319C14Rik, PIG-X",10090,MGI:1919334
+239827,239827,"phosphatidylinositol glycan anchor biosynthesis, class Z",Pigz,F630022B06Rik,10090,MGI:2443822
+18704,18704,phosphatidylinositol-4-phosphate 3-kinase catalytic subunit type 2 alpha,Pik3c2a,"Cpk-m, PI3KC2",10090,MGI:1203729
+240752,240752,phosphatidylinositol-4-phosphate 3-kinase catalytic subunit type 2 beta,Pik3c2b,"C330011J12Rik, Gm199, PI3K-C2beta, PI3KC2beta",10090,MGI:2685045
+18705,18705,phosphatidylinositol-4-phosphate 3-kinase catalytic subunit type 2 gamma,Pik3c2g,PI3K-C2-gamma,10090,MGI:1203730
+225326,225326,phosphatidylinositol 3-kinase catalytic subunit type 3,Pik3c3,"5330434F23Rik, Vps34",10090,MGI:2445019
+18706,18706,"phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit alpha",Pik3ca,"6330412C24Rik, caPI3K, p110, p110alpha",10090,MGI:1206581
+74769,74769,"phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit beta",Pik3cb,"1110001J02Rik, p110beta",10090,MGI:1922019
+18707,18707,"phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit delta",Pik3cd,"2410099E07Rik, 2610208K16Rik, p110delta",10090,MGI:1098211
+30955,30955,"phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit gamma",Pik3cg,"5830428L06Rik, PI3Kgamma, p110gamma, p120-PI3K",10090,MGI:1353576
+18708,18708,phosphoinositide-3-kinase regulatory subunit 1,Pik3r1,"PI3K, p50alpha, p55alpha, p85alpha",10090,MGI:97583
+18709,18709,phosphoinositide-3-kinase regulatory subunit 2,Pik3r2,p85beta,10090,MGI:1098772
+18710,18710,phosphoinositide-3-kinase regulatory subunit 3,Pik3r3,"p55, p55pik",10090,MGI:109277
+320207,320207,phosphoinositide-3-kinase regulatory subunit 5,Pik3r5,"F730038I15Rik, Foap2, p101",10090,MGI:2443588
+18711,18711,"phosphoinositide kinase, FYVE type zinc finger containing",Pikfyve,"5230400C17Rik, Pip5k, Pip5k3, Pipk5k3, PipkIII",10090,MGI:1335106
+18718,18718,"phosphatidylinositol-5-phosphate 4-kinase, type II, alpha",Pip4k2a,Pip5k2a,10090,MGI:1298206
+108083,108083,"phosphatidylinositol-5-phosphate 4-kinase, type II, beta",Pip4k2b,"PI5P4Kbeta, Pip5k2b, c11",10090,MGI:1934234
+117150,117150,"phosphatidylinositol-5-phosphate 4-kinase, type II, gamma",Pip4k2c,Pip5k2c,10090,MGI:2152214
+18720,18720,"phosphatidylinositol-4-phosphate 5-kinase, type 1 alpha",Pip5k1a,"PI4P5K-I[a], PIP5K1-alpha, PIP5KIalpha, Pipk5a",10090,MGI:107929
+18719,18719,"phosphatidylinositol-4-phosphate 5-kinase, type 1 beta",Pip5k1b,"PI4P5K-I[b], PIP5K1-beta, PIP5KIbeta, Pipk5b, STM7",10090,MGI:107930
+18717,18717,"phosphatidylinositol-4-phosphate 5-kinase, type 1 gamma",Pip5k1c,Pip5kIgamma,10090,MGI:1298224
+19193,19193,pipecolic acid oxidase,Pipox,"LPIPOX, Pso",10090,MGI:1197006
+18770,18770,pyruvate kinase liver and red blood cell,Pklr,"Pk-1, Pk1, R-PK",10090,MGI:97604
+18746,18746,"pyruvate kinase, muscle",Pkm,"Pk-2, Pk-3, Pk3, Pkm2",10090,MGI:97591
+237625,237625,"phospholipase A2, group III",Pla2g3,sPLA2-III,10090,MGI:2444945
+27226,27226,"phospholipase A2, group VII (platelet-activating factor acetylhydrolase, plasma)",Pla2g7,PAF-AH,10090,MGI:1351327
+18795,18795,"phospholipase C, beta 1",Plcb1,"3110043I21Rik, Plcb, mKIAA0581",10090,MGI:97613
+18796,18796,"phospholipase C, beta 2",Plcb2,"B230205M18Rik, B230399N12",10090,MGI:107465
+18797,18797,"phospholipase C, beta 3",Plcb3,mKIAA4098,10090,MGI:104778
+18798,18798,"phospholipase C, beta 4",Plcb4,"A930039J07Rik, C230058B11Rik",10090,MGI:107464
+18799,18799,"phospholipase C, delta 1",Plcd1,,10090,MGI:97614
+72469,72469,"phospholipase C, delta 3",Plcd3,"2610205J15Rik, mKIAA1964",10090,MGI:107451
+18802,18802,"phospholipase C, delta 4",Plcd4,4921507K24Rik,10090,MGI:107469
+74055,74055,"phospholipase C, epsilon 1",Plce1,"4933403A21Rik, PLCepsilon, Plce, mKIAA1516",10090,MGI:1921305
+18803,18803,"phospholipase C, gamma 1",Plcg1,"Cded, Plc-1, Plc-gamma1, Plcg-1",10090,MGI:97615
+234779,234779,"phospholipase C, gamma 2",Plcg2,"PLC-gamma-2, PLCgamma2, Plcg-2",10090,MGI:97616
+269437,269437,"phospholipase C, eta 1",Plch1,"PLC-eta-1, PLCeta1, Plcl3",10090,MGI:2683547
+269615,269615,"phospholipase C, eta 2",Plch2,"A930027K05Rik, PLCeta2, Plc-eta2, Plcl4",10090,MGI:2443078
+433022,433022,"phosphatidylinositol-specific phospholipase C, X domain containing 2",Plcxd2,"EG433022, PLCXD-2",10090,MGI:3647874
+114875,114875,"phospholipase C, zeta 1",Plcz1,"1700041H07Rik, PLCzeta",10090,MGI:2150308
+18805,18805,phospholipase D1,Pld1,"Pld1a, Pld1b, mPLD1",10090,MGI:109585
+18806,18806,phospholipase D2,Pld2,PLD1C,10090,MGI:892877
+18822,18822,"procollagen-lysine, 2-oxoglutarate 5-dioxygenase 1",Plod1,"2410042F05Rik, Lh1, Plod",10090,MGI:99907
+26432,26432,"procollagen lysine, 2-oxoglutarate 5-dioxygenase 2",Plod2,"D530025C14Rik, LH2, Plod-2",10090,MGI:1347007
+26433,26433,"procollagen-lysine, 2-oxoglutarate 5-dioxygenase 3",Plod3,LH3,10090,MGI:1347008
+114863,114863,pyridoxal phosphate binding protein,Plpbp,"1700024N20Rik, 2200002F22Rik, Prosc",10090,MGI:1891207
+19012,19012,phospholipid phosphatase 1,Plpp1,"Hic53, Hpic53, LPP-1, LPP1, PAP-2a",10090,MGI:108412
+50784,50784,phospholipid phosphatase 2,Plpp2,"Lpp2, PAP2-G, PAP2-gamma, PAP2c, Ppap2c",10090,MGI:1354945
+67916,67916,phospholipid phosphatase 3,Plpp3,"1110003O22Rik, 2610002D05Rik, D4Bwg0538e, D4Bwg1535e, Lpp3",10090,MGI:1915166
+29858,29858,phosphomannomutase 1,Pmm1,,10090,MGI:1353418
+54128,54128,phosphomannomutase 2,Pmm2,,10090,MGI:1859214
+68603,68603,phosphomevalonate kinase,Pmvk,"1110011E12Rik, 2900002L22Rik, PMK, PMKA, PMKASE",10090,MGI:1915853
+69060,69060,pancreatic lipase,Pnlip,"1810007A24Rik, PL, PTL",10090,MGI:97722
+18946,18946,pancreatic lipase related protein 1,Pnliprp1,Plrp1,10090,MGI:97723
+18947,18947,pancreatic lipase-related protein 2,Pnliprp2,PLRP2,10090,MGI:1336202
+18948,18948,phenylethanolamine-N-methyltransferase,Pnmt,Pent,10090,MGI:97724
+667034,667034,purine-nucleoside phosphorylase 2,Pnp2,,10090,MGI:3712328
+103711,103711,pyridoxine 5'-phosphate oxidase,Pnpo,,10090,MGI:2144151
+67895,67895,pyrophosphatase (inorganic) 1,Ppa1,"2010317E03Rik, Pyp",10090,MGI:97831
+74776,74776,pyrophosphatase (inorganic) 2,Ppa2,"1110013G13Rik, Sid6306",10090,MGI:1922026
+231327,231327,phosphoribosyl pyrophosphate amidotransferase,Ppat,"5730454C12Rik, GPAT",10090,MGI:2387203
+66812,66812,phosphopantothenoylcysteine decarboxylase,Ppcdc,"1810057I13Rik, 8430432M10Rik",10090,MGI:1914062
+106564,106564,phosphopantothenoylcysteine synthetase,Ppcs,6330579B17Rik,10090,MGI:1915237
+19044,19044,protoporphyrinogen oxidase,Ppox,Ppo,10090,MGI:104968
+18477,18477,peroxiredoxin 1,Prdx1,"MSP23, NkefA, OSF-3, OSF3, PAG",10090,MGI:99523
+21672,21672,peroxiredoxin 2,Prdx2,"Band-8, NkefB, PRP, PrxII, TDX1",10090,MGI:109486
+11757,11757,peroxiredoxin 3,Prdx3,"Aop1, D0Tohi1, Ef2l, Mer5, Prx3",10090,MGI:88034
+19125,19125,proline dehydrogenase,Prodh,"Pro-1, Pro1, Ym24d07",10090,MGI:97770
+56189,56189,proline dehydrogenase (oxidase) 2,Prodh2,"2510028N04Rik, 2510038B11Rik, HYPDH, MmPOX, MmPOX1",10090,MGI:1929093
+19139,19139,phosphoribosyl pyrophosphate synthetase 1,Prps1,"2310010D17Rik, PRS-I, Prps-1",10090,MGI:97775
+75456,75456,phosphoribosyl pyrophosphate synthetase 1-like 1,Prps1l1,1700011K15Rik,10090,MGI:1922706
+110639,110639,phosphoribosyl pyrophosphate synthetase 2,Prps2,"2610101M19Rik, Prps-2",10090,MGI:97776
+107272,107272,phosphoserine aminotransferase 1,Psat1,"D8Ertd814e, EPIP, PSA, Psat",10090,MGI:2183441
+100678,100678,phosphoserine phosphatase,Psph,"PSP, PSPase",10090,MGI:97788
+19210,19210,phosphatidylserine synthase 1,Ptdss1,"PSS-1, mKIAA0024",10090,MGI:1276575
+27388,27388,phosphatidylserine synthase 2,Ptdss2,PSS2,10090,MGI:1351664
+19211,19211,phosphatase and tensin homolog,Pten,"2310035O07Rik, A130070J02Rik, B430203M17Rik, MMAC1, PTENbeta",10090,MGI:109583
+19215,19215,prostaglandin D2 synthase (brain),Ptgds,"21kDa, L-PGDS, PGD2, PGDS, PGDS2",10090,MGI:99261
+64292,64292,prostaglandin E synthase,Ptges,"2410099E23Rik, D2Ertd369e, Pges, mPGES, mPGES-1",10090,MGI:1927593
+96979,96979,prostaglandin E synthase 2,Ptges2,"0610038H10Rik, Gbf1, Mpges2, Pges2",10090,MGI:1917592
+19223,19223,prostaglandin I2 (prostacyclin) synthase,Ptgis,"Cyp8, Cyp8a1, Pgis",10090,MGI:1097156
+19224,19224,prostaglandin-endoperoxide synthase 1,Ptgs1,"COX1, Cox-1, Cox-3, PGHS-1, PHS 1",10090,MGI:97797
+19225,19225,prostaglandin-endoperoxide synthase 2,Ptgs2,"COX2, Cox-2, PES-2, PGHS-2, PHS II",10090,MGI:97798
+19286,19286,6-pyruvoyl-tetrahydropterin synthase,Pts,PTPS,10090,MGI:1338783
+209027,209027,pyrroline-5-carboxylate reductase 1,Pycr1,"P5CR 1, P5CR1",10090,MGI:2384795
+69051,69051,"pyrroline-5-carboxylate reductase family, member 2",Pycr2,"1810018M05Rik, P5cr2",10090,MGI:1277956
+66194,66194,pyrroline-5-carboxylate reductase 3,Pycr3,"1110058B13Rik, 2700073G24Rik, Pycrl",10090,MGI:1913444
+110078,110078,brain glycogen phosphorylase,Pygb,,10090,MGI:97828
+110095,110095,liver glycogen phosphorylase,Pygl,,10090,MGI:97829
+19309,19309,muscle glycogen phosphorylase,Pygm,PG,10090,MGI:97830
+110391,110391,quinoid dihydropteridine reductase,Qdpr,"2610008L04Rik, D5Ertd371e, Dhpr, PKU2",10090,MGI:97836
+67375,67375,quinolinate phosphoribosyltransferase,Qprt,"2410027J01Rik, QPRTase",10090,MGI:1914625
+71336,71336,ribokinase,Rbks,"5230400M11Rik, RBSK, RK",10090,MGI:1918586
+107605,107605,retinol dehydrogenase 1 (all trans),Rdh1,,10090,MGI:1195275
+98711,98711,retinol dehydrogenase 10 (all-trans),Rdh10,"3110069K09Rik, 4921506A21Rik, D1Ertd762e, m366Asp",10090,MGI:1924238
+17252,17252,retinol dehydrogenase 11,Rdh11,"2610319N22Rik, Arsdr1, CGI-82, HCBP12, M42C60",10090,MGI:102581
+77974,77974,retinol dehydrogenase 12,Rdh12,,10090,MGI:1925224
+108841,108841,retinol dehydrogenase 13 (all-trans and 9-cis),Rdh13,8430425D21Rik,10090,MGI:1918732
+105014,105014,retinol dehydrogenase 14 (all-trans and 9-cis),Rdh14,"3110030G19Rik, PAN2",10090,MGI:1920402
+19682,19682,retinol dehydrogenase 5,Rdh5,"9-cis, RDH4, cRDH",10090,MGI:1201412
+235033,235033,retinol dehydrogenase 8,Rdh8,"Gm182, prRDH",10090,MGI:2685028
+19703,19703,renin binding protein,Renbp,"Age, Rnbp",10090,MGI:105940
+19743,19743,Rhesus blood group-associated A glycoprotein,Rhag,"CD241, Rh50, Rh50A",10090,MGI:1202713
+58176,58176,Rhesus blood group-associated B glycoprotein,Rhbg,,10090,MGI:1927379
+66646,66646,ribulose-5-phosphate-3-epimerase,Rpe,"2810429B02Rik, 5730518J08Rik",10090,MGI:1913896
+19895,19895,ribose 5-phosphate isomerase A,Rpia,RPI,10090,MGI:103254
+103963,103963,ribophorin I,Rpn1,"D6Wsu137e, Rpn-1",10090,MGI:98084
+20014,20014,ribophorin II,Rpn2,"1300012C06Rik, Rpn-2",10090,MGI:98085
+20133,20133,ribonucleotide reductase M1,Rrm1,RnrM1,10090,MGI:98180
+20135,20135,ribonucleotide reductase M2,Rrm2,R2,10090,MGI:98181
+69519,69519,RWD domain containing 2A,Rwdd2a,"1700030C20Rik, Rwdd2",10090,MGI:1916769
+192166,192166,sarcosine dehydrogenase,Sardh,,10090,MGI:2183102
+20229,20229,spermidine/spermine N1-acetyl transferase 1,Sat1,"SSAT, Sat",10090,MGI:98233
+69215,69215,spermidine/spermine N1-acetyl transferase 2,Sat2,"2610016A03Rik, SSAT-2, SSAT2",10090,MGI:1916465
+235293,235293,sterol-C5-desaturase,Sc5d,"A830037K02, A830073K23Rik, Sc5dl",10090,MGI:1353611
+20249,20249,stearoyl-Coenzyme A desaturase 1,Scd1,"Scd, Scd-1, ab",10090,MGI:98239
+50880,50880,selenocysteine lyase,Scly,"A930015N15Rik, SCL, Scly1, Scly2, mSCL",10090,MGI:1355310
+20280,20280,"sterol carrier protein 2, liver",Scp2,"NSL-TP, SCP-2, SCP-X, SCPX, ns-LTP",10090,MGI:98254
+66945,66945,"succinate dehydrogenase complex, subunit A, flavoprotein (Fp)",Sdha,"1500032O14Rik, 2310034D06Rik, 4921513A11, FP, SDH2",10090,MGI:1914195
+67680,67680,"succinate dehydrogenase complex, subunit B, iron sulfur (Ip)",Sdhb,0710008N11Rik,10090,MGI:1914930
+66052,66052,"succinate dehydrogenase complex, subunit C, integral membrane protein",Sdhc,0610010E03Rik,10090,MGI:1913302
+66925,66925,"succinate dehydrogenase complex, subunit D, integral membrane protein",Sdhd,"3110001M13Rik, AVLL5809, CII-4, PRO19626, QPs3",10090,MGI:1914175
+242285,242285,"short chain dehydrogenase/reductase family 16C, member 5",Sdr16c5,"Rdhe2, Scdr9",10090,MGI:2668443
+231691,231691,serine dehydratase,Sds,"4432411H13Rik, SDH",10090,MGI:98270
+56529,56529,"SEC11 homolog A, signal peptidase complex subunit",Sec11a,"1810012E07Rik, 18kDa, Sec11l1, Sid2895p, Spc18",10090,MGI:1929464
+66286,66286,"SEC11 homolog C, signal peptidase complex subunit",Sec11c,"1810029G24Rik, Sec11l3",10090,MGI:1913536
+109079,109079,selenophosphate synthetase 1,Sephs1,"1110046B24Rik, SELD, SPS, SPS1",10090,MGI:1923580
+20768,20768,selenophosphate synthetase 2,Sephs2,"Sps2, Ysg3",10090,MGI:108388
+73251,73251,SET domain containing (lysine methyltransferase) 7,Setd7,"1600028F23Rik, H3K4MT, KMT7, Set7, Set7/9",10090,MGI:1920501
+84505,84505,"SET domain, bifurcated 1",Setdb1,"ESET, KMT1E, mKIAA0067",10090,MGI:1934229
+239122,239122,"SET domain, bifurcated 2",Setdb2,"Clld8, Gm293, KMT1F",10090,MGI:2685139
+208449,208449,sphingomyelin synthase 1,Sgms1,"9530058O11Rik, Mob, Sms1, Sor1, Tmem23",10090,MGI:2444110
+20397,20397,sphingosine phosphate lyase 1,Sgpl1,"D10Xrf456, S1PL, Spl",10090,MGI:1261415
+81535,81535,sphingosine-1-phosphate phosphatase 1,Sgpp1,"SPP, SPP1, Spph1",10090,MGI:2135760
+27029,27029,N-sulfoglucosamine sulfohydrolase (sulfamidase),Sgsh,4632406A19Rik,10090,MGI:1350341
+20425,20425,serine hydroxymethyltransferase 1 (soluble),Shmt1,"Shmt, mshmt, mshmt1, mshmt2",10090,MGI:98299
+108037,108037,serine hydroxymethyltransferase 2 (mitochondrial),Shmt2,"2700043D08Rik, SHMT",10090,MGI:1277989
+69983,69983,sucrase isomaltase,Sis,"2010204N08Rik, SI, Si-s",10090,MGI:1917233
+20493,20493,"solute carrier family 10 (sodium/bile acid cotransporter family), member 1",Slc10a1,Ntcp,10090,MGI:97379
+20494,20494,"solute carrier family 10, member 2",Slc10a2,"9130221J18Rik, ASBT, IBAT, ISBT",10090,MGI:1201406
+20495,20495,"solute carrier family 12, member 1",Slc12a1,"D630042G03Rik, Nkcc2, mBSC1, mNKCC2, urehr3",10090,MGI:103150
+20496,20496,"solute carrier family 12, member 2",Slc12a2,"9330166H04Rik, BSC2, Nkcc1, mBSC2, mNKCC1",10090,MGI:101924
+20497,20497,"solute carrier family 12, member 3",Slc12a3,"NCC, NCCT, TSC",10090,MGI:108114
+20498,20498,"solute carrier family 12, member 4",Slc12a4,"KCC1, RBCKCC1",10090,MGI:1309465
+57138,57138,"solute carrier family 12, member 5",Slc12a5,"KCC2, mKIAA1176",10090,MGI:1862037
+107723,107723,"solute carrier family 12, member 6",Slc12a6,"9530023I19Rik, KCC3, gaxp",10090,MGI:2135960
+20499,20499,"solute carrier family 12, member 7",Slc12a7,"D13Ertd261e, Kcc4",10090,MGI:1342283
+55961,55961,"solute carrier family 13 (sodium/sulfate symporters), member 1",Slc13a1,"NaSi-1, Nas1",10090,MGI:1859937
+20500,20500,"solute carrier family 13 (sodium-dependent dicarboxylate transporter), member 2",Slc13a2,"Nadc-1, Nadc1, mNaDC-1",10090,MGI:1276558
+114644,114644,"solute carrier family 13 (sodium-dependent dicarboxylate transporter), member 3",Slc13a3,"NaC3, NaDC-3, NaDC3, SDCT2",10090,MGI:2149635
+243755,243755,"solute carrier family 13 (sodium/sulfate symporters), member 4",Slc13a4,"9630060C05Rik, SUT-1, SUT1",10090,MGI:2442367
+237831,237831,"solute carrier family 13 (sodium-dependent citrate transporter), member 5",Slc13a5,"Indy, NaC2/NaCT, Nact, mINDY",10090,MGI:3037150
+108052,108052,"solute carrier family 14 (urea transporter), member 1",Slc14a1,"2610507K20Rik, 3021401A05Rik, UT-B, Utb1",10090,MGI:1351654
+27411,27411,"solute carrier family 14 (urea transporter), member 2",Slc14a2,"UT-A1, UT-A3",10090,MGI:1351653
+57738,57738,"solute carrier family 15 (H+/peptide transporter), member 2",Slc15a2,"8430408C16Rik, Pept2",10090,MGI:1890457
+20501,20501,"solute carrier family 16 (monocarboxylic acid transporters), member 1",Slc16a1,Mct1,10090,MGI:106013
+20502,20502,"solute carrier family 16 (monocarboxylic acid transporters), member 2",Slc16a2,"Mct8, Xpct",10090,MGI:1203732
+80879,80879,"solute carrier family 16 (monocarboxylic acid transporters), member 3",Slc16a3,"Mct3, Mct4",10090,MGI:1933438
+20503,20503,"solute carrier family 16 (monocarboxylic acid transporters), member 7",Slc16a7,"4921534N07Rik, 9030411M13Rik, D630004K10Rik, Mct2",10090,MGI:1330284
+57274,57274,"solute carrier family 16 (monocarboxylic acid transporters), member 8",Slc16a8,Mct3,10090,MGI:1929519
+20504,20504,"solute carrier family 17 (sodium phosphate), member 1",Slc17a1,"NAPI-1, Napi1, Npt1",10090,MGI:103209
+105355,105355,"solute carrier family 17 (sodium phosphate), member 3",Slc17a3,Npt4,10090,MGI:2389216
+319848,319848,"solute carrier family 17 (sodium phosphate), member 4",Slc17a4,9130214H05Rik,10090,MGI:2442850
+235504,235504,"solute carrier family 17 (anion/sugar transporter), member 5",Slc17a5,"4631416G20Rik, 4732491M05, AST, ISSD, NSD",10090,MGI:1924105
+110877,110877,"solute carrier family 18 (vesicular monoamine), member 1",Slc18a1,"4832416I10Rik, Vat1, Vmat1",10090,MGI:106684
+214084,214084,"solute carrier family 18 (vesicular monoamine), member 2",Slc18a2,"1110037L13Rik, 9330105E13, Vmat2",10090,MGI:106677
+20508,20508,"solute carrier family 18 (vesicular monoamine), member 3",Slc18a3,"VAChT, VAT",10090,MGI:1101061
+20509,20509,"solute carrier family 19 (folate transporter), member 1",Slc19a1,"RFC, RFC-1, RFC1",10090,MGI:103182
+116914,116914,"solute carrier family 19 (thiamine transporter), member 2",Slc19a2,"DDA1, THTR1, TRMA, ThTr-1",10090,MGI:1928761
+80721,80721,"solute carrier family 19, member 3",Slc19a3,"A230084E24Rik, ThTr2",10090,MGI:1931307
+20510,20510,"solute carrier family 1 (neuronal/epithelial high affinity glutamate transporter, system Xag), member 1",Slc1a1,"D130048G10Rik, EAAC1, EAAC2, EAAT3, MEAAC1",10090,MGI:105083
+20511,20511,"solute carrier family 1 (glial high affinity glutamate transporter), member 2",Slc1a2,"1700091C19Rik, 2900019G14Rik, Eaat2, GLT-1, GLT1",10090,MGI:101931
+20512,20512,"solute carrier family 1 (glial high affinity glutamate transporter), member 3",Slc1a3,"B430115D02Rik, Eaat1, GLAST, GLAST-1, GLU-T",10090,MGI:99917
+55963,55963,"solute carrier family 1 (glutamate/neutral amino acid transporter), member 4",Slc1a4,"ASCT-1, ASCT1, SATT",10090,MGI:2135601
+20514,20514,"solute carrier family 1 (neutral amino acid transporter), member 5",Slc1a5,"AAAT, ASCT2, ATBO, M7V1, M7VS1",10090,MGI:105305
+20513,20513,"solute carrier family 1 (high affinity aspartate/glutamate transporter), member 6",Slc1a6,EAAT4,10090,MGI:1096331
+242607,242607,"solute carrier family 1 (glutamate transporter), member 7",Slc1a7,"A930031E15Rik, Eaat5",10090,MGI:2444087
+20515,20515,"solute carrier family 20, member 1",Slc20a1,"Glvr-1, Glvr1",10090,MGI:108392
+20516,20516,"solute carrier family 20, member 2",Slc20a2,"MolPit2, Pit-2, Pit2, Ram-1, Ram1",10090,MGI:97851
+20517,20517,"solute carrier family 22 (organic cation transporter), member 1",Slc22a1,"Lx1, Oct1, Orct, Orct1",10090,MGI:108111
+20518,20518,"solute carrier family 22 (organic cation transporter), member 2",Slc22a2,"Oct2, Orct2, mOCT2",10090,MGI:1335072
+20519,20519,"solute carrier family 22 (organic cation transporter), member 3",Slc22a3,"EMT, Oct3, Orct3, Slca22a3",10090,MGI:1333817
+30805,30805,"solute carrier family 22 (organic cation transporter), member 4",Slc22a4,Octn1,10090,MGI:1353479
+20520,20520,"solute carrier family 22 (organic cation transporter), member 5",Slc22a5,"Lstpl, Octn2, jvs",10090,MGI:1329012
+20522,20522,"solute carrier family 23 (nucleobase transporters), member 1",Slc23a1,"D18Ucla2, SVCT1, Slc23a2, YSPL3",10090,MGI:1341903
+54338,54338,"solute carrier family 23 (nucleobase transporters), member 2",Slc23a2,"NBTL1, SVCT2, Slc23a1, YSPL2, YSPL3",10090,MGI:1859682
+214111,214111,"solute carrier family 24 (sodium/potassium/calcium exchanger), member 1",Slc24a1,,10090,MGI:2384871
+76376,76376,"solute carrier family 24 (sodium/potassium/calcium exchanger), member 2",Slc24a2,"2810021B17Rik, 6330417K15Rik, Nckx2",10090,MGI:1923626
+94249,94249,"solute carrier family 24 (sodium/potassium/calcium exchanger), member 3",Slc24a3,NCKX3,10090,MGI:2137513
+238384,238384,"solute carrier family 24 (sodium/potassium/calcium exchanger), member 4",Slc24a4,"A930002M03Rik, NCKX4",10090,MGI:2447362
+13358,13358,"solute carrier family 25 (mitochondrial carrier, citrate transporter), member 1",Slc25a1,"1300019P08Rik, 2610100G11Rik, Ctp, Dgsj, Slc20a3",10090,MGI:1345283
+27376,27376,"solute carrier family 25 (mitochondrial carrier, dicarboxylate transporter), member 10",Slc25a10,Dic,10090,MGI:1353497
+67863,67863,"solute carrier family 25 (mitochondrial carrier oxoglutarate carrier), member 11",Slc25a11,"2310022P18Rik, 2oxoc",10090,MGI:1915113
+78830,78830,"solute carrier family 25 (mitochondrial carrier, Aralar), member 12",Slc25a12,"2610002D09Rik, B230107K20Rik",10090,MGI:1926080
+50799,50799,"solute carrier family 25 (mitochondrial carrier, adenine nucleotide translocator), member 13",Slc25a13,Ctrn,10090,MGI:1354721
+20523,20523,"solute carrier family 25 (mitochondrial carrier, brain), member 14",Slc25a14,"BMCP1, UCP5, UCP5L, UCP5S",10090,MGI:1330823
+18408,18408,"solute carrier family 25 (mitochondrial carrier ornithine transporter), member 15",Slc25a15,"D630044L02Rik, Ornt1",10090,MGI:1342274
+73132,73132,"solute carrier family 25 (mitochondrial carrier, Graves disease autoantigen), member 16",Slc25a16,"3110021G18Rik, GDA, GDC, HGT.1, ML7",10090,MGI:1920382
+71803,71803,"solute carrier family 25 (mitochondrial carrier), member 18",Slc25a18,1500015I14Rik,10090,MGI:1919053
+67283,67283,"solute carrier family 25 (mitochondrial thiamine pyrophosphate carrier), member 19",Slc25a19,"2900089E13Rik, DNC, MUP1, TPC",10090,MGI:1914533
+83885,83885,"solute carrier family 25 (mitochondrial carrier, ornithine transporter) member 2",Slc25a2,Ornt2,10090,MGI:2137907
+57279,57279,"solute carrier family 25 (mitochondrial carnitine/acylcarnitine translocase), member 20",Slc25a20,"1110007P09Rik, CAC, Cact, mCAC",10090,MGI:1928738
+217593,217593,"solute carrier family 25 (mitochondrial oxodicarboxylate carrier), member 21",Slc25a21,"9930033G19Rik, A630030I10",10090,MGI:2445059
+68267,68267,"solute carrier family 25 (mitochondrial carrier, glutamate), member 22",Slc25a22,"1300006L01Rik, Gc1",10090,MGI:1915517
+67582,67582,"solute carrier family 25 (mitochondrial carrier, phosphate carrier), member 26",Slc25a26,"4930433D19Rik, 4933433F13Rik, D6Bwg0781e, Slc25a6",10090,MGI:1914832
+74011,74011,"solute carrier family 25, member 27",Slc25a27,"3632410G24Rik, 9430092A03Rik, D530043E16Rik, UCP 4, Ucp4",10090,MGI:1921261
+18674,18674,"solute carrier family 25 (mitochondrial carrier, phosphate carrier), member 3",Slc25a3,"5730556H19Rik, PTP, Phc",10090,MGI:1353498
+11739,11739,"solute carrier family 25 (mitochondrial carrier, adenine nucleotide translocator), member 4",Slc25a4,"Ant1, mANC1",10090,MGI:1353495
+11740,11740,"solute carrier family 25 (mitochondrial carrier, adenine nucleotide translocator), member 5",Slc25a5,Ant2,10090,MGI:1353496
+231583,231583,"solute carrier family 26 (sulfate transporter), member 1",Slc26a1,Sat1,10090,MGI:2385894
+268512,268512,"solute carrier family 26, member 11",Slc26a11,"F630021I08Rik, KBAT",10090,MGI:2444589
+13521,13521,"solute carrier family 26 (sulfate transporter), member 2",Slc26a2,"Dtd, ST-OB",10090,MGI:892977
+13487,13487,"solute carrier family 26, member 3",Slc26a3,"9030623B18Rik, 9130013M11Rik, Dra",10090,MGI:107181
+23985,23985,"solute carrier family 26, member 4",Slc26a4,"Pds, pendrin",10090,MGI:1346029
+171429,171429,"solute carrier family 26, member 6",Slc26a6,"B930010B04Rik, CFEX, Pat-1, Pat1",10090,MGI:2159728
+208890,208890,"solute carrier family 26, member 7",Slc26a7,,10090,MGI:2384791
+224661,224661,"solute carrier family 26, member 8",Slc26a8,,10090,MGI:2385046
+320718,320718,"solute carrier family 26, member 9",Slc26a9,E030002L01Rik,10090,MGI:2444594
+26457,26457,"solute carrier family 27 (fatty acid transporter), member 1",Slc27a1,"FATP1, Fatp, Vlc27a1",10090,MGI:1347098
+26458,26458,"solute carrier family 27 (fatty acid transporter), member 2",Slc27a2,"ACSVL1, FATP2, VLCS, Vlac, Vlacs",10090,MGI:1347099
+26568,26568,"solute carrier family 27 (fatty acid transporter), member 3",Slc27a3,"Acsvl3, FATP-3, FATP3, Vlcs-3",10090,MGI:1347358
+26569,26569,"solute carrier family 27 (fatty acid transporter), member 4",Slc27a4,"ACSVL4, FATP4",10090,MGI:1347347
+26459,26459,"solute carrier family 27 (fatty acid transporter), member 5",Slc27a5,"FACVL3, FATP5, VLCS-H2, VLCSH2, Vlacsr",10090,MGI:1347100
+434203,434203,"solute carrier family 28 (sodium-coupled nucleoside transporter), member 1",Slc28a1,"CNT 1, Cnt1",10090,MGI:3605073
+269346,269346,"solute carrier family 28 (sodium-coupled nucleoside transporter), member 2",Slc28a2,"2010208B10Rik, B430217P18, Cnt2, SPNT",10090,MGI:1913105
+114304,114304,"solute carrier family 28 (sodium-coupled nucleoside transporter), member 3",Slc28a3,Cnt3,10090,MGI:2137361
+63959,63959,"solute carrier family 29 (nucleoside transporters), member 1",Slc29a1,"1200014D21Rik, ENT1, mENT1",10090,MGI:1927073
+13340,13340,"solute carrier family 29 (nucleoside transporters), member 2",Slc29a2,"Der12, Ent2, Hnp36, mENT2",10090,MGI:1345278
+71279,71279,"solute carrier family 29 (nucleoside transporters), member 3",Slc29a3,"4933435C21Rik, Ent3",10090,MGI:1918529
+20525,20525,"solute carrier family 2 (facilitated glucose transporter), member 1",Slc2a1,"GT1, Glut-1, Glut1, M100200, Rgsc200",10090,MGI:95755
+170441,170441,"solute carrier family 2 (facilitated glucose transporter), member 10",Slc2a10,Glut10,10090,MGI:2156687
+239606,239606,"solute carrier family 2 (facilitated glucose transporter), member 13",Slc2a13,"6530403A04, A630029G22Rik, Gm308",10090,MGI:2146030
+20526,20526,"solute carrier family 2 (facilitated glucose transporter), member 2",Slc2a2,"Glut-2, Glut2",10090,MGI:1095438
+20527,20527,"solute carrier family 2 (facilitated glucose transporter), member 3",Slc2a3,"Glut-3, Glut3",10090,MGI:95757
+20528,20528,"solute carrier family 2 (facilitated glucose transporter), member 4",Slc2a4,"GT2, Glut-4, Glut4, twgy",10090,MGI:95758
+56017,56017,"solute carrier family 2, (facilitated glucose transporter), member 8",Slc2a8,"D2Ertd44e, GLUT8, GlutX1",10090,MGI:1860103
+22348,22348,"solute carrier family 32 (GABA vesicular transporter), member 1",Slc32a1,"VGAT, Viaat",10090,MGI:1194488
+11416,11416,"solute carrier family 33 (acetyl-CoA transporter), member 1",Slc33a1,"Acatn, D630022N01Rik",10090,MGI:1332247
+20505,20505,"solute carrier family 34 (sodium phosphate), member 1",Slc34a1,"NaPi-IIa, Npt2, Npt2a, Slc17a2",10090,MGI:1345284
+20531,20531,"solute carrier family 34 (sodium phosphate), member 2",Slc34a2,"D5Ertd227e, NaPi-2b, Npt2b",10090,MGI:1342284
+142681,142681,"solute carrier family 34 (sodium phosphate), member 3",Slc34a3,"Npt2c, Npt2c-v1, NptIIc, naPi-2c",10090,MGI:2159410
+24060,24060,"solute carrier family 35 (CMP-sialic acid transporter), member 1",Slc35a1,"CMP-SA-Tr, CMP-Sia-Tr, CST",10090,MGI:1345622
+22232,22232,"solute carrier family 35 (UDP-galactose transporter), member A2",Slc35a2,"Had-1, Had1, Sfc8, UGT, Ugalt",10090,MGI:1345297
+229782,229782,"solute carrier family 35 (UDP-N-acetylglucosamine (UDP-GlcNAc) transporter), member 3",Slc35a3,2310050P13Rik,10090,MGI:1917648
+73836,73836,"solute carrier family 35, member B2",Slc35b2,"1110003M08Rik, PAPST1, Slc35b1",10090,MGI:1921086
+58246,58246,"solute carrier family 35, member B4",Slc35b4,4930474D06Rik,10090,MGI:1931249
+228368,228368,"solute carrier family 35, member C1",Slc35c1,"E430007K15Rik, fuct1",10090,MGI:2443301
+242585,242585,"solute carrier family 35 (UDP-glucuronic acid/UDP-N-acetylgalactosamine dual transporter), member D1",Slc35d1,"C330011J09, UGTREL7, mKIAA0260",10090,MGI:2140361
+70484,70484,"solute carrier family 35, member D2",Slc35d2,"5730408I21Rik, SQV7L, UGTrel8, hfrc, mUGTrel8",10090,MGI:1917734
+215335,215335,"solute carrier family 36 (proton/amino acid symporter), member 1",Slc36a1,"5830411H19Rik, Pat1",10090,MGI:2445299
+14385,14385,"solute carrier family 37 (glucose-6-phosphate transporter), member 4",Slc37a4,"100043178, G6PT, G6pt1, GSD-1b, mG6PT",10090,MGI:1316650
+105727,105727,"solute carrier family 38, member 1",Slc38a1,"Gm32457, NAT2, SNAT1",10090,MGI:2145895
+67760,67760,"solute carrier family 38, member 2",Slc38a2,"5033402L14Rik, ATA2, SAT2, SNAT2, mKIAA1382",10090,MGI:1915010
+76257,76257,"solute carrier family 38, member 3",Slc38a3,"0610012J02Rik, D9Ucla2, Nat1, Slc38-3, Sn1",10090,MGI:1923507
+69354,69354,"solute carrier family 38, member 4",Slc38a4,"1110012E16Rik, 1700012A18Rik, Ata3, SNAT4, mATA3",10090,MGI:1916604
+209837,209837,"solute carrier family 38, member 5",Slc38a5,"E330031E14, JM24, SN2",10090,MGI:2148066
+20532,20532,"solute carrier family 3, member 1",Slc3a1,"D2, D2H, NBAT, NTAA, RBAT",10090,MGI:1195264
+17254,17254,"solute carrier family 3 (activators of dibasic and neutral amino acid transport), member 2",Slc3a2,"4F2, 4F2HC, Cd98, Ly-10, Ly-m10",10090,MGI:96955
+72401,72401,"solute carrier family 43, member 1",Slc43a1,"2610016F07Rik, Lat3, PB39, Pov1, R00504",10090,MGI:1931352
+215113,215113,"solute carrier family 43, member 2",Slc43a2,"7630402D21Rik, Lat4",10090,MGI:2442746
+52466,52466,"solute carrier family 46, member 1",Slc46a1,"1110002C08Rik, D11Ertd18e, HCP1, Pcft",10090,MGI:1098733
+20533,20533,"solute carrier family 4 (anion exchanger), member 1",Slc4a1,"Ae1, CD233, Empb3, l11Jus51",10090,MGI:109393
+94229,94229,"solute carrier family 4, sodium bicarbonate cotransporter-like, member 10",Slc4a10,"NCBE, mKIAA4136",10090,MGI:2150150
+20535,20535,"solute carrier family 4 (anion exchanger), member 2",Slc4a2,"Ae2, B3RP",10090,MGI:109351
+20536,20536,"solute carrier family 4 (anion exchanger), member 3",Slc4a3,"A930038D23Rik, Ae3",10090,MGI:109350
+54403,54403,"solute carrier family 4 (anion exchanger), member 4",Slc4a4,"NBC, NBC1",10090,MGI:1927555
+232156,232156,"solute carrier family 4, sodium bicarbonate cotransporter, member 5",Slc4a5,"C330006M16, C330016K18Rik",10090,MGI:2443220
+218756,218756,"solute carrier family 4, sodium bicarbonate cotransporter, member 7",Slc4a7,"E430014N10Rik, NBC3, NBCn1, NBCn1-G, Tg(Thy1-SNCA)12Mjff",10090,MGI:2443878
+59033,59033,"solute carrier family 4 (anion exchanger), member 8",Slc4a8,"C230026C11, NDCBE, kNBC-3",10090,MGI:1928745
+240215,240215,"solute carrier family 4, sodium bicarbonate cotransporter, member 9",Slc4a9,"AE 4, AE4, D630003B07, D630024F24Rik",10090,MGI:2443384
+20537,20537,"solute carrier family 5 (sodium/glucose cotransporter), member 1",Slc5a1,Sglt1,10090,MGI:107678
+109342,109342,"solute carrier family 5 (sodium/glucose cotransporter), member 10",Slc5a10,"C330021F16Rik, SGLT5",10090,MGI:1926089
+233836,233836,"solute carrier family 5 (sodium/glucose cotransporter), member 11",Slc5a11,"2010013B02Rik, Kst1, RKST2, SMIT2, Slc5a10",10090,MGI:1919316
+241612,241612,"solute carrier family 5 (sodium/glucose cotransporter), member 12",Slc5a12,"D630015G19, SMCT2",10090,MGI:2138890
+246787,246787,"solute carrier family 5 (sodium/glucose cotransporter), member 2",Slc5a2,Sglt2,10090,MGI:2181411
+53881,53881,"solute carrier family 5 (inositol transporters), member 3",Slc5a3,Smit1,10090,MGI:1858226
+114479,114479,"solute carrier family 5 (sodium iodide symporter), member 5",Slc5a5,NIS,10090,MGI:2149330
+330064,330064,"solute carrier family 5 (sodium-dependent vitamin transporter), member 6",Slc5a6,E430023I20,10090,MGI:2660847
+63993,63993,"solute carrier family 5 (choline transporter), member 7",Slc5a7,CHT1,10090,MGI:1927126
+216225,216225,"solute carrier family 5 (iodide transporter), member 8",Slc5a8,"Ait, SMCT",10090,MGI:2384916
+230612,230612,"solute carrier family 5 (sodium/glucose cotransporter), member 9",Slc5a9,SGLT4,10090,MGI:2140201
+232333,232333,"solute carrier family 6 (neurotransmitter transporter, GABA), member 1",Slc6a1,"A730043E01, GABATHG, GABATR, GAT-1, Gabt",10090,MGI:95627
+243616,243616,"solute carrier family 6 (neurotransmitter transporter, GABA), member 11",Slc6a11,"D930045G19Rik, E130202I16Rik, GAT4, Gabt4, Gat3",10090,MGI:95630
+14411,14411,"solute carrier family 6 (neurotransmitter transporter, betaine/GABA), member 12",Slc6a12,"BGT-1, BGT1, GAT-2, GAT2, Gabt2",10090,MGI:95628
+14412,14412,"solute carrier family 6 (neurotransmitter transporter, GABA), member 13",Slc6a13,"GAT3, Gabt3, Gat2",10090,MGI:95629
+56774,56774,"solute carrier family 6 (neurotransmitter transporter), member 14",Slc6a14,"1110007A17Rik, 9030613J17Rik, ATB0plus, CATB0plus",10090,MGI:1890216
+20538,20538,"solute carrier family 6 (neurotransmitter transporter, noradrenalin), member 2",Slc6a2,"NE-T, NET, Slc6a5",10090,MGI:1270850
+13162,13162,"solute carrier family 6 (neurotransmitter transporter, dopamine), member 3",Slc6a3,"DAT, Dat1",10090,MGI:94862
+15567,15567,"solute carrier family 6 (neurotransmitter transporter, serotonin), member 4",Slc6a4,"5-HTT, Htt, Sert",10090,MGI:96285
+104245,104245,"solute carrier family 6 (neurotransmitter transporter, glycine), member 5",Slc6a5,"Glyt2, prestin",10090,MGI:105090
+21366,21366,"solute carrier family 6 (neurotransmitter transporter, taurine), member 6",Slc6a6,Taut,10090,MGI:98488
+240332,240332,"solute carrier family 6 (neurotransmitter transporter, L-proline), member 7",Slc6a7,PROT,10090,MGI:2147363
+102857,102857,"solute carrier family 6 (neurotransmitter transporter, creatine), member 8",Slc6a8,"CRT, CRTR, CT1, CTR5, Creat",10090,MGI:2147834
+14664,14664,"solute carrier family 6 (neurotransmitter transporter, glycine), member 9",Slc6a9,"Glyt-1, Glyt1",10090,MGI:95760
+11987,11987,"solute carrier family 7 (cationic amino acid transporter, y+ system), member 1",Slc7a1,"4831426K01Rik, Atrc-1, Atrc1, CAT-1, Cat1",10090,MGI:88117
+53896,53896,"solute carrier family 7 (cationic amino acid transporter, y+ system), member 10",Slc7a10,"Asc-1, D7Bwg0847e",10090,MGI:1858261
+26570,26570,"solute carrier family 7 (cationic amino acid transporter, y+ system), member 11",Slc7a11,"9930009M05Rik, sut, xCT",10090,MGI:1347355
+11988,11988,"solute carrier family 7 (cationic amino acid transporter, y+ system), member 2",Slc7a2,"20.5, Atrc2, CAT-2, Cat2, Tea",10090,MGI:99828
+11989,11989,"solute carrier family 7 (cationic amino acid transporter, y+ system), member 3",Slc7a3,"Atrc3, CAT-3, CAT3, SLC7A1, SLC7A2",10090,MGI:1100521
+20539,20539,"solute carrier family 7 (cationic amino acid transporter, y+ system), member 5",Slc7a5,"4F2LC, D0H16S474E, Gm42049, LAT1, TA1",10090,MGI:1298205
+330836,330836,"solute carrier family 7 (cationic amino acid transporter, y+ system), member 6",Slc7a6,"LAT-2, LAT3, y+LAT-2",10090,MGI:2142598
+20540,20540,"solute carrier family 7 (cationic amino acid transporter, y+ system), member 7",Slc7a7,my+lat1,10090,MGI:1337120
+50934,50934,"solute carrier family 7 (cationic amino acid transporter, y+ system), member 8",Slc7a8,LAT2,10090,MGI:1355323
+30962,30962,"solute carrier family 7 (cationic amino acid transporter, y+ system), member 9",Slc7a9,CSNU3,10090,MGI:1353656
+20541,20541,"solute carrier family 8 (sodium/calcium exchanger), member 1",Slc8a1,"D930008O12Rik, Ncx1",10090,MGI:107956
+110891,110891,"solute carrier family 8 (sodium/calcium exchanger), member 2",Slc8a2,Ncx2,10090,MGI:107996
+110893,110893,"solute carrier family 8 (sodium/calcium exchanger), member 3",Slc8a3,Ncx3,10090,MGI:107976
+20544,20544,"solute carrier family 9 (sodium/hydrogen exchanger), member 1",Slc9a1,"Apnh, Mir5122, Nhe1, mir-5122, swe",10090,MGI:102462
+226999,226999,"solute carrier family 9 (sodium/hydrogen exchanger), member 2",Slc9a2,"2210416H12Rik, 4932415O19Rik, NHE-2, NHE2",10090,MGI:105075
+105243,105243,"solute carrier family 9 (sodium/hydrogen exchanger), member 3",Slc9a3,"9030624O13Rik, NHE-3, NHE3",10090,MGI:105064
+110895,110895,"solute carrier family 9 (sodium/hydrogen exchanger), member 4",Slc9a4,"D730009J23Rik, NHE4",10090,MGI:105074
+277973,277973,"solute carrier family 9 (sodium/hydrogen exchanger), member 5",Slc9a5,"Gm696, NHE-5",10090,MGI:2685542
+236727,236727,"solute carrier family 9 (sodium/hydrogen exchanger), member 7",Slc9a7,"6330509M05Rik, A530087D17Rik, NHE7",10090,MGI:2444530
+77031,77031,"solute carrier family 9 (sodium/hydrogen exchanger), member 8",Slc9a8,"1200006P13Rik, 6430709P13Rik, NHE-8, NHE8",10090,MGI:1924281
+28250,28250,"solute carrier organic anion transporter family, member 1a4",Slco1a4,"Oatp1a4, Oatp2, Slc21a5",10090,MGI:1351896
+24059,24059,"solute carrier organic anion transporter family, member 2a1",Slco2a1,"2310021C19Rik, OATP2A1, PHOAR2, Pgt, Slc21a2",10090,MGI:1346021
+108116,108116,"solute carrier organic anion transporter family, member 3a1",Slco3a1,"5830414C08Rik, Anr1, MJAM, OATP-D, Slc21a11",10090,MGI:1351867
+108115,108115,"solute carrier organic anion transporter family, member 4a1",Slco4a1,"OATP-E, Slc21a12",10090,MGI:1351866
+58994,58994,"sphingomyelin phosphodiesterase 3, neutral",Smpd3,"4631433G07Rik, Nsm2, fro, nSMase2",10090,MGI:1927578
+20603,20603,spermine synthase,Sms,"Gy, SPMSY, SpmST, gyro",10090,MGI:109490
+20652,20652,sterol O-acyltransferase 1,Soat1,"8430426K15Rik, ACAT-1, Acact, ald, hid",10090,MGI:104665
+20655,20655,"superoxide dismutase 1, soluble",Sod1,"B430204E11Rik, Cu/Zn-SOD, CuZnSOD, Ipo-1, Ipo1",10090,MGI:98351
+20656,20656,"superoxide dismutase 2, mitochondrial",Sod2,"MnSOD, Sod-2",10090,MGI:98352
+20657,20657,"superoxide dismutase 3, extracellular",Sod3,EC-SOD,10090,MGI:103181
+20322,20322,sorbitol dehydrogenase,Sord,"SDH, Sdh-1, Sdh1, Sodh-1, XDH",10090,MGI:98266
+69019,69019,signal peptidase complex subunit 1 homolog (S. cerevisiae),Spcs1,1810004F21Rik,10090,MGI:1916269
+66624,66624,signal peptidase complex subunit 2 homolog (S. cerevisiae),Spcs2,"5730406I15Rik, mKIAA0102",10090,MGI:1913874
+76687,76687,signal peptidase complex subunit 3 homolog (S. cerevisiae),Spcs3,"1810011E08Rik, SPC22/23",10090,MGI:1923937
+56632,56632,sphingosine kinase 2,Sphk2,"Sk2, Spk2",10090,MGI:1861380
+20751,20751,sepiapterin reductase,Spr,Gm10328,10090,MGI:103078
+268656,268656,"serine palmitoyltransferase, long chain base subunit 1",Sptlc1,"E030036H05, Lcb1, SPT1",10090,MGI:1099431
+20773,20773,"serine palmitoyltransferase, long chain base subunit 2",Sptlc2,"LCB2, LCB2a, Spt2",10090,MGI:108074
+20775,20775,squalene epoxidase,Sqle,,10090,MGI:109296
+78925,78925,steroid 5 alpha-reductase 1,Srd5a1,"0610031P22Rik, 4930435F02Rik, S5AR 1, Srd5a-1",10090,MGI:98400
+94224,94224,steroid 5 alpha-reductase 2,Srd5a2,"5ART2, S5AR 2",10090,MGI:2150380
+20810,20810,spermidine synthase,Srm,"SpdST, SpdSy",10090,MGI:102690
+20442,20442,"ST3 beta-galactoside alpha-2,3-sialyltransferase 1",St3gal1,"5330418N22Rik, ST3GalI, Siat4, Siat4a, St3gal-1",10090,MGI:98304
+20444,20444,"ST3 beta-galactoside alpha-2,3-sialyltransferase 2",St3gal2,"ST3GalII, Siat5",10090,MGI:99427
+20443,20443,"ST3 beta-galactoside alpha-2,3-sialyltransferase 4",St3gal4,"SIAT4-C, ST3Gal IV, ST3GalIV, Siat4c",10090,MGI:1316743
+20454,20454,"ST3 beta-galactoside alpha-2,3-sialyltransferase 5",St3gal5,"3S-T, Siat9, [a]2",10090,MGI:1339963
+54613,54613,"ST3 beta-galactoside alpha-2,3-sialyltransferase 6",St3gal6,"1700023B24Rik, Siat10, St3galVI",10090,MGI:1888707
+20440,20440,"beta galactoside alpha 2,6 sialyltransferase 1",St6gal1,"Siat1, St6Gal-I, St6gal, St6galI",10090,MGI:108470
+20445,20445,"ST6 (alpha-N-acetyl-neuraminyl-2,3-beta-galactosyl-1,3)-N-acetylgalactosaminide alpha-2,6-sialyltransferase 1",St6galnac1,Siat7a,10090,MGI:1341826
+20446,20446,"ST6 (alpha-N-acetyl-neuraminyl-2,3-beta-galactosyl-1,3)-N-acetylgalactosaminide alpha-2,6-sialyltransferase 2",St6galnac2,"II, ST6GalNAc, Siat7, Siat7b",10090,MGI:107553
+20447,20447,"ST6 (alpha-N-acetyl-neuraminyl-2,3-beta-galactosyl-1,3)-N-acetylgalactosaminide alpha-2,6-sialyltransferase 3",St6galnac3,Siat7c,10090,MGI:1341828
+26938,26938,"ST6 (alpha-N-acetyl-neuraminyl-2,3-beta-galactosyl-1,3)-N-acetylgalactosaminide alpha-2,6-sialyltransferase 5",St6galnac5,Siat7e,10090,MGI:1349471
+50935,50935,"ST6 (alpha-N-acetyl-neuraminyl-2,3-beta-galactosyl-1,3)-N-acetylgalactosaminide alpha-2,6-sialyltransferase 6",St6galnac6,"ST6GalNAcVI, Siat7f",10090,MGI:1355316
+20449,20449,"ST8 alpha-N-acetyl-neuraminide alpha-2,8-sialyltransferase 1",St8sia1,"9330109E03Rik, GD3S, Sia-T, Siat8, Siat8a",10090,MGI:106011
+225742,225742,"ST8 alpha-N-acetyl-neuraminide alpha-2,8-sialyltransferase 5",St8sia5,"ST8SiaV, Siat8e",10090,MGI:109243
+59045,59045,StAR related lipid transfer domain containing 3,Stard3,"Mln64, es64",10090,MGI:1929618
+20916,20916,"succinate-Coenzyme A ligase, ADP-forming, beta subunit",Sucla2,"4930547K18Rik, A-SCS, SCS-betaA",10090,MGI:1306775
+56451,56451,"succinate-CoA ligase, GDP-forming, alpha subunit",Suclg1,"1500000I01Rik, Sucla1",10090,MGI:1927234
+20917,20917,"succinate-Coenzyme A ligase, GDP-forming, beta subunit",Suclg2,"D6Wsu120e, G-SCS, GTPSCS, SCS-betaG",10090,MGI:1306824
+20887,20887,"sulfotransferase family 1A, phenol-preferring, member 1",Sult1a1,"PST, ST1A1, ST1A4, Stp, Stp1",10090,MGI:102896
+20860,20860,"sulfotransferase family 1E, member 1",Sult1e1,"EST, ST1E1, Ste",10090,MGI:98431
+20859,20859,"sulfotransferase family 2A, dehydroepiandrosterone (DHEA)-preferring, member 1",Sult2a1,"ST2A1, Std, Sth1, mSTa1",10090,MGI:98430
+54200,54200,"sulfotransferase family, cytosolic, 2B, member 1",Sult2b1,"ST2B1, SULT2B",10090,MGI:1926342
+211389,211389,sulfite oxidase,Suox,SO,10090,MGI:2446117
+20937,20937,suppressor of variegation 3-9 1,Suv39h1,"DXHXS7466e, H3-K9-HMTase 1, KMT1A, mIS6",10090,MGI:1099440
+64707,64707,suppressor of variegation 3-9 2,Suv39h2,"4930507K23Rik, D030054H19Rik, D2Ertd544e, KMT1B",10090,MGI:1890396
+104015,104015,synaptojanin 1,Synj1,"A930006D20Rik, mKIAA0910",10090,MGI:1354961
+20975,20975,synaptojanin 2,Synj2,"SJ2, mKIAA0348",10090,MGI:1201671
+21351,21351,transaldolase 1,Taldo1,,10090,MGI:1274789
+234724,234724,tyrosine aminotransferase,Tat,,10090,MGI:98487
+21391,21391,"thromboxane A synthase 1, platelet",Tbxas1,"CYP5, CYP5A1, THAS, TS, TXAS",10090,MGI:98497
+27060,27060,"T cell, immune regulator 1, ATPase, H+ transporting, lysosomal V0 protein A3",Tcirg1,"ATP6N1C, ATP6a3, Atp6i, OC-116, OPTB1",10090,MGI:1350931
+56720,56720,"tryptophan 2,3-dioxygenase",Tdo2,"TDO, TO, chky",10090,MGI:1928486
+76355,76355,"TDP-glucose 4,6-dehydratase",Tgds,"2610017J16Rik, 2610025M23Rik",10090,MGI:1923605
+21823,21823,tyrosine hydroxylase,Th,,10090,MGI:98735
+208967,208967,threonine synthase-like 1 (bacterial),Thnsl1,,10090,MGI:2139347
+105663,105663,thiamine triphosphatase,Thtpa,,10090,MGI:2446078
+57813,57813,"thymidine kinase 2, mitochondrial",Tk2,mt-TK,10090,MGI:1913266
+21881,21881,transketolase,Tkt,p68,10090,MGI:105992
+83553,83553,transketolase-like 1,Tktl1,,10090,MGI:1933244
+74419,74419,transketolase-like 2,Tktl2,4933401I19Rik,10090,MGI:1921669
+73166,73166,transmembrane 7 superfamily member 2,Tm7sf2,"3110041O18Rik, ANG1, C14SR, Dhcr14",10090,MGI:1920416
+66260,66260,transmembrane protein 54,Tmem54,1810017F10Rik,10090,MGI:1913510
+192289,192289,"trimethyllysine hydroxylase, epsilon",Tmlhe,"Bbox2, D430017M14Rik, TMLD, TMLH",10090,MGI:2180203
+21990,21990,tryptophan hydroxylase 1,Tph1,Tph,10090,MGI:98796
+216343,216343,tryptophan hydroxylase 2,Tph2,Ntph,10090,MGI:2651811
+21991,21991,triosephosphate isomerase 1,Tpi1,"TIM, Tpi, Tpi-1",10090,MGI:98797
+29807,29807,thiamine pyrophosphokinase,Tpk1,,10090,MGI:1352500
+22018,22018,thyroid peroxidase,Tpo,,10090,MGI:98813
+13434,13434,tRNA aspartic acid methyltransferase 1,Trdmt1,"Dnmt2, Rnmt2, m.MmuIIP, met-2",10090,MGI:1274787
+58866,58866,trehalase (brush-border membrane glycoprotein),Treh,2210412M19Rik,10090,MGI:1926230
+22117,22117,"thiosulfate sulfurtransferase, mitochondrial",Tst,rhodanese,10090,MGI:98852
+80286,80286,tumor suppressor candidate 3,Tusc3,N33,10090,MGI:1933134
+50493,50493,thioredoxin reductase 1,Txnrd1,"TR, TR1, TrxR1",10090,MGI:1354175
+26462,26462,thioredoxin reductase 2,Txnrd2,"ESTM573010, TGR, Tr3, Trxr2, Trxrd2",10090,MGI:1347023
+232223,232223,thioredoxin reductase 3,Txnrd3,"TGR, TR2",10090,MGI:2386711
+72962,72962,thymidine phosphorylase,Tymp,"2900072D10Rik, Ecgf1, PD-ECGF, PDECGF, Pdgfec",10090,MGI:1920212
+22171,22171,thymidylate synthase,Tyms,Ts,10090,MGI:98878
+22173,22173,tyrosinase,Tyr,"Oca1, albino, c, skc35",10090,MGI:98880
+22178,22178,tyrosinase-related protein 1,Tyrp1,"Oca3, TRP-1, TRP1, Tyrp, b",10090,MGI:98881
+107652,107652,UDP-N-acetylglucosamine pyrophosphorylase 1,Uap1,"AGX-1, AGX-2, AGX1, AgX, ESTM38",10090,MGI:1334459
+22245,22245,uridine-cytidine kinase 1,Uck1,"URK1, Umpk",10090,MGI:98904
+80914,80914,uridine-cytidine kinase 2,Uck2,"TSA903, UK, UMK, Umpk",10090,MGI:1931744
+22227,22227,"uncoupling protein 1 (mitochondrial, proton carrier)",Ucp1,"Slc25a7, Ucp",10090,MGI:98894
+22228,22228,"uncoupling protein 2 (mitochondrial, proton carrier)",Ucp2,"Slc25a8, UCP 2, UCPH",10090,MGI:109354
+22229,22229,"uncoupling protein 3 (mitochondrial, proton carrier)",Ucp3,"Slc25a9, UCP-3",10090,MGI:1099787
+22234,22234,UDP-glucose ceramide glucosyltransferase,Ugcg,"Epcs21, GlcT-1, Ugcgl",10090,MGI:1332243
+22235,22235,UDP-glucose dehydrogenase,Ugdh,Udpgdh,10090,MGI:1306785
+216558,216558,UDP-glucose pyrophosphorylase 2,Ugp2,"UDPGP, UGPase",10090,MGI:2183447
+100559,100559,"UDP glucuronosyltransferase 2 family, polypeptide B38",Ugt2b38,9430041C03Rik,10090,MGI:2140794
+22247,22247,uridine monophosphate synthetase,Umps,1700095D23Rik,10090,MGI:1298388
+103149,103149,"ureidopropionase, beta",Upb1,,10090,MGI:2143535
+22271,22271,uridine phosphorylase 1,Upp1,"UPase, UdRPase, Up, Upp",10090,MGI:1097668
+76654,76654,uridine phosphorylase 2,Upp2,"1700124F02Rik, UDRPASE2, UP2, UPASE2",10090,MGI:1923904
+66152,66152,"ubiquinol-cytochrome c reductase, complex III subunit X",Uqcr10,"1110020P15Rik, Ucrc",10090,MGI:1913402
+66594,66594,"ubiquinol-cytochrome c reductase, complex III subunit XI",Uqcr11,"0710008D09Rik, Uqcr",10090,MGI:1913844
+67530,67530,ubiquinol-cytochrome c reductase binding protein,Uqcrb,"2210415M14Rik, QP-C, QPC, UQBC, UQBP",10090,MGI:1914780
+22273,22273,ubiquinol-cytochrome c reductase core protein 1,Uqcrc1,1110032G10Rik,10090,MGI:107876
+67003,67003,ubiquinol cytochrome c reductase core protein 2,Uqcrc2,1500004O06Rik,10090,MGI:1914253
+66694,66694,"ubiquinol-cytochrome c reductase, Rieske iron-sulfur polypeptide 1",Uqcrfs1,4430402G14Rik,10090,MGI:1913944
+100042918,100042918,"ubiquinol-cytochrome c reductase hinge protein, pseudogene 1",Uqcrh-ps1,Gm9763,10090,MGI:3641869
+22272,22272,"ubiquinol-cytochrome c reductase, complex III subunit VII",Uqcrq,"1100001F06Rik, 1500040F11Rik, 5830407L17Rik, 9.5kDa, QP-C",10090,MGI:107807
+243537,243537,urocanase domain containing 1,Uroc1,,10090,MGI:2385332
+22275,22275,uroporphyrinogen decarboxylase,Urod,"UPD, Uro-d",10090,MGI:98916
+22276,22276,uroporphyrinogen III synthase,Uros,"UROIIIS, Uros3",10090,MGI:98917
+338362,338362,uronyl-2-sulfotransferase,Ust,"D930010O20Rik, UA2OST",10090,MGI:2442406
+67883,67883,UDP-glucuronate decarboxylase 1,Uxs1,1600025I13Rik,10090,MGI:1915133
+22305,22305,"vomeronasal 2, receptor 37",Vmn2r37,V2r14,10090,MGI:1316711
+22361,22361,vanin 1,Vnn1,V-1,10090,MGI:108395
+26464,26464,vanin 3,Vnn3,,10090,MGI:1347055
+22436,22436,xanthine dehydrogenase,Xdh,"XO, Xor, Xox-1, Xox1",10090,MGI:98973
+102448,102448,xylulokinase homolog (H. influenzae),Xylb,,10090,MGI:2142985
+233781,233781,xylosyltransferase 1,Xylt1,8030490L12,10090,MGI:2451073
+217119,217119,xylosyltransferase II,Xylt2,"E030002B02Rik, XT-II, XT2, xylT-II",10090,MGI:2444797
+100039108,,,,,,
+10476,,,,,,
+1159,,,,,,
+160287,,,,,,
+222,,,,,,
+23563,,,,,,
+2544,,,,,,
+26062,,,,,,
+26237,,,,,,
+2655,,,,,,
+2679,,,,,,
+27124,,,,,,
+2713,,,,,,
+280,,,,,,
+284208,,,,,,
+285216,,,,,,
+286016,,,,,,
+286297,,,,,,
+2974,,,,,,
+348477,,,,,,
+4122,,,,,,
+4541,,,,,,
+4707,,,,,,
+4710,,,,,,
+4844,,,,,,
+4845,,,,,,
+514,,,,,,
+5240,,,,,,
+5334,,,,,,
+54480,,,,,,
+55350,,,,,,
+6487,,,,,,
+6537,,,,,,
+667301,,,,,,
+7359,,,,,,
+79087,,,,,,
+80068,,,,,,
+8781,,,,,,
+8908,,,,,,
+91734,,,,,,
+9952,,,,,,
+9954,,,,,,

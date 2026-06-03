@@ -1,0 +1,657 @@
+2026-05-25 02:13:41 | INFO     | Logging initialized: Processing_outputs/Step_3_RQ3/logs/pipeline_20260525_021341.log
+2026-05-25 02:13:41 | INFO     | ================================================================================
+2026-05-25 02:13:41 | INFO     | MASTER RQ INTEGRATION PIPELINE
+2026-05-25 02:13:41 | INFO     | ================================================================================
+2026-05-25 02:13:41 | INFO     | Timestamp: 2026-05-25 02:13:41
+2026-05-25 02:13:41 | INFO     | Output directory: Processing_outputs/Step_3_RQ3
+2026-05-25 02:13:41 | INFO     | 
+================================================================================
+2026-05-25 02:13:41 | INFO     | STEP 1: RQ3 SINGLE-CELL E-FLUX ANALYSIS (CORE GENERATOR)
+2026-05-25 02:13:41 | INFO     | Creates cell-type-specific metabolic models and raw data
+2026-05-25 02:13:41 | INFO     | ================================================================================
+2026-05-25 02:13:41 | INFO     | 
+Validating RQ3 inputs...
+2026-05-25 02:13:41 | INFO     |   [OK] Found: Single-cell expression matrix
+2026-05-25 02:13:41 | INFO     |   [OK] Found: Cell metadata file
+2026-05-25 02:13:41 | INFO     |   [OK] Found: Dietary bounds JSON
+2026-05-25 02:13:41 | INFO     |   [OK] Found: Metabolic model (iMM1415.json)
+2026-05-25 02:13:41 | INFO     |   [OK] Condition mapping JSON is valid
+2026-05-25 02:13:41 | INFO     | 
+================================================================================
+2026-05-25 02:13:41 | INFO     | EXECUTING: RQ3: Single-cell E-Flux Analysis
+2026-05-25 02:13:41 | INFO     | ================================================================================
+2026-05-25 02:18:56 | INFO     |   ================================================================================
+2026-05-25 02:18:56 | INFO     |   RQ3: FINAL COMPLETE - REVISED VERSION
+2026-05-25 02:18:56 | INFO     |   ================================================================================
+2026-05-25 02:18:56 | INFO     |   Incorporating reviewer feedback:
+2026-05-25 02:18:56 | INFO     |     A. Renamed 'Cohen's D' -> 'Relative Magnitude' (statistical correction)
+2026-05-25 02:18:56 | INFO     |     B. GPR logic: AND=min, OR=max (biological correction)
+2026-05-25 02:18:56 | INFO     |     C. Normalization strategy: per_condition
+2026-05-25 02:18:56 | INFO     |     D. FVA for uncertainty: DISABLED
+2026-05-25 02:18:56 | INFO     |   ================================================================================
+2026-05-25 02:18:56 | INFO     |   [INFO] Loaded 32282 cells × 14161 genes
+2026-05-25 02:18:56 | INFO     |   [STEP 1] Aggregating expression...
+2026-05-25 02:18:56 | INFO     |   [INFO] LECs: 2 conditions
+2026-05-25 02:18:56 | INFO     |   [INFO] Hepatocytes: 2 conditions
+2026-05-25 02:18:56 | INFO     |   [INFO] qHSCs: 2 conditions
+2026-05-25 02:18:56 | INFO     |   [INFO] Cd207+, Trem2+ Mo-KC: 2 conditions
+2026-05-25 02:18:56 | INFO     |   [INFO] Timd4+ resKC: 2 conditions
+2026-05-25 02:18:56 | INFO     |   [INFO] Cholangiocytes: 2 conditions
+2026-05-25 02:18:56 | INFO     |   [INFO] cAMP qHSCs: 2 conditions
+2026-05-25 02:18:56 | INFO     |   [INFO] aHSCs: 2 conditions
+2026-05-25 02:18:56 | INFO     |   [INFO] Cd207-, Trem2+ Mo-KC: 2 conditions
+2026-05-25 02:18:56 | INFO     |   [INFO] Cx3cr1+, Ccr2+ MdM: 2 conditions
+2026-05-25 02:18:56 | INFO     |   [INFO] Macrophages: 2 conditions
+2026-05-25 02:18:56 | INFO     |   [INFO] Dendrites: 2 conditions
+2026-05-25 02:18:56 | INFO     |   [INFO] Ly6c2+, Ccr2+ Mo: 2 conditions
+2026-05-25 02:18:56 | INFO     |   [INFO] MCs: 2 conditions
+2026-05-25 02:18:56 | INFO     |   [INFO] T cells: 2 conditions
+2026-05-25 02:18:56 | INFO     |   [INFO] Cycling: 2 conditions
+2026-05-25 02:18:56 | INFO     |   [INFO] B cells: 2 conditions
+2026-05-25 02:18:56 | INFO     |   [INFO] Neutrophiles: 2 conditions
+2026-05-25 02:18:56 | INFO     |   [INFO] Trem2+, Spp1+ MdM: 2 conditions
+2026-05-25 02:18:56 | INFO     |   [INFO] Ly6c2-, Spn+ Mo: 2 conditions
+2026-05-25 02:18:56 | INFO     |   [INFO] Transitioning Mo: 2 conditions
+2026-05-25 02:18:56 | INFO     |   [WARN] Skipping DCs × Chow: only 16 cells
+2026-05-25 02:18:56 | INFO     |   [INFO] DCs: 1 conditions
+2026-05-25 02:18:56 | INFO     |   [INFO] Mast cells: 2 conditions
+2026-05-25 02:18:56 | INFO     |   [INFO] Aggregation summary saved
+2026-05-25 02:18:56 | INFO     |   [STEP 2] Loading model...
+2026-05-25 02:18:56 | INFO     |   Set parameter WLSAccessID
+2026-05-25 02:18:56 | INFO     |   Set parameter WLSSecret
+2026-05-25 02:18:56 | INFO     |   Set parameter LicenseID to value 2827139
+2026-05-25 02:18:56 | INFO     |   Academic license 2827139 - for non-commercial use only - registered to rm___@huskers.unl.edu
+2026-05-25 02:18:56 | INFO     |   [INFO] Model: iMM1415, 3726 reactions, 1375 genes
+2026-05-25 02:18:56 | INFO     |   [STEP 3] Loading dietary constraints...
+2026-05-25 02:18:56 | INFO     |   [INFO] Mapped 'Chow' -> 'SCD'
+2026-05-25 02:18:56 | INFO     |   [INFO] Mapped 'WesternDiet' -> 'WD'
+2026-05-25 02:18:56 | INFO     |   [INFO] Mapped 'HighFat' -> 'HFD'
+2026-05-25 02:18:56 | INFO     |   [INFO] Mapped 'Ketogenic' -> 'KD'
+2026-05-25 02:18:56 | INFO     |   [STEP 4] Applying CORRECT E-Flux + pFBA...
+2026-05-25 02:18:56 | INFO     |   ================================================================================
+2026-05-25 02:18:56 | INFO     |   E-FLUX IMPLEMENTATION (REVISED)
+2026-05-25 02:18:56 | INFO     |   ================================================================================
+2026-05-25 02:18:56 | INFO     |   [FIX] [OK] Using CONSTRAINING (min/max) not SCALING!
+2026-05-25 02:18:56 | INFO     |   [FIX] [OK] Using proper GPR boolean logic (AND=min, OR=max)
+2026-05-25 02:18:56 | INFO     |   [FIX] [OK] Normalization strategy: per_condition
+2026-05-25 02:18:56 | INFO     |   ================================================================================
+2026-05-25 02:18:56 | INFO     |   [QUANTILE] Computing 99th percentile references...
+2026-05-25 02:18:56 | INFO     |   [QUANTILE] Strategy: per_condition
+2026-05-25 02:18:56 | INFO     |   [QUANTILE] Chow: 3.2536
+2026-05-25 02:18:56 | INFO     |   [QUANTILE] WesternDiet: 2.9464
+2026-05-25 02:18:56 | INFO     |   [STEP] Applying E-Flux with CONSTRAINING...
+2026-05-25 02:18:56 | INFO     |   [INFO] === LECs ===
+2026-05-25 02:18:56 | INFO     |   [INFO] Matched 1075 genes to model
+2026-05-25 02:18:56 | INFO     |     [INFO] Processing Chow...
+2026-05-25 02:18:56 | INFO     |   Read LP format model from file /tmp/tmpsj1dkd_2.lp
+2026-05-25 02:18:56 | INFO     |   Reading time = 0.01 seconds
+2026-05-25 02:18:56 | INFO     |   : 2775 rows, 7452 columns, 28106 nonzeros
+2026-05-25 02:18:56 | INFO     |       [DIET] Applied 61 bounds
+2026-05-25 02:18:56 | INFO     |       [DEBUG] Normalized mean: 0.4879, quantile ref: 3.2536
+2026-05-25 02:18:56 | INFO     |       [EFLUX] Constrained 1962 reactions
+2026-05-25 02:18:56 | INFO     |       [PFBA] Running parsimonious FBA...
+2026-05-25 02:18:56 | INFO     |       [RESULT] obj=56.501228, nonzero=324, total_flux=56.50
+2026-05-25 02:18:56 | INFO     |     [INFO] Processing WesternDiet...
+2026-05-25 02:18:56 | INFO     |   Read LP format model from file /tmp/tmpnlsp4s2s.lp
+2026-05-25 02:18:56 | INFO     |   Reading time = 0.01 seconds
+2026-05-25 02:18:56 | INFO     |   : 2775 rows, 7452 columns, 28106 nonzeros
+2026-05-25 02:18:56 | INFO     |       [DIET] Applied 68 bounds
+2026-05-25 02:18:56 | INFO     |       [DEBUG] Normalized mean: 0.4824, quantile ref: 2.9464
+2026-05-25 02:18:56 | INFO     |       [EFLUX] Constrained 1962 reactions
+2026-05-25 02:18:56 | INFO     |       [PFBA] Running parsimonious FBA...
+2026-05-25 02:18:56 | INFO     |       [RESULT] obj=35.865257, nonzero=303, total_flux=35.87
+2026-05-25 02:18:56 | INFO     |   [INFO] === Hepatocytes ===
+2026-05-25 02:18:56 | INFO     |   [INFO] Matched 1075 genes to model
+2026-05-25 02:18:56 | INFO     |     [INFO] Processing Chow...
+2026-05-25 02:18:56 | INFO     |   Read LP format model from file /tmp/tmp_tjmb2x7.lp
+2026-05-25 02:18:56 | INFO     |   Reading time = 0.01 seconds
+2026-05-25 02:18:56 | INFO     |   : 2775 rows, 7452 columns, 28106 nonzeros
+2026-05-25 02:18:56 | INFO     |       [DIET] Applied 61 bounds
+2026-05-25 02:18:56 | INFO     |       [DEBUG] Normalized mean: 0.3910, quantile ref: 3.2536
+2026-05-25 02:18:56 | INFO     |       [EFLUX] Constrained 1962 reactions
+2026-05-25 02:18:56 | INFO     |       [PFBA] Running parsimonious FBA...
+2026-05-25 02:18:56 | INFO     |       [RESULT] obj=43.606033, nonzero=297, total_flux=43.61
+2026-05-25 02:18:56 | INFO     |     [INFO] Processing WesternDiet...
+2026-05-25 02:18:56 | INFO     |   Read LP format model from file /tmp/tmpnrdvqj66.lp
+2026-05-25 02:18:56 | INFO     |   Reading time = 0.01 seconds
+2026-05-25 02:18:56 | INFO     |   : 2775 rows, 7452 columns, 28106 nonzeros
+2026-05-25 02:18:56 | INFO     |       [DIET] Applied 68 bounds
+2026-05-25 02:18:56 | INFO     |       [DEBUG] Normalized mean: 0.4355, quantile ref: 2.9464
+2026-05-25 02:18:56 | INFO     |       [EFLUX] Constrained 1962 reactions
+2026-05-25 02:18:56 | INFO     |       [PFBA] Running parsimonious FBA...
+2026-05-25 02:18:56 | INFO     |       [RESULT] obj=48.330273, nonzero=299, total_flux=48.33
+2026-05-25 02:18:56 | INFO     |   [INFO] === qHSCs ===
+2026-05-25 02:18:56 | INFO     |   [INFO] Matched 1075 genes to model
+2026-05-25 02:18:56 | INFO     |     [INFO] Processing Chow...
+2026-05-25 02:18:56 | INFO     |   Read LP format model from file /tmp/tmpsbas_fl9.lp
+2026-05-25 02:18:56 | INFO     |   Reading time = 0.01 seconds
+2026-05-25 02:18:56 | INFO     |   : 2775 rows, 7452 columns, 28106 nonzeros
+2026-05-25 02:18:56 | INFO     |       [DIET] Applied 61 bounds
+2026-05-25 02:18:56 | INFO     |       [DEBUG] Normalized mean: 0.3106, quantile ref: 3.2536
+2026-05-25 02:18:56 | INFO     |       [EFLUX] Constrained 1962 reactions
+2026-05-25 02:18:56 | INFO     |       [PFBA] Running parsimonious FBA...
+2026-05-25 02:18:56 | INFO     |       [RESULT] obj=2.183937, nonzero=372, total_flux=2.18
+2026-05-25 02:18:56 | INFO     |     [INFO] Processing WesternDiet...
+2026-05-25 02:18:56 | INFO     |   Read LP format model from file /tmp/tmpfzda1di6.lp
+2026-05-25 02:18:56 | INFO     |   Reading time = 0.01 seconds
+2026-05-25 02:18:56 | INFO     |   : 2775 rows, 7452 columns, 28106 nonzeros
+2026-05-25 02:18:56 | INFO     |       [DIET] Applied 68 bounds
+2026-05-25 02:18:56 | INFO     |       [DEBUG] Normalized mean: 0.4108, quantile ref: 2.9464
+2026-05-25 02:18:56 | INFO     |       [EFLUX] Constrained 1962 reactions
+2026-05-25 02:18:56 | INFO     |       [PFBA] Running parsimonious FBA...
+2026-05-25 02:18:56 | INFO     |       [RESULT] obj=51.105422, nonzero=337, total_flux=51.11
+2026-05-25 02:18:56 | INFO     |   [INFO] === Cd207+, Trem2+ Mo-KC ===
+2026-05-25 02:18:56 | INFO     |   [INFO] Matched 1075 genes to model
+2026-05-25 02:18:56 | INFO     |     [INFO] Processing Chow...
+2026-05-25 02:18:56 | INFO     |   Read LP format model from file /tmp/tmpowb37o9p.lp
+2026-05-25 02:18:56 | INFO     |   Reading time = 0.01 seconds
+2026-05-25 02:18:56 | INFO     |   : 2775 rows, 7452 columns, 28106 nonzeros
+2026-05-25 02:18:56 | INFO     |       [DIET] Applied 61 bounds
+2026-05-25 02:18:56 | INFO     |       [DEBUG] Normalized mean: 0.3818, quantile ref: 3.2536
+2026-05-25 02:18:56 | INFO     |       [EFLUX] Constrained 1962 reactions
+2026-05-25 02:18:56 | INFO     |       [PFBA] Running parsimonious FBA...
+2026-05-25 02:18:56 | INFO     |       [RESULT] obj=50.729591, nonzero=335, total_flux=50.73
+2026-05-25 02:18:56 | INFO     |     [INFO] Processing WesternDiet...
+2026-05-25 02:18:56 | INFO     |   Read LP format model from file /tmp/tmp_krodvu5.lp
+2026-05-25 02:18:56 | INFO     |   Reading time = 0.01 seconds
+2026-05-25 02:18:56 | INFO     |   : 2775 rows, 7452 columns, 28106 nonzeros
+2026-05-25 02:18:56 | INFO     |       [DIET] Applied 68 bounds
+2026-05-25 02:18:56 | INFO     |       [DEBUG] Normalized mean: 0.3823, quantile ref: 2.9464
+2026-05-25 02:18:56 | INFO     |       [EFLUX] Constrained 1962 reactions
+2026-05-25 02:18:56 | INFO     |       [PFBA] Running parsimonious FBA...
+2026-05-25 02:18:56 | INFO     |       [RESULT] obj=4.736787, nonzero=260, total_flux=4.74
+2026-05-25 02:18:56 | INFO     |   [INFO] === Timd4+ resKC ===
+2026-05-25 02:18:56 | INFO     |   [INFO] Matched 1075 genes to model
+2026-05-25 02:18:56 | INFO     |     [INFO] Processing Chow...
+2026-05-25 02:18:56 | INFO     |   Read LP format model from file /tmp/tmp491121pr.lp
+2026-05-25 02:18:56 | INFO     |   Reading time = 0.01 seconds
+2026-05-25 02:18:56 | INFO     |   : 2775 rows, 7452 columns, 28106 nonzeros
+2026-05-25 02:18:56 | INFO     |       [DIET] Applied 61 bounds
+2026-05-25 02:18:56 | INFO     |       [DEBUG] Normalized mean: 0.4369, quantile ref: 3.2536
+2026-05-25 02:18:56 | INFO     |       [EFLUX] Constrained 1962 reactions
+2026-05-25 02:18:56 | INFO     |       [PFBA] Running parsimonious FBA...
+2026-05-25 02:18:56 | INFO     |       [RESULT] obj=56.217803, nonzero=333, total_flux=56.22
+2026-05-25 02:18:56 | INFO     |     [INFO] Processing WesternDiet...
+2026-05-25 02:18:56 | INFO     |   Read LP format model from file /tmp/tmpchzw0p16.lp
+2026-05-25 02:18:56 | INFO     |   Reading time = 0.01 seconds
+2026-05-25 02:18:56 | INFO     |   : 2775 rows, 7452 columns, 28106 nonzeros
+2026-05-25 02:18:56 | INFO     |       [DIET] Applied 68 bounds
+2026-05-25 02:18:56 | INFO     |       [DEBUG] Normalized mean: 0.4199, quantile ref: 2.9464
+2026-05-25 02:18:56 | INFO     |       [EFLUX] Constrained 1962 reactions
+2026-05-25 02:18:56 | INFO     |       [PFBA] Running parsimonious FBA...
+2026-05-25 02:18:56 | INFO     |       [RESULT] obj=51.927073, nonzero=348, total_flux=51.93
+2026-05-25 02:18:56 | INFO     |   [INFO] === Cholangiocytes ===
+2026-05-25 02:18:56 | INFO     |   [INFO] Matched 1075 genes to model
+2026-05-25 02:18:56 | INFO     |     [INFO] Processing Chow...
+2026-05-25 02:18:56 | INFO     |   Read LP format model from file /tmp/tmpb8ihd5b5.lp
+2026-05-25 02:18:56 | INFO     |   Reading time = 0.01 seconds
+2026-05-25 02:18:56 | INFO     |   : 2775 rows, 7452 columns, 28106 nonzeros
+2026-05-25 02:18:56 | INFO     |       [DIET] Applied 61 bounds
+2026-05-25 02:18:56 | INFO     |       [DEBUG] Normalized mean: 0.2751, quantile ref: 3.2536
+2026-05-25 02:18:56 | INFO     |       [EFLUX] Constrained 1962 reactions
+2026-05-25 02:18:56 | INFO     |       [PFBA] Running parsimonious FBA...
+2026-05-25 02:18:56 | INFO     |       [RESULT] obj=23.275272, nonzero=328, total_flux=23.28
+2026-05-25 02:18:56 | INFO     |     [INFO] Processing WesternDiet...
+2026-05-25 02:18:56 | INFO     |   Read LP format model from file /tmp/tmp4b_2ndj5.lp
+2026-05-25 02:18:56 | INFO     |   Reading time = 0.01 seconds
+2026-05-25 02:18:56 | INFO     |   : 2775 rows, 7452 columns, 28106 nonzeros
+2026-05-25 02:18:56 | INFO     |       [DIET] Applied 68 bounds
+2026-05-25 02:18:56 | INFO     |       [DEBUG] Normalized mean: 0.3291, quantile ref: 2.9464
+2026-05-25 02:18:56 | INFO     |       [EFLUX] Constrained 1962 reactions
+2026-05-25 02:18:56 | INFO     |       [PFBA] Running parsimonious FBA...
+2026-05-25 02:18:56 | INFO     |       [RESULT] obj=46.245430, nonzero=319, total_flux=46.25
+2026-05-25 02:18:56 | INFO     |   [INFO] === cAMP qHSCs ===
+2026-05-25 02:18:56 | INFO     |   [INFO] Matched 1075 genes to model
+2026-05-25 02:18:56 | INFO     |     [INFO] Processing Chow...
+2026-05-25 02:18:56 | INFO     |   Read LP format model from file /tmp/tmp9shj3_xf.lp
+2026-05-25 02:18:56 | INFO     |   Reading time = 0.01 seconds
+2026-05-25 02:18:56 | INFO     |   : 2775 rows, 7452 columns, 28106 nonzeros
+2026-05-25 02:18:56 | INFO     |       [DIET] Applied 61 bounds
+2026-05-25 02:18:56 | INFO     |       [DEBUG] Normalized mean: 0.3578, quantile ref: 3.2536
+2026-05-25 02:18:56 | INFO     |       [EFLUX] Constrained 1962 reactions
+2026-05-25 02:18:56 | INFO     |       [PFBA] Running parsimonious FBA...
+2026-05-25 02:18:56 | INFO     |       [RESULT] obj=8.372706, nonzero=496, total_flux=8.37
+2026-05-25 02:18:56 | INFO     |     [INFO] Processing WesternDiet...
+2026-05-25 02:18:56 | INFO     |   Read LP format model from file /tmp/tmphkh3x932.lp
+2026-05-25 02:18:56 | INFO     |   Reading time = 0.01 seconds
+2026-05-25 02:18:56 | INFO     |   : 2775 rows, 7452 columns, 28106 nonzeros
+2026-05-25 02:18:56 | INFO     |       [DIET] Applied 68 bounds
+2026-05-25 02:18:56 | INFO     |       [DEBUG] Normalized mean: 0.4355, quantile ref: 2.9464
+2026-05-25 02:18:56 | INFO     |       [EFLUX] Constrained 1962 reactions
+2026-05-25 02:18:56 | INFO     |       [PFBA] Running parsimonious FBA...
+2026-05-25 02:18:56 | INFO     |       [RESULT] obj=53.382864, nonzero=337, total_flux=53.38
+2026-05-25 02:18:56 | INFO     |   [INFO] === aHSCs ===
+2026-05-25 02:18:56 | INFO     |   [INFO] Matched 1075 genes to model
+2026-05-25 02:18:56 | INFO     |     [INFO] Processing Chow...
+2026-05-25 02:18:56 | INFO     |   Read LP format model from file /tmp/tmpzvjxir3o.lp
+2026-05-25 02:18:56 | INFO     |   Reading time = 0.01 seconds
+2026-05-25 02:18:56 | INFO     |   : 2775 rows, 7452 columns, 28106 nonzeros
+2026-05-25 02:18:56 | INFO     |       [DIET] Applied 61 bounds
+2026-05-25 02:18:56 | INFO     |       [DEBUG] Normalized mean: 0.3005, quantile ref: 3.2536
+2026-05-25 02:18:56 | INFO     |       [EFLUX] Constrained 1962 reactions
+2026-05-25 02:18:56 | INFO     |       [PFBA] Running parsimonious FBA...
+2026-05-25 02:18:56 | INFO     |       [RESULT] obj=4.761321, nonzero=264, total_flux=4.76
+2026-05-25 02:18:56 | INFO     |     [INFO] Processing WesternDiet...
+2026-05-25 02:18:56 | INFO     |   Read LP format model from file /tmp/tmpdsma8jy4.lp
+2026-05-25 02:18:56 | INFO     |   Reading time = 0.01 seconds
+2026-05-25 02:18:56 | INFO     |   : 2775 rows, 7452 columns, 28106 nonzeros
+2026-05-25 02:18:56 | INFO     |       [DIET] Applied 68 bounds
+2026-05-25 02:18:56 | INFO     |       [DEBUG] Normalized mean: 0.4455, quantile ref: 2.9464
+2026-05-25 02:18:56 | INFO     |       [EFLUX] Constrained 1962 reactions
+2026-05-25 02:18:56 | INFO     |       [PFBA] Running parsimonious FBA...
+2026-05-25 02:18:56 | INFO     |       [RESULT] obj=54.080488, nonzero=338, total_flux=54.08
+2026-05-25 02:18:56 | INFO     |   [INFO] === Cd207-, Trem2+ Mo-KC ===
+2026-05-25 02:18:56 | INFO     |   [INFO] Matched 1075 genes to model
+2026-05-25 02:18:56 | INFO     |     [INFO] Processing Chow...
+2026-05-25 02:18:56 | INFO     |   Read LP format model from file /tmp/tmpiqhq06j7.lp
+2026-05-25 02:18:56 | INFO     |   Reading time = 0.01 seconds
+2026-05-25 02:18:56 | INFO     |   : 2775 rows, 7452 columns, 28106 nonzeros
+2026-05-25 02:18:56 | INFO     |       [DIET] Applied 61 bounds
+2026-05-25 02:18:56 | INFO     |       [DEBUG] Normalized mean: 0.3127, quantile ref: 3.2536
+2026-05-25 02:18:56 | INFO     |       [EFLUX] Constrained 1962 reactions
+2026-05-25 02:18:56 | INFO     |       [PFBA] Running parsimonious FBA...
+2026-05-25 02:18:56 | INFO     |       [RESULT] obj=39.860567, nonzero=334, total_flux=39.86
+2026-05-25 02:18:56 | INFO     |     [INFO] Processing WesternDiet...
+2026-05-25 02:18:56 | INFO     |   Read LP format model from file /tmp/tmppvl96atl.lp
+2026-05-25 02:18:56 | INFO     |   Reading time = 0.01 seconds
+2026-05-25 02:18:56 | INFO     |   : 2775 rows, 7452 columns, 28106 nonzeros
+2026-05-25 02:18:56 | INFO     |       [DIET] Applied 68 bounds
+2026-05-25 02:18:56 | INFO     |       [DEBUG] Normalized mean: 0.3836, quantile ref: 2.9464
+2026-05-25 02:18:56 | INFO     |       [EFLUX] Constrained 1962 reactions
+2026-05-25 02:18:56 | INFO     |       [PFBA] Running parsimonious FBA...
+2026-05-25 02:18:56 | INFO     |       [RESULT] obj=51.978295, nonzero=351, total_flux=51.98
+2026-05-25 02:18:56 | INFO     |   [INFO] === Cx3cr1+, Ccr2+ MdM ===
+2026-05-25 02:18:56 | INFO     |   [INFO] Matched 1075 genes to model
+2026-05-25 02:18:56 | INFO     |     [INFO] Processing Chow...
+2026-05-25 02:18:56 | INFO     |   Read LP format model from file /tmp/tmpioyag8k3.lp
+2026-05-25 02:18:56 | INFO     |   Reading time = 0.01 seconds
+2026-05-25 02:18:56 | INFO     |   : 2775 rows, 7452 columns, 28106 nonzeros
+2026-05-25 02:18:56 | INFO     |       [DIET] Applied 61 bounds
+2026-05-25 02:18:56 | INFO     |       [DEBUG] Normalized mean: 0.2686, quantile ref: 3.2536
+2026-05-25 02:18:56 | INFO     |       [EFLUX] Constrained 1962 reactions
+2026-05-25 02:18:56 | INFO     |       [PFBA] Running parsimonious FBA...
+2026-05-25 02:18:56 | INFO     |       [RESULT] obj=37.602234, nonzero=336, total_flux=37.60
+2026-05-25 02:18:56 | INFO     |     [INFO] Processing WesternDiet...
+2026-05-25 02:18:56 | INFO     |   Read LP format model from file /tmp/tmptdax9l_o.lp
+2026-05-25 02:18:56 | INFO     |   Reading time = 0.01 seconds
+2026-05-25 02:18:56 | INFO     |   : 2775 rows, 7452 columns, 28106 nonzeros
+2026-05-25 02:18:56 | INFO     |       [DIET] Applied 68 bounds
+2026-05-25 02:18:56 | INFO     |       [DEBUG] Normalized mean: 0.3522, quantile ref: 2.9464
+2026-05-25 02:18:56 | INFO     |       [EFLUX] Constrained 1962 reactions
+2026-05-25 02:18:56 | INFO     |       [PFBA] Running parsimonious FBA...
+2026-05-25 02:18:56 | INFO     |       [RESULT] obj=40.854685, nonzero=324, total_flux=40.85
+2026-05-25 02:18:56 | INFO     |   [INFO] === Macrophages ===
+2026-05-25 02:18:56 | INFO     |   [INFO] Matched 1075 genes to model
+2026-05-25 02:18:56 | INFO     |     [INFO] Processing Chow...
+2026-05-25 02:18:56 | INFO     |   Read LP format model from file /tmp/tmpsp04rx5f.lp
+2026-05-25 02:18:56 | INFO     |   Reading time = 0.01 seconds
+2026-05-25 02:18:56 | INFO     |   : 2775 rows, 7452 columns, 28106 nonzeros
+2026-05-25 02:18:56 | INFO     |       [DIET] Applied 61 bounds
+2026-05-25 02:18:56 | INFO     |       [DEBUG] Normalized mean: 0.3439, quantile ref: 3.2536
+2026-05-25 02:18:56 | INFO     |       [EFLUX] Constrained 1962 reactions
+2026-05-25 02:18:56 | INFO     |       [PFBA] Running parsimonious FBA...
+2026-05-25 02:18:56 | INFO     |       [RESULT] obj=42.617657, nonzero=324, total_flux=42.62
+2026-05-25 02:18:56 | INFO     |     [INFO] Processing WesternDiet...
+2026-05-25 02:18:56 | INFO     |   Read LP format model from file /tmp/tmpadj5wvo5.lp
+2026-05-25 02:18:56 | INFO     |   Reading time = 0.01 seconds
+2026-05-25 02:18:56 | INFO     |   : 2775 rows, 7452 columns, 28106 nonzeros
+2026-05-25 02:18:56 | INFO     |       [DIET] Applied 68 bounds
+2026-05-25 02:18:56 | INFO     |       [DEBUG] Normalized mean: 0.3610, quantile ref: 2.9464
+2026-05-25 02:18:56 | INFO     |       [EFLUX] Constrained 1962 reactions
+2026-05-25 02:18:56 | INFO     |       [PFBA] Running parsimonious FBA...
+2026-05-25 02:18:56 | INFO     |       [RESULT] obj=47.003069, nonzero=339, total_flux=47.00
+2026-05-25 02:18:56 | INFO     |   [INFO] === Dendrites ===
+2026-05-25 02:18:56 | INFO     |   [INFO] Matched 1075 genes to model
+2026-05-25 02:18:56 | INFO     |     [INFO] Processing Chow...
+2026-05-25 02:18:56 | INFO     |   Read LP format model from file /tmp/tmpguxtnoqc.lp
+2026-05-25 02:18:56 | INFO     |   Reading time = 0.01 seconds
+2026-05-25 02:18:56 | INFO     |   : 2775 rows, 7452 columns, 28106 nonzeros
+2026-05-25 02:18:56 | INFO     |       [DIET] Applied 61 bounds
+2026-05-25 02:18:56 | INFO     |       [DEBUG] Normalized mean: 0.2646, quantile ref: 3.2536
+2026-05-25 02:18:56 | INFO     |       [EFLUX] Constrained 1962 reactions
+2026-05-25 02:18:56 | INFO     |       [PFBA] Running parsimonious FBA...
+2026-05-25 02:18:56 | INFO     |       [RESULT] obj=33.619355, nonzero=337, total_flux=33.62
+2026-05-25 02:18:56 | INFO     |     [INFO] Processing WesternDiet...
+2026-05-25 02:18:56 | INFO     |   Read LP format model from file /tmp/tmpehu4cp46.lp
+2026-05-25 02:18:56 | INFO     |   Reading time = 0.01 seconds
+2026-05-25 02:18:56 | INFO     |   : 2775 rows, 7452 columns, 28106 nonzeros
+2026-05-25 02:18:56 | INFO     |       [DIET] Applied 68 bounds
+2026-05-25 02:18:56 | INFO     |       [DEBUG] Normalized mean: 0.3537, quantile ref: 2.9464
+2026-05-25 02:18:56 | INFO     |       [EFLUX] Constrained 1962 reactions
+2026-05-25 02:18:56 | INFO     |       [PFBA] Running parsimonious FBA...
+2026-05-25 02:18:56 | INFO     |       [RESULT] obj=46.962858, nonzero=349, total_flux=46.96
+2026-05-25 02:18:56 | INFO     |   [INFO] === Ly6c2+, Ccr2+ Mo ===
+2026-05-25 02:18:56 | INFO     |   [INFO] Matched 1075 genes to model
+2026-05-25 02:18:56 | INFO     |     [INFO] Processing Chow...
+2026-05-25 02:18:56 | INFO     |   Read LP format model from file /tmp/tmpx7pznkm4.lp
+2026-05-25 02:18:56 | INFO     |   Reading time = 0.01 seconds
+2026-05-25 02:18:56 | INFO     |   : 2775 rows, 7452 columns, 28106 nonzeros
+2026-05-25 02:18:56 | INFO     |       [DIET] Applied 61 bounds
+2026-05-25 02:18:56 | INFO     |       [DEBUG] Normalized mean: 0.4813, quantile ref: 3.2536
+2026-05-25 02:18:56 | INFO     |       [EFLUX] Constrained 1962 reactions
+2026-05-25 02:18:56 | INFO     |       [PFBA] Running parsimonious FBA...
+2026-05-25 02:18:56 | INFO     |       [RESULT] obj=52.992232, nonzero=290, total_flux=52.99
+2026-05-25 02:18:56 | INFO     |     [INFO] Processing WesternDiet...
+2026-05-25 02:18:56 | INFO     |   Read LP format model from file /tmp/tmp_kxwplfi.lp
+2026-05-25 02:18:56 | INFO     |   Reading time = 0.01 seconds
+2026-05-25 02:18:56 | INFO     |   : 2775 rows, 7452 columns, 28106 nonzeros
+2026-05-25 02:18:56 | INFO     |       [DIET] Applied 68 bounds
+2026-05-25 02:18:56 | INFO     |       [DEBUG] Normalized mean: 0.3412, quantile ref: 2.9464
+2026-05-25 02:18:56 | INFO     |       [EFLUX] Constrained 1962 reactions
+2026-05-25 02:18:56 | INFO     |       [PFBA] Running parsimonious FBA...
+2026-05-25 02:18:56 | INFO     |       [RESULT] obj=41.236432, nonzero=330, total_flux=41.24
+2026-05-25 02:18:56 | INFO     |   [INFO] === MCs ===
+2026-05-25 02:18:56 | INFO     |   [INFO] Matched 1075 genes to model
+2026-05-25 02:18:56 | INFO     |     [INFO] Processing Chow...
+2026-05-25 02:18:56 | INFO     |   Read LP format model from file /tmp/tmpll7szofw.lp
+2026-05-25 02:18:56 | INFO     |   Reading time = 0.01 seconds
+2026-05-25 02:18:56 | INFO     |   : 2775 rows, 7452 columns, 28106 nonzeros
+2026-05-25 02:18:56 | INFO     |       [DIET] Applied 61 bounds
+2026-05-25 02:18:56 | INFO     |       [DEBUG] Normalized mean: 0.2973, quantile ref: 3.2536
+2026-05-25 02:18:56 | INFO     |       [EFLUX] Constrained 1962 reactions
+2026-05-25 02:18:56 | INFO     |       [PFBA] Running parsimonious FBA...
+2026-05-25 02:18:56 | INFO     |       [RESULT] obj=4.752827, nonzero=259, total_flux=4.75
+2026-05-25 02:18:56 | INFO     |     [INFO] Processing WesternDiet...
+2026-05-25 02:18:56 | INFO     |   Read LP format model from file /tmp/tmp8hp9umrb.lp
+2026-05-25 02:18:56 | INFO     |   Reading time = 0.01 seconds
+2026-05-25 02:18:56 | INFO     |   : 2775 rows, 7452 columns, 28106 nonzeros
+2026-05-25 02:18:56 | INFO     |       [DIET] Applied 68 bounds
+2026-05-25 02:18:56 | INFO     |       [DEBUG] Normalized mean: 0.3562, quantile ref: 2.9464
+2026-05-25 02:18:56 | INFO     |       [EFLUX] Constrained 1962 reactions
+2026-05-25 02:18:56 | INFO     |       [PFBA] Running parsimonious FBA...
+2026-05-25 02:18:56 | INFO     |       [RESULT] obj=46.590020, nonzero=320, total_flux=46.59
+2026-05-25 02:18:56 | INFO     |   [INFO] === T cells ===
+2026-05-25 02:18:56 | INFO     |   [INFO] Matched 1075 genes to model
+2026-05-25 02:18:56 | INFO     |     [INFO] Processing Chow...
+2026-05-25 02:18:56 | INFO     |   Read LP format model from file /tmp/tmpms4iwedw.lp
+2026-05-25 02:18:56 | INFO     |   Reading time = 0.01 seconds
+2026-05-25 02:18:56 | INFO     |   : 2775 rows, 7452 columns, 28106 nonzeros
+2026-05-25 02:18:56 | INFO     |       [DIET] Applied 61 bounds
+2026-05-25 02:18:56 | INFO     |       [DEBUG] Normalized mean: 0.5189, quantile ref: 3.2536
+2026-05-25 02:18:56 | INFO     |       [EFLUX] Constrained 1962 reactions
+2026-05-25 02:18:56 | INFO     |       [PFBA] Running parsimonious FBA...
+2026-05-25 02:18:56 | INFO     |       [RESULT] obj=65.459197, nonzero=342, total_flux=65.46
+2026-05-25 02:18:56 | INFO     |     [INFO] Processing WesternDiet...
+2026-05-25 02:18:56 | INFO     |   Read LP format model from file /tmp/tmp8ynf49_l.lp
+2026-05-25 02:18:56 | INFO     |   Reading time = 0.01 seconds
+2026-05-25 02:18:56 | INFO     |   : 2775 rows, 7452 columns, 28106 nonzeros
+2026-05-25 02:18:56 | INFO     |       [DIET] Applied 68 bounds
+2026-05-25 02:18:56 | INFO     |       [DEBUG] Normalized mean: 0.3952, quantile ref: 2.9464
+2026-05-25 02:18:56 | INFO     |       [EFLUX] Constrained 1962 reactions
+2026-05-25 02:18:56 | INFO     |       [PFBA] Running parsimonious FBA...
+2026-05-25 02:18:56 | INFO     |       [RESULT] obj=48.782292, nonzero=338, total_flux=48.78
+2026-05-25 02:18:56 | INFO     |   [INFO] === Cycling ===
+2026-05-25 02:18:56 | INFO     |   [INFO] Matched 1075 genes to model
+2026-05-25 02:18:56 | INFO     |     [INFO] Processing Chow...
+2026-05-25 02:18:56 | INFO     |   Read LP format model from file /tmp/tmpbigre6hn.lp
+2026-05-25 02:18:56 | INFO     |   Reading time = 0.01 seconds
+2026-05-25 02:18:56 | INFO     |   : 2775 rows, 7452 columns, 28106 nonzeros
+2026-05-25 02:18:56 | INFO     |       [DIET] Applied 61 bounds
+2026-05-25 02:18:56 | INFO     |       [DEBUG] Normalized mean: 0.2866, quantile ref: 3.2536
+2026-05-25 02:18:56 | INFO     |       [EFLUX] Constrained 1962 reactions
+2026-05-25 02:18:56 | INFO     |       [PFBA] Running parsimonious FBA...
+2026-05-25 02:18:56 | INFO     |       [RESULT] obj=37.230973, nonzero=335, total_flux=37.23
+2026-05-25 02:18:56 | INFO     |     [INFO] Processing WesternDiet...
+2026-05-25 02:18:56 | INFO     |   Read LP format model from file /tmp/tmpjicsb_m0.lp
+2026-05-25 02:18:56 | INFO     |   Reading time = 0.01 seconds
+2026-05-25 02:18:56 | INFO     |   : 2775 rows, 7452 columns, 28106 nonzeros
+2026-05-25 02:18:56 | INFO     |       [DIET] Applied 68 bounds
+2026-05-25 02:18:56 | INFO     |       [DEBUG] Normalized mean: 0.3223, quantile ref: 2.9464
+2026-05-25 02:18:56 | INFO     |       [EFLUX] Constrained 1962 reactions
+2026-05-25 02:18:56 | INFO     |       [PFBA] Running parsimonious FBA...
+2026-05-25 02:18:56 | INFO     |       [RESULT] obj=44.704730, nonzero=385, total_flux=44.70
+2026-05-25 02:18:56 | INFO     |   [INFO] === B cells ===
+2026-05-25 02:18:56 | INFO     |   [INFO] Matched 1075 genes to model
+2026-05-25 02:18:56 | INFO     |     [INFO] Processing Chow...
+2026-05-25 02:18:56 | INFO     |   Read LP format model from file /tmp/tmp936uoog3.lp
+2026-05-25 02:18:56 | INFO     |   Reading time = 0.01 seconds
+2026-05-25 02:18:56 | INFO     |   : 2775 rows, 7452 columns, 28106 nonzeros
+2026-05-25 02:18:56 | INFO     |       [DIET] Applied 61 bounds
+2026-05-25 02:18:56 | INFO     |       [DEBUG] Normalized mean: 0.2906, quantile ref: 3.2536
+2026-05-25 02:18:56 | INFO     |       [EFLUX] Constrained 1962 reactions
+2026-05-25 02:18:56 | INFO     |       [PFBA] Running parsimonious FBA...
+2026-05-25 02:18:56 | INFO     |       [RESULT] obj=35.627421, nonzero=328, total_flux=35.63
+2026-05-25 02:18:56 | INFO     |     [INFO] Processing WesternDiet...
+2026-05-25 02:18:56 | INFO     |   Read LP format model from file /tmp/tmpdejq3u19.lp
+2026-05-25 02:18:56 | INFO     |   Reading time = 0.01 seconds
+2026-05-25 02:18:56 | INFO     |   : 2775 rows, 7452 columns, 28106 nonzeros
+2026-05-25 02:18:56 | INFO     |       [DIET] Applied 68 bounds
+2026-05-25 02:18:56 | INFO     |       [DEBUG] Normalized mean: 0.3365, quantile ref: 2.9464
+2026-05-25 02:18:56 | INFO     |       [EFLUX] Constrained 1962 reactions
+2026-05-25 02:18:56 | INFO     |       [PFBA] Running parsimonious FBA...
+2026-05-25 02:18:56 | INFO     |       [RESULT] obj=41.823425, nonzero=336, total_flux=41.82
+2026-05-25 02:18:56 | INFO     |   [INFO] === Neutrophiles ===
+2026-05-25 02:18:56 | INFO     |   [INFO] Matched 1075 genes to model
+2026-05-25 02:18:56 | INFO     |     [INFO] Processing Chow...
+2026-05-25 02:18:56 | INFO     |   Read LP format model from file /tmp/tmpw7msvz64.lp
+2026-05-25 02:18:56 | INFO     |   Reading time = 0.01 seconds
+2026-05-25 02:18:56 | INFO     |   : 2775 rows, 7452 columns, 28106 nonzeros
+2026-05-25 02:18:56 | INFO     |       [DIET] Applied 61 bounds
+2026-05-25 02:18:56 | INFO     |       [DEBUG] Normalized mean: 0.3546, quantile ref: 3.2536
+2026-05-25 02:18:56 | INFO     |       [EFLUX] Constrained 1962 reactions
+2026-05-25 02:18:56 | INFO     |       [PFBA] Running parsimonious FBA...
+2026-05-25 02:18:56 | INFO     |       [RESULT] obj=4.875086, nonzero=273, total_flux=4.88
+2026-05-25 02:18:56 | INFO     |     [INFO] Processing WesternDiet...
+2026-05-25 02:18:56 | INFO     |   Read LP format model from file /tmp/tmphfwn4dco.lp
+2026-05-25 02:18:56 | INFO     |   Reading time = 0.01 seconds
+2026-05-25 02:18:56 | INFO     |   : 2775 rows, 7452 columns, 28106 nonzeros
+2026-05-25 02:18:56 | INFO     |       [DIET] Applied 68 bounds
+2026-05-25 02:18:56 | INFO     |       [DEBUG] Normalized mean: 0.3009, quantile ref: 2.9464
+2026-05-25 02:18:56 | INFO     |       [EFLUX] Constrained 1962 reactions
+2026-05-25 02:18:56 | INFO     |       [PFBA] Running parsimonious FBA...
+2026-05-25 02:18:56 | INFO     |       [RESULT] obj=38.574398, nonzero=345, total_flux=38.57
+2026-05-25 02:18:56 | INFO     |   [INFO] === Trem2+, Spp1+ MdM ===
+2026-05-25 02:18:56 | INFO     |   [INFO] Matched 1075 genes to model
+2026-05-25 02:18:56 | INFO     |     [INFO] Processing Chow...
+2026-05-25 02:18:56 | INFO     |   Read LP format model from file /tmp/tmpozg7qg6p.lp
+2026-05-25 02:18:56 | INFO     |   Reading time = 0.01 seconds
+2026-05-25 02:18:56 | INFO     |   : 2775 rows, 7452 columns, 28106 nonzeros
+2026-05-25 02:18:56 | INFO     |       [DIET] Applied 61 bounds
+2026-05-25 02:18:56 | INFO     |       [DEBUG] Normalized mean: 0.2713, quantile ref: 3.2536
+2026-05-25 02:18:56 | INFO     |       [EFLUX] Constrained 1962 reactions
+2026-05-25 02:18:56 | INFO     |       [PFBA] Running parsimonious FBA...
+2026-05-25 02:18:56 | INFO     |       [RESULT] obj=35.881595, nonzero=333, total_flux=35.88
+2026-05-25 02:18:56 | INFO     |     [INFO] Processing WesternDiet...
+2026-05-25 02:18:56 | INFO     |   Read LP format model from file /tmp/tmp4e2zrmz0.lp
+2026-05-25 02:18:56 | INFO     |   Reading time = 0.01 seconds
+2026-05-25 02:18:56 | INFO     |   : 2775 rows, 7452 columns, 28106 nonzeros
+2026-05-25 02:18:56 | INFO     |       [DIET] Applied 68 bounds
+2026-05-25 02:18:56 | INFO     |       [DEBUG] Normalized mean: 0.4216, quantile ref: 2.9464
+2026-05-25 02:18:56 | INFO     |       [EFLUX] Constrained 1962 reactions
+2026-05-25 02:18:56 | INFO     |       [PFBA] Running parsimonious FBA...
+2026-05-25 02:18:56 | INFO     |       [RESULT] obj=50.861955, nonzero=368, total_flux=50.86
+2026-05-25 02:18:56 | INFO     |   [INFO] === Ly6c2-, Spn+ Mo ===
+2026-05-25 02:18:56 | INFO     |   [INFO] Matched 1075 genes to model
+2026-05-25 02:18:56 | INFO     |     [INFO] Processing Chow...
+2026-05-25 02:18:56 | INFO     |   Read LP format model from file /tmp/tmpfbdoj2hh.lp
+2026-05-25 02:18:56 | INFO     |   Reading time = 0.01 seconds
+2026-05-25 02:18:56 | INFO     |   : 2775 rows, 7452 columns, 28106 nonzeros
+2026-05-25 02:18:56 | INFO     |       [DIET] Applied 61 bounds
+2026-05-25 02:18:56 | INFO     |       [DEBUG] Normalized mean: 0.5435, quantile ref: 3.2536
+2026-05-25 02:18:56 | INFO     |       [EFLUX] Constrained 1962 reactions
+2026-05-25 02:18:56 | INFO     |       [PFBA] Running parsimonious FBA...
+2026-05-25 02:18:56 | INFO     |       [RESULT] obj=58.955259, nonzero=290, total_flux=58.96
+2026-05-25 02:18:56 | INFO     |     [INFO] Processing WesternDiet...
+2026-05-25 02:18:56 | INFO     |   Read LP format model from file /tmp/tmp8g8jqni5.lp
+2026-05-25 02:18:56 | INFO     |   Reading time = 0.01 seconds
+2026-05-25 02:18:56 | INFO     |   : 2775 rows, 7452 columns, 28106 nonzeros
+2026-05-25 02:18:56 | INFO     |       [DIET] Applied 68 bounds
+2026-05-25 02:18:56 | INFO     |       [DEBUG] Normalized mean: 0.5324, quantile ref: 2.9464
+2026-05-25 02:18:56 | INFO     |       [EFLUX] Constrained 1962 reactions
+2026-05-25 02:18:56 | INFO     |       [PFBA] Running parsimonious FBA...
+2026-05-25 02:18:56 | INFO     |       [RESULT] obj=62.425669, nonzero=309, total_flux=62.43
+2026-05-25 02:18:56 | INFO     |   [INFO] === Transitioning Mo ===
+2026-05-25 02:18:56 | INFO     |   [INFO] Matched 1075 genes to model
+2026-05-25 02:18:56 | INFO     |     [INFO] Processing Chow...
+2026-05-25 02:18:56 | INFO     |   Read LP format model from file /tmp/tmp5g100jvp.lp
+2026-05-25 02:18:56 | INFO     |   Reading time = 0.01 seconds
+2026-05-25 02:18:56 | INFO     |   : 2775 rows, 7452 columns, 28106 nonzeros
+2026-05-25 02:18:56 | INFO     |       [DIET] Applied 61 bounds
+2026-05-25 02:18:56 | INFO     |       [DEBUG] Normalized mean: 0.3519, quantile ref: 3.2536
+2026-05-25 02:18:56 | INFO     |       [EFLUX] Constrained 1962 reactions
+2026-05-25 02:18:56 | INFO     |       [PFBA] Running parsimonious FBA...
+2026-05-25 02:18:56 | INFO     |       [RESULT] obj=40.553032, nonzero=323, total_flux=40.55
+2026-05-25 02:18:56 | INFO     |     [INFO] Processing WesternDiet...
+2026-05-25 02:18:56 | INFO     |   Read LP format model from file /tmp/tmpkh775vss.lp
+2026-05-25 02:18:56 | INFO     |   Reading time = 0.01 seconds
+2026-05-25 02:18:56 | INFO     |   : 2775 rows, 7452 columns, 28106 nonzeros
+2026-05-25 02:18:56 | INFO     |       [DIET] Applied 68 bounds
+2026-05-25 02:18:56 | INFO     |       [DEBUG] Normalized mean: 0.3528, quantile ref: 2.9464
+2026-05-25 02:18:56 | INFO     |       [EFLUX] Constrained 1962 reactions
+2026-05-25 02:18:56 | INFO     |       [PFBA] Running parsimonious FBA...
+2026-05-25 02:18:56 | INFO     |       [RESULT] obj=4.895801, nonzero=304, total_flux=4.90
+2026-05-25 02:18:56 | INFO     |   [INFO] === DCs ===
+2026-05-25 02:18:56 | INFO     |   [INFO] Matched 1075 genes to model
+2026-05-25 02:18:56 | INFO     |     [INFO] Processing WesternDiet...
+2026-05-25 02:18:56 | INFO     |   Read LP format model from file /tmp/tmp123th3fv.lp
+2026-05-25 02:18:56 | INFO     |   Reading time = 0.01 seconds
+2026-05-25 02:18:56 | INFO     |   : 2775 rows, 7452 columns, 28106 nonzeros
+2026-05-25 02:18:56 | INFO     |       [DIET] Applied 68 bounds
+2026-05-25 02:18:56 | INFO     |       [DEBUG] Normalized mean: 0.3928, quantile ref: 2.9464
+2026-05-25 02:18:56 | INFO     |       [EFLUX] Constrained 1962 reactions
+2026-05-25 02:18:56 | INFO     |       [PFBA] Running parsimonious FBA...
+2026-05-25 02:18:56 | INFO     |       [RESULT] obj=4.893649, nonzero=299, total_flux=4.89
+2026-05-25 02:18:56 | INFO     |   [INFO] === Mast cells ===
+2026-05-25 02:18:56 | INFO     |   [INFO] Matched 1075 genes to model
+2026-05-25 02:18:56 | INFO     |     [INFO] Processing Chow...
+2026-05-25 02:18:56 | INFO     |   Read LP format model from file /tmp/tmp_1xmanjr.lp
+2026-05-25 02:18:56 | INFO     |   Reading time = 0.01 seconds
+2026-05-25 02:18:56 | INFO     |   : 2775 rows, 7452 columns, 28106 nonzeros
+2026-05-25 02:18:56 | INFO     |       [DIET] Applied 61 bounds
+2026-05-25 02:18:56 | INFO     |       [DEBUG] Normalized mean: 0.3975, quantile ref: 3.2536
+2026-05-25 02:18:56 | INFO     |       [EFLUX] Constrained 1962 reactions
+2026-05-25 02:18:56 | INFO     |       [PFBA] Running parsimonious FBA...
+2026-05-25 02:18:56 | INFO     |       [RESULT] obj=4.758399, nonzero=259, total_flux=4.76
+2026-05-25 02:18:56 | INFO     |     [INFO] Processing WesternDiet...
+2026-05-25 02:18:56 | INFO     |   Read LP format model from file /tmp/tmp378t7enm.lp
+2026-05-25 02:18:56 | INFO     |   Reading time = 0.01 seconds
+2026-05-25 02:18:56 | INFO     |   : 2775 rows, 7452 columns, 28106 nonzeros
+2026-05-25 02:18:56 | INFO     |       [DIET] Applied 68 bounds
+2026-05-25 02:18:56 | INFO     |       [DEBUG] Normalized mean: 0.3603, quantile ref: 2.9464
+2026-05-25 02:18:56 | INFO     |       [EFLUX] Constrained 1962 reactions
+2026-05-25 02:18:56 | INFO     |       [PFBA] Running parsimonious FBA...
+2026-05-25 02:18:56 | INFO     |       [RESULT] obj=46.148533, nonzero=341, total_flux=46.15
+2026-05-25 02:18:56 | INFO     |   [GPR STATS] Rule types encountered:
+2026-05-25 02:18:56 | INFO     |     - Simple (single gene): 56745
+2026-05-25 02:18:56 | INFO     |     - AND only (complexes): 2790
+2026-05-25 02:18:56 | INFO     |     - OR only (isozymes): 32040
+2026-05-25 02:18:56 | INFO     |     - Complex (mixed AND/OR): 7875
+2026-05-25 02:18:56 | INFO     |   ================================================================================
+2026-05-25 02:18:56 | INFO     |   VALIDATION: Cell Type Diversity Check
+2026-05-25 02:18:56 | INFO     |   ================================================================================
+2026-05-25 02:18:56 | INFO     |   [VALIDATION] LECs vs Hepatocytes (Chow):
+2026-05-25 02:18:56 | INFO     |     Correlation: 0.971880
+2026-05-25 02:18:56 | INFO     |     Different reactions: 145
+2026-05-25 02:18:56 | INFO     |     [OK] SUCCESS: Cell types produce DIFFERENT solutions!
+2026-05-25 02:18:56 | INFO     |   [VALIDATION] Dietary Response Check:
+2026-05-25 02:18:56 | INFO     |   [[OK] GOOD] LECs: Chow vs WesternDiet, Corr=0.7466, Different=202
+2026-05-25 02:18:56 | INFO     |   [[!] SIMILAR] Hepatocytes: Chow vs WesternDiet, Corr=0.9661, Different=142
+2026-05-25 02:18:56 | INFO     |   [[OK] GOOD] qHSCs: Chow vs WesternDiet, Corr=0.5059, Different=186
+2026-05-25 02:18:56 | INFO     |   [[OK] GOOD] Cd207+, Trem2+ Mo-KC: Chow vs WesternDiet, Corr=0.5442, Different=207
+2026-05-25 02:18:56 | INFO     |   [[OK] GOOD] Timd4+ resKC: Chow vs WesternDiet, Corr=0.9379, Different=241
+2026-05-25 02:18:56 | INFO     |   ================================================================================
+2026-05-25 02:18:56 | INFO     |   [STEP 5] Comparing fluxes...
+2026-05-25 02:18:56 | INFO     |   [STEP 6] Statistical testing (REVISED)...
+2026-05-25 02:18:56 | INFO     |   ================================================================================
+2026-05-25 02:18:56 | INFO     |   STATISTICAL TESTING (REVISED)
+2026-05-25 02:18:56 | INFO     |   ================================================================================
+2026-05-25 02:18:56 | INFO     |   [NOTE] Solutions are DETERMINISTIC - no variance estimates available
+2026-05-25 02:18:56 | INFO     |   [NOTE] 'Significance' is threshold-based, not inferential
+2026-05-25 02:18:56 | INFO     |   [NOTE] 'Relative Magnitude' replaces incorrectly named 'Cohen's D'
+2026-05-25 02:18:56 | INFO     |   ================================================================================
+2026-05-25 02:18:56 | INFO     |   [INFO] Methodology notes saved to Processing_outputs/Step_3_RQ3/statistics/METHODOLOGY_NOTES.txt
+2026-05-25 02:18:56 | INFO     |   [SUMMARY] Threshold-significant reactions: 4528/85698 (5.3%)
+2026-05-25 02:18:56 | INFO     |     LECs: 166/3726 (4.5%)
+2026-05-25 02:18:56 | INFO     |     Hepatocytes: 64/3726 (1.7%)
+2026-05-25 02:18:56 | INFO     |     qHSCs: 337/3726 (9.0%)
+2026-05-25 02:18:56 | INFO     |     Cd207+, Trem2+ Mo-KC: 155/3726 (4.2%)
+2026-05-25 02:18:56 | INFO     |     Timd4+ resKC: 131/3726 (3.5%)
+2026-05-25 02:18:56 | INFO     |     Cholangiocytes: 283/3726 (7.6%)
+2026-05-25 02:18:56 | INFO     |     cAMP qHSCs: 344/3726 (9.2%)
+2026-05-25 02:18:56 | INFO     |     aHSCs: 329/3726 (8.8%)
+2026-05-25 02:18:56 | INFO     |     Cd207-, Trem2+ Mo-KC: 91/3726 (2.4%)
+2026-05-25 02:18:56 | INFO     |     Cx3cr1+, Ccr2+ MdM: 121/3726 (3.2%)
+2026-05-25 02:18:56 | INFO     |     Macrophages: 71/3726 (1.9%)
+2026-05-25 02:18:56 | INFO     |     Dendrites: 222/3726 (6.0%)
+2026-05-25 02:18:56 | INFO     |     Ly6c2+, Ccr2+ Mo: 127/3726 (3.4%)
+2026-05-25 02:18:56 | INFO     |     MCs: 306/3726 (8.2%)
+2026-05-25 02:18:56 | INFO     |     T cells: 69/3726 (1.9%)
+2026-05-25 02:18:56 | INFO     |     Cycling: 126/3726 (3.4%)
+2026-05-25 02:18:56 | INFO     |     B cells: 64/3726 (1.7%)
+2026-05-25 02:18:56 | INFO     |     Neutrophiles: 334/3726 (9.0%)
+2026-05-25 02:18:56 | INFO     |     Trem2+, Spp1+ MdM: 293/3726 (7.9%)
+2026-05-25 02:18:56 | INFO     |     Ly6c2-, Spn+ Mo: 68/3726 (1.8%)
+2026-05-25 02:18:56 | INFO     |     Transitioning Mo: 194/3726 (5.2%)
+2026-05-25 02:18:56 | INFO     |     DCs: 299/3726 (8.0%)
+2026-05-25 02:18:56 | INFO     |     Mast cells: 334/3726 (9.0%)
+2026-05-25 02:18:56 | INFO     |   [STEP 7] Creating visualizations...
+2026-05-25 02:18:56 | INFO     |   [INFO] Creating visualizations...
+2026-05-25 02:18:56 | INFO     |     - Response rates barplot...
+2026-05-25 02:18:56 | INFO     |     - Response heatmap...
+2026-05-25 02:18:56 | INFO     |     - Objective values plot...
+2026-05-25 02:18:56 | INFO     |     - Top changed reactions...
+2026-05-25 02:18:56 | INFO     |     - Relative magnitude distribution...
+2026-05-25 02:18:56 | INFO     |     [OK] Visualizations saved to Processing_outputs/Step_3_RQ3/visualizations/
+2026-05-25 02:18:56 | INFO     |   ================================================================================
+2026-05-25 02:18:56 | INFO     |   COMPLETE!
+2026-05-25 02:18:56 | INFO     |   ================================================================================
+2026-05-25 02:18:56 | INFO     |   Results directory: Processing_outputs/Step_3_RQ3/
+2026-05-25 02:18:56 | INFO     |     - aggregation_summary.csv
+2026-05-25 02:18:56 | INFO     |     - statistics/flux_comparison.csv
+2026-05-25 02:18:56 | INFO     |     - statistics/statistical_tests.csv
+2026-05-25 02:18:56 | INFO     |     - statistics/METHODOLOGY_NOTES.txt READ THIS!
+2026-05-25 02:18:56 | INFO     |     - visualizations/*.png
+2026-05-25 02:18:56 | INFO     |   ================================================================================
+2026-05-25 02:18:56 | INFO     |   IMPORTANT REMINDERS:
+2026-05-25 02:18:56 | INFO     |     - 'relative_magnitude' is NOT Cohen's d (see methodology notes)
+2026-05-25 02:18:56 | INFO     |     - 'significant' means threshold-exceeded, not statistically significant
+2026-05-25 02:18:56 | INFO     |     - Solutions are deterministic (one per cell type × condition)
+2026-05-25 02:18:56 | INFO     |   ================================================================================
+2026-05-25 02:18:56 | INFO     |   Warning: environment still referenced so free is deferred (Continue to use WLS)
+2026-05-25 02:18:56 | INFO     | [OK] RQ3: Single-cell E-Flux Analysis completed successfully
+2026-05-25 02:18:56 | INFO     | 
+================================================================================
+2026-05-25 02:18:56 | INFO     | STEP 2: FULL RQ1-RQ2-RQ3 INTEGRATION (INTERPRETER)
+2026-05-25 02:18:56 | INFO     | Explains WHY bulk liver changes occur based on cellular data
+2026-05-25 02:18:56 | INFO     | ================================================================================
+2026-05-25 02:18:56 | INFO     | 
+Validating RQ1-RQ2-RQ3 integration inputs...
+2026-05-25 02:18:56 | INFO     |   [OK] Found: RQ1 pairwise statistics
+2026-05-25 02:18:56 | INFO     |   [OK] Found: RQ3 statistical tests
+2026-05-25 02:18:56 | INFO     |   [OK] Found: RQ3 aggregation summary
+2026-05-25 02:18:56 | INFO     | 
+================================================================================
+2026-05-25 02:18:56 | INFO     | EXECUTING: RQ1-RQ2-RQ3: Full Integration Analysis
+2026-05-25 02:18:56 | INFO     | ================================================================================
+2026-05-25 02:19:04 | INFO     | [OK] RQ1-RQ2-RQ3: Full Integration Analysis completed successfully
+2026-05-25 02:19:04 | INFO     | 
+================================================================================
+2026-05-25 02:19:04 | INFO     | STEP 3: RQ2-RQ3 MULTI-STRAIN INTEGRATION (GENERALIZER)
+2026-05-25 02:19:04 | INFO     | Tests if findings hold across genetic diversity (9 strains)
+2026-05-25 02:19:04 | INFO     | ================================================================================
+2026-05-25 02:19:04 | INFO     | 
+Validating RQ2-RQ3 integration inputs...
+2026-05-25 02:19:04 | INFO     |   [OK] Found: RQ1 pairwise statistics
+2026-05-25 02:19:04 | INFO     |   [OK] Found: RQ3 statistical tests
+2026-05-25 02:19:04 | INFO     |   [OK] Found: RQ3 aggregation summary
+2026-05-25 02:19:04 | INFO     |   Checking per-strain RQ2 files (dataset_id=GSE182668)...
+2026-05-25 02:19:04 | INFO     |   [OK] Found 9/9 strain files
+2026-05-25 02:19:04 | INFO     |   Running with 9/9 strains: C57BL6J, 129S1SvImJ, AJ, CASTEiJ, DBA2J, NODShiLtJ, NZOHlLtJ, PWKPhJ, WSBEiJ
+2026-05-25 02:19:04 | INFO     | 
+================================================================================
+2026-05-25 02:19:04 | INFO     | EXECUTING: RQ2-RQ3: Multi-Strain Integration Analysis
+2026-05-25 02:19:04 | INFO     | ================================================================================
+2026-05-25 02:19:12 | INFO     | [OK] RQ2-RQ3: Multi-Strain Integration Analysis completed successfully
+2026-05-25 02:19:12 | INFO     | 
+[OK] Pipeline manifest saved: Processing_outputs/Step_3_RQ3/pipeline_manifest.json
+2026-05-25 02:19:12 | INFO     | [OK] Pipeline summary saved: Processing_outputs/Step_3_RQ3/pipeline_summary.txt
+2026-05-25 02:19:12 | INFO     | 
+================================================================================
+2026-05-25 02:19:12 | INFO     | PIPELINE EXECUTION COMPLETE
+2026-05-25 02:19:12 | INFO     | ================================================================================
+2026-05-25 02:19:12 | INFO     |   RQ3_Analysis: [OK] SUCCESS
+2026-05-25 02:19:12 | INFO     |   Full_Integration: [OK] SUCCESS
+2026-05-25 02:19:12 | INFO     |   RQ2_RQ3_Integration: [OK] SUCCESS
+2026-05-25 02:19:12 | INFO     | 
+Overall Status: SUCCESS
+2026-05-25 02:19:12 | INFO     | Results Directory: Processing_outputs/Step_3_RQ3

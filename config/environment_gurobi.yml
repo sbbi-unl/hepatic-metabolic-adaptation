@@ -1,0 +1,54 @@
+name: hepatic-flux
+
+channels:
+  - gurobi
+  - conda-forge
+  - bioconda
+  - defaults
+
+dependencies:
+  - python=3.9
+  - pip
+
+  # Core scientific stack
+  - numpy>=1.23
+  - pandas>=1.5
+  - scipy>=1.9
+  - scikit-learn>=1.1
+  - statsmodels>=0.13
+
+  # Metabolic modeling
+  - cobra>=0.26          # COBRApy — constraint-based reconstruction and analysis
+  - optlang>=1.6         # Symbolic optimization interface used by COBRApy
+  - gurobi              # Gurobi Optimizer + gurobipy Python API
+
+  # Visualization
+  - matplotlib>=3.6
+  - seaborn>=0.12
+  - plotly>=5.11
+
+  # Single-cell / bioinformatics
+  - anndata>=0.9
+  - scanpy>=1.9
+
+  # Spreadsheet / document output
+  - openpyxl>=3.0
+  - python-docx>=0.8
+
+  # Utilities
+  - tqdm>=4.64
+  - pyyaml>=6.0
+  - jsonschema>=4.17
+  - networkx>=2.8
+
+  # Terminal support
+  - ncurses              # Helps prevent libtinfow.so.6 / clear command issues in Linux/WSL
+
+  # Testing & reproducibility
+  - pytest>=7.2
+
+  # Packages installed with pip after conda packages
+  - pip:
+      - micom>=0.35      # MICOM community metabolic modeling
+      - pytest-cov
+      - XlsxWriter

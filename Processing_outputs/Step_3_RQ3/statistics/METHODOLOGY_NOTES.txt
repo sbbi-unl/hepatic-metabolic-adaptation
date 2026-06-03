@@ -1,0 +1,71 @@
+
+METHODOLOGY NOTES FOR STATISTICAL ANALYSIS
+==========================================
+
+1. DETERMINISTIC SOLUTIONS
+--------------------------
+Each cell type x dietary condition combination produces a SINGLE flux solution
+via parsimonious FBA (pFBA). This is a deterministic optimization - running
+the same model with the same constraints will always yield the same result.
+
+Implication: There is no variance from sampling or biological replicates at
+the flux level. Any apparent "variation" comes from comparing different
+cell types or conditions.
+
+
+2. RELATIVE MAGNITUDE METRIC (formerly "Cohen's D")
+--------------------------------------------------
+The "relative_magnitude" column is computed as:
+
+    relative_magnitude = (test_flux - baseline_flux) / |baseline_flux|
+
+This is a RELATIVE DIFFERENCE or signed percent change. It is NOT Cohen's d.
+
+Cohen's d is a standardized effect size that requires variance:
+    d = (mean1 - mean2) / sigma_pooled
+
+Since pseudo-bulk aggregation produces single values (not distributions),
+we cannot compute a true standardized effect size.
+
+Interpretation of relative_magnitude:
+- 1.0 means the flux doubled relative to baseline
+- -0.5 means the flux decreased by 50%
+- Values > 100 indicate the baseline was near zero
+
+
+3. THRESHOLD-BASED "SIGNIFICANCE"
+---------------------------------
+Without variance estimates, we cannot compute p-values or confidence intervals.
+"Significance" in this analysis means the change exceeds user-defined thresholds:
+
+- Fold change > 1.5 (or as specified)
+- Absolute change > 0.1 (or as specified)
+- Relative magnitude > 0.5
+
+A reaction is marked "significant" if it meets >=2 of these criteria.
+A reaction is marked "significant_strict" if it meets all 3 criteria.
+
+CAUTION: These are descriptive thresholds, not statistical significance.
+
+
+4. FLUX VARIABILITY ANALYSIS (FVA)
+----------------------------------
+If FVA was run, additional columns provide:
+- baseline_flux_min/max: Range of feasible fluxes at baseline
+- test_flux_min/max: Range of feasible fluxes at test condition
+- fva_ranges_overlap: Whether the feasible ranges overlap
+
+Non-overlapping FVA ranges provide stronger evidence that the flux truly
+differs between conditions, as the flux MUST differ to achieve near-optimal
+objective values.
+
+
+5. GPR LOGIC
+------------
+Gene expression is mapped to reactions using boolean logic:
+- AND rules (protein complexes): MINIMUM expression
+- OR rules (isozymes): MAXIMUM expression
+
+This reflects biological constraints where:
+- Complexes require all subunits (limited by least abundant)
+- Isozymes can substitute (any one is sufficient)

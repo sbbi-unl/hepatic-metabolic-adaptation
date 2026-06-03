@@ -1,0 +1,28 @@
+================================================================================
+RQ4 BIOLOGICALLY CORRECTED ANALYSIS REPORT
+================================================================================
+
+CORRECTIONS APPLIED:
+  [X] ATP maintenance objective (not biomass)
+  [X] GPR-aware E-Flux (respects AND/OR logic)
+  [X] Physiologically correct portal coupling
+  [X] Scaled microbiome constraints
+
+Condition: ND_SCD
+Objective Mode: biomass
+Portal Scaling: 0.1
+Use pFBA: True
+
+BASELINE STATISTICS:
+  Genes matched: 1103 / 1375 (80.2%)
+  Reactions constrained: 2202
+  Optimization status: optimal
+  Objective value: 794.1661
+
+MICROBIOME STATISTICS:
+  Optimization status: optimal
+  Objective value: 794.1661
+
+FLUX CHANGES:
+  Total reactions: 3726
+  Microbiome-attributable: 0 (0.0%)

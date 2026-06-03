@@ -1,0 +1,32 @@
+{
+  "function": {
+    "percentages": {
+      "Immune": 25.50743041043698,
+      "Metabolic": 7.02768830643852,
+      "Structural": 67.46488128312448
+    },
+    "dominant_group": "Structural",
+    "dominant_percent": 67.46488128312448
+  },
+  "location": {
+    "percentages": {
+      "Sinusoidal": 74.78339406609048,
+      "Parenchymal": 2.2130875712420335,
+      "Portal": 4.833578037836092,
+      "Circulating": 18.1699403248314
+    },
+    "dominant_group": "Sinusoidal",
+    "dominant_percent": 74.78339406609048
+  },
+  "lineage": {
+    "percentages": {
+      "Myeloid": 22.68084892982369,
+      "Lymphoid": 2.1496690953686244,
+      "Epithelial": 7.046665609078125,
+      "Endothelial": 53.79475752132553,
+      "Mesenchymal": 14.328058844404035
+    },
+    "dominant_group": "Endothelial",
+    "dominant_percent": 53.79475752132553
+  }
+}

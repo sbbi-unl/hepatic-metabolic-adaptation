@@ -1,0 +1,14 @@
+Batch correction summary (dataset=batch; preserving groups)
+Samples: 99; Reactions: 3726
+
+Variance partition of PC1 (pre):
+  Dataset (batch): 93.4%
+  Group (biology): 9.3%
+  Residual:        0.0%
+
+Variance partition of PC1 (post):
+  Dataset (batch): 3.7%
+  Group (biology): 34.7%
+  Residual:        61.6%
+
+Note: 3D PCA PNGs are saved unless --no_3d is used.

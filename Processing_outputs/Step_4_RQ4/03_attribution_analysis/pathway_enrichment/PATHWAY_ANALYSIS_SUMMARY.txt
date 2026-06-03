@@ -1,0 +1,27 @@
+
+# PATHWAY-LEVEL ANALYSIS SUMMARY
+================================================================================
+
+## Pathway Enrichment
+- Total pathways analyzed: 53
+- Significantly enriched: 9 (p < 0.05, FDR-corrected)
+
+### Top 5 Enriched Pathways:
+  33. Pentose Phosphate Pathway: 12/18 reactions (enrichment=6.32x, p=4.41e-07)
+  23. Pyrimidine Catabolism: 11/18 reactions (enrichment=5.79x, p=4.46e-06)
+  10. Citric Acid Cycle: 9/17 reactions (enrichment=5.02x, p=1.76e-04)
+  43. Cholesterol Metabolism: 22/43 reactions (enrichment=4.85x, p=1.27e-09)
+  35. Glycolysis/Gluconeogenesis: 13/29 reactions (enrichment=4.25x, p=3.05e-05)
+
+## Compartment Enrichment
+- Compartments analyzed: 6
+- Significantly enriched: 0
+- Highest microbiome contribution: extracellular (0.0% variance)
+
+## Pathway Synergy Classification
+- Highly Synergistic: 40 pathways
+
+### Most Synergistic Pathway:
+  Lysine Metabolism: 100.0% synergistic (8/8 reactions)
+
+================================================================================

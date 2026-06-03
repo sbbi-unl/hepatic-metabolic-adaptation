@@ -1,0 +1,23 @@
+================================================================================
+BULK-TO-SINGLE-CELL VALIDATION METRICS
+================================================================================
+
+Comparison: WD_vs_SCD vs WesternDiet_vs_Chow
+
+Pearson correlation:        r = -0.1899
+P-value:                    p = 1.35e-31
+Directional agreement:      49.8%
+RMSE:                       0.0766
+MAE:                        0.0172
+
+Total reactions:            3726
+
+================================================================================
+INTERPRETATION
+================================================================================
+
+Weak correlation suggests that simple abundance-weighted aggregation
+does not fully capture bulk tissue behavior. This indicates:
+- Intercellular metabolite exchange is important
+- Tissue-level organization creates emergent properties
+- Cell-cell interactions affect metabolic responses

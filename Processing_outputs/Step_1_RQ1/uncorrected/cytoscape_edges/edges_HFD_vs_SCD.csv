@@ -1,0 +1,39 @@
+ReactionID,ReactionName,Subsystem,MetaboliteID,MetaboliteName,Coefficient,Diff(HFD-SCD),Ratio(HFD/SCD)
+EX_h2o_e,H2O exchange,Extracellular exchange,h2o_e,H2O H2O,-1.0,0.2138693813688395,0.6994276328924733
+EX_h2o2_e,Hydrogen peroxide exchange,Extracellular exchange,h2o2_e,Hydrogen peroxide,-1.0,-0.9275823042606536,0.6175316363924638
+EX_o2_e,O2 exchange,Extracellular exchange,o2_e,O2 O2,-1.0,0.4855057861769056,0.9078715864662188
+ARTFR41,R group artificial flux,R Group Synthesis,R4coa_hs_c,R group 4 Coenzyme A homo sapiens,1.0,-0.2928549645768736,0.4401678556472265
+ARTFR41,R group artificial flux,R Group Synthesis,fad_m,Flavin adenine dinucleotide oxidized,1.0,-0.2928549645768736,0.4401678556472265
+ARTFR41,R group artificial flux,R Group Synthesis,fadh2_m,Flavin adenine dinucleotide reduced,-1.0,-0.2928549645768736,0.4401678556472265
+ARTFR41,R group artificial flux,R Group Synthesis,hdcoa_c,Hexadecenoyl-CoA (n-C16:1CoA),-1.0,-0.2928549645768736,0.4401678556472265
+H2O2t,Hydrogen peroxide transport via diffusion,"Transport, Extracellular",h2o2_c,Hydrogen peroxide,1.0,0.8584264560575052,0.6356573471859787
+H2O2t,Hydrogen peroxide transport via diffusion,"Transport, Extracellular",h2o2_e,Hydrogen peroxide,-1.0,0.8584264560575052,0.6356573471859787
+H2O2tp,"Hydrogen peroxide transport via diffusion, glyoxysome","Transport, Peroxisomal",h2o2_c,Hydrogen peroxide,-1.0,0.5848058027963297,0.7209031595793262
+H2O2tp,"Hydrogen peroxide transport via diffusion, glyoxysome","Transport, Peroxisomal",h2o2_x,Hydrogen peroxide,1.0,0.5848058027963297,0.7209031595793262
+H2Otp,H2O transport  peroxisomal,"Transport, Peroxisomal",h2o_c,H2O H2O,-1.0,-0.3342729892975414,1.1651511237109
+H2Otp,H2O transport  peroxisomal,"Transport, Peroxisomal",h2o_x,H2O H2O,1.0,-0.3342729892975414,1.1651511237109
+HEX1,Hexokinase (D-glucose:ATP),Glycolysis/Gluconeogenesis,adp_c,ADP C10H12N5O10P2,1.0,0.2088067974848156,4.075018951506136
+HEX1,Hexokinase (D-glucose:ATP),Glycolysis/Gluconeogenesis,atp_c,ATP C10H12N5O13P3,-1.0,0.2088067974848156,4.075018951506136
+HEX1,Hexokinase (D-glucose:ATP),Glycolysis/Gluconeogenesis,g6p_c,D-Glucose 6-phosphate,1.0,0.2088067974848156,4.075018951506136
+HEX1,Hexokinase (D-glucose:ATP),Glycolysis/Gluconeogenesis,glc__D_c,D-Glucose,-1.0,0.2088067974848156,4.075018951506136
+HEX1,Hexokinase (D-glucose:ATP),Glycolysis/Gluconeogenesis,h_c,H+,1.0,0.2088067974848156,4.075018951506136
+MTHFD,Methylenetetrahydrofolate dehydrogenase (NADP),Folate Metabolism,methf_c,"5,10-Methenyltetrahydrofolate",1.0,-0.2747094723402934,0.5579814943877085
+MTHFD,Methylenetetrahydrofolate dehydrogenase (NADP),Folate Metabolism,mlthf_c,"5,10-Methylenetetrahydrofolate",-1.0,-0.2747094723402934,0.5579814943877085
+MTHFD,Methylenetetrahydrofolate dehydrogenase (NADP),Folate Metabolism,nadp_c,Nicotinamide adenine dinucleotide phosphate,-1.0,-0.2747094723402934,0.5579814943877085
+MTHFD,Methylenetetrahydrofolate dehydrogenase (NADP),Folate Metabolism,nadph_c,Nicotinamide adenine dinucleotide phosphate - reduced,1.0,-0.2747094723402934,0.5579814943877085
+MTHFD2i,Methylenetetrahydrofolate dehydrogenase  NAD ,Folate Metabolism,methf_c,"5,10-Methenyltetrahydrofolate",1.0,0.2512118455881948,0.6098796183483653
+MTHFD2i,Methylenetetrahydrofolate dehydrogenase  NAD ,Folate Metabolism,mlthf_c,"5,10-Methylenetetrahydrofolate",-1.0,0.2512118455881948,0.6098796183483653
+MTHFD2i,Methylenetetrahydrofolate dehydrogenase  NAD ,Folate Metabolism,nad_c,Nicotinamide adenine dinucleotide,-1.0,0.2512118455881948,0.6098796183483653
+MTHFD2i,Methylenetetrahydrofolate dehydrogenase  NAD ,Folate Metabolism,nadh_c,Nicotinamide adenine dinucleotide - reduced,1.0,0.2512118455881948,0.6098796183483653
+NAt,Sodium transport (uniport),"Transport, Extracellular",na1_c,Sodium,1.0,0.2821839822552109,0.6510188153800259
+NAt,Sodium transport (uniport),"Transport, Extracellular",na1_e,Sodium,-1.0,0.2821839822552109,0.6510188153800259
+O2t,O2 transport  diffusion ,"Transport, Extracellular",o2_c,O2 O2,1.0,-0.5546616343800537,0.8961120444153077
+O2t,O2 transport  diffusion ,"Transport, Extracellular",o2_e,O2 O2,-1.0,-0.5546616343800537,0.8961120444153077
+O2tp,O2 transport glycosome,"Transport, Peroxisomal",o2_c,O2 O2,-1.0,-0.3820200794470385,0.8313902935886325
+O2tp,O2 transport glycosome,"Transport, Peroxisomal",o2_x,O2 O2,1.0,-0.3820200794470385,0.8313902935886325
+PIt2m_2,Phosphate mitochondrial transport via proton symport,,h_c,H+,-2.0,-0.2558093999506183,0.8447638798779247
+PIt2m_2,Phosphate mitochondrial transport via proton symport,,h_m,H+,2.0,-0.2558093999506183,0.8447638798779247
+PIt2m_2,Phosphate mitochondrial transport via proton symport,,pi_c,Phosphate,-1.0,-0.2558093999506183,0.8447638798779247
+PIt2m_2,Phosphate mitochondrial transport via proton symport,,pi_m,Phosphate,1.0,-0.2558093999506183,0.8447638798779247
+RTOT4,R total flux,R Group Synthesis,R4coa_hs_c,R group 4 Coenzyme A homo sapiens,-1.0,-0.2692879863271214,0.4852193438078981
+RTOT4,R total flux,R Group Synthesis,Rtotalcoa_c,Rtotalcoa c,1.0,-0.2692879863271214,0.4852193438078981

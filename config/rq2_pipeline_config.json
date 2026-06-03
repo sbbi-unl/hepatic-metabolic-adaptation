@@ -1,0 +1,75 @@
+{
+  "runner": {
+    "project_root": ".",
+    "python_executable": "python",
+    "script": "scripts/map_fixv5_multigroupsv8_layered_manuscript_run.py",
+    "log_dir": "Processing_outputs/Step_2_RQ2/logs_layered_runs",
+    "parallel": 1,
+    "stop_on_error": true,
+    "success_marker": ".runner_success.json"
+  },
+  "common_args": {
+    "model_file": "data/iMM1415.json",
+    "test_type": "t-test",
+    "diet_bounds_json": "data/expanded_diet_bounds_flat.json",
+    "eflux_quantile": 0.95,
+    "eflux_floor": 0.1,
+    "eflux_cap": 1000,
+    "objective_id": "BIOMASS_mm_1_no_glygln",
+    "objective_sense": "max",
+    "transporter_strategy": "either",
+    "edge_abs_diff_threshold": 0.2,
+    "mapping_file": "data/mouse_entrez_to_symbol.csv",
+    "write_replicates_long": true,
+    "rank_product_for": "HFD,KD,WD",
+    "no_fva": true,
+    "aggregate": true
+  },
+  "jobs": [
+    {
+      "name": "129S1SvImJ",
+      "input_csv": "data/GSE182668/male-129S1SvImJ-GSE182668_HFD_SCD_gene_expression.csv",
+      "results_dir": "Processing_outputs/Step_2_RQ2/results_129S1SvImJ_GSE182668"
+    },
+    {
+      "name": "C57BL6J",
+      "input_csv": "data/GSE182668/male-C57BL6J-GSE182668_HFD_SCD_gene_expression.csv",
+      "results_dir": "Processing_outputs/Step_2_RQ2/results_C57BL6J_GSE182668"
+    },
+    {
+      "name": "AJ",
+      "input_csv": "data/GSE182668/male-AJ-GSE182668_HFD_SCD_gene_expression.csv",
+      "results_dir": "Processing_outputs/Step_2_RQ2/results_AJ_GSE182668"
+    },
+    {
+      "name": "CASTEiJ",
+      "input_csv": "data/GSE182668/male-CASTEiJ-GSE182668_HFD_SCD_gene_expression.csv",
+      "results_dir": "Processing_outputs/Step_2_RQ2/results_CASTEiJ_GSE182668"
+    },
+    {
+      "name": "DBA2J",
+      "input_csv": "data/GSE182668/male-DBA2J-GSE182668_HFD_SCD_gene_expression.csv",
+      "results_dir": "Processing_outputs/Step_2_RQ2/results_DBA2J_GSE182668"
+    },
+    {
+      "name": "PWKPhJ",
+      "input_csv": "data/GSE182668/male-PWKPhJ-GSE182668_HFD_SCD_gene_expression.csv",
+      "results_dir": "Processing_outputs/Step_2_RQ2/results_PWKPhJ_GSE182668"
+    },
+    {
+      "name": "WSBEiJ",
+      "input_csv": "data/GSE182668/male-WSBEiJ-GSE182668_HFD_SCD_gene_expression.csv",
+      "results_dir": "Processing_outputs/Step_2_RQ2/results_WSBEiJ_GSE182668"
+    },
+    {
+      "name": "NODShiLtJ",
+      "input_csv": "data/GSE182668/male-NODShiLtJ-GSE182668_HFD_SCD_gene_expression.csv",
+      "results_dir": "Processing_outputs/Step_2_RQ2/results_NODShiLtJ_GSE182668"
+    },
+    {
+      "name": "NZOHlLtJ",
+      "input_csv": "data/GSE182668/male-NZOHlLtJ-GSE182668_HFD_SCD_gene_expression.csv",
+      "results_dir": "Processing_outputs/Step_2_RQ2/results_NZOHlLtJ_GSE182668"
+    }
+  ]
+}

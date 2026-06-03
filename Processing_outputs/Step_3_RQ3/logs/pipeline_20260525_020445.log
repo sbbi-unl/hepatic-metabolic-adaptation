@@ -1,0 +1,61 @@
+2026-05-25 02:04:45 | INFO     | Logging initialized: Processing_outputs/Step_3_RQ3/logs/pipeline_20260525_020445.log
+2026-05-25 02:04:45 | INFO     | ================================================================================
+2026-05-25 02:04:45 | INFO     | MASTER RQ INTEGRATION PIPELINE
+2026-05-25 02:04:45 | INFO     | ================================================================================
+2026-05-25 02:04:45 | INFO     | Timestamp: 2026-05-25 02:04:45
+2026-05-25 02:04:45 | INFO     | Output directory: Processing_outputs/Step_3_RQ3
+2026-05-25 02:04:45 | INFO     | 
+================================================================================
+2026-05-25 02:04:45 | INFO     | STEP 1: RQ3 SINGLE-CELL E-FLUX ANALYSIS (CORE GENERATOR)
+2026-05-25 02:04:45 | INFO     | Creates cell-type-specific metabolic models and raw data
+2026-05-25 02:04:45 | INFO     | ================================================================================
+2026-05-25 02:04:45 | INFO     | 
+Validating RQ3 inputs...
+2026-05-25 02:04:45 | INFO     |   [OK] Found: Single-cell expression matrix
+2026-05-25 02:04:45 | INFO     |   [OK] Found: Cell metadata file
+2026-05-25 02:04:45 | INFO     |   [OK] Found: Dietary bounds JSON
+2026-05-25 02:04:45 | ERROR    |   [X] Missing: Metabolic model (iMM1415.json)
+2026-05-25 02:04:45 | ERROR    |     Expected: iMM1415.json
+2026-05-25 02:04:45 | INFO     |   [OK] Condition mapping JSON is valid
+2026-05-25 02:04:45 | ERROR    | [X] RQ3 input validation failed
+2026-05-25 02:04:45 | INFO     | 
+================================================================================
+2026-05-25 02:04:45 | INFO     | STEP 2: FULL RQ1-RQ2-RQ3 INTEGRATION (INTERPRETER)
+2026-05-25 02:04:45 | INFO     | Explains WHY bulk liver changes occur based on cellular data
+2026-05-25 02:04:45 | INFO     | ================================================================================
+2026-05-25 02:04:45 | INFO     | 
+Validating RQ1-RQ2-RQ3 integration inputs...
+2026-05-25 02:04:45 | INFO     |   [OK] Found: RQ1 pairwise statistics
+2026-05-25 02:04:45 | ERROR    |   [X] Missing: RQ3 statistical tests
+2026-05-25 02:04:45 | ERROR    |     Expected: Processing_outputs/Step_3_RQ3/statistics/statistical_tests.csv
+2026-05-25 02:04:45 | ERROR    |   [X] Missing: RQ3 aggregation summary
+2026-05-25 02:04:45 | ERROR    |     Expected: Processing_outputs/Step_3_RQ3/aggregation_summary.csv
+2026-05-25 02:04:45 | ERROR    | [X] Full integration input validation failed
+2026-05-25 02:04:45 | INFO     | 
+================================================================================
+2026-05-25 02:04:45 | INFO     | STEP 3: RQ2-RQ3 MULTI-STRAIN INTEGRATION (GENERALIZER)
+2026-05-25 02:04:45 | INFO     | Tests if findings hold across genetic diversity (9 strains)
+2026-05-25 02:04:45 | INFO     | ================================================================================
+2026-05-25 02:04:45 | INFO     | 
+Validating RQ2-RQ3 integration inputs...
+2026-05-25 02:04:45 | INFO     |   [OK] Found: RQ1 pairwise statistics
+2026-05-25 02:04:45 | ERROR    |   [X] Missing: RQ3 statistical tests
+2026-05-25 02:04:45 | ERROR    |     Expected: Processing_outputs/Step_3_RQ3/statistics/statistical_tests.csv
+2026-05-25 02:04:45 | ERROR    |   [X] Missing: RQ3 aggregation summary
+2026-05-25 02:04:45 | ERROR    |     Expected: Processing_outputs/Step_3_RQ3/aggregation_summary.csv
+2026-05-25 02:04:45 | INFO     |   Checking per-strain RQ2 files (dataset_id=GSE182668)...
+2026-05-25 02:04:45 | INFO     |   [OK] Found 9/9 strain files
+2026-05-25 02:04:45 | ERROR    | [X] RQ2-RQ3 input validation failed
+2026-05-25 02:04:45 | INFO     | 
+[OK] Pipeline manifest saved: Processing_outputs/Step_3_RQ3/pipeline_manifest.json
+2026-05-25 02:04:45 | INFO     | [OK] Pipeline summary saved: Processing_outputs/Step_3_RQ3/pipeline_summary.txt
+2026-05-25 02:04:45 | INFO     | 
+================================================================================
+2026-05-25 02:04:45 | INFO     | PIPELINE EXECUTION COMPLETE
+2026-05-25 02:04:45 | INFO     | ================================================================================
+2026-05-25 02:04:45 | INFO     |   RQ3_Analysis: [X] FAILED
+2026-05-25 02:04:45 | INFO     |   Full_Integration: [X] FAILED
+2026-05-25 02:04:45 | INFO     |   RQ2_RQ3_Integration: [X] FAILED
+2026-05-25 02:04:45 | INFO     | 
+Overall Status: PARTIAL FAILURE
+2026-05-25 02:04:45 | INFO     | Results Directory: Processing_outputs/Step_3_RQ3

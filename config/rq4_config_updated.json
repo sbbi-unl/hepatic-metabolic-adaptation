@@ -1,0 +1,53 @@
+{
+  "project_name": "RQ4_Host_Microbiome_Metabolic_Integration",
+  "description": "Integration of gut microbiome metatranscriptomics with hepatic metabolic modeling to quantify microbiome contribution to diet-induced metabolic changes (V7 CORRECTED)",
+  
+  "data": {
+    "metatranscriptome": "data/Meta_GSE104913.csv",
+    "agora_models_dir": "./AGORA2_mat",
+    "hepatic_model": "data/iMM1415.json",
+    "hepatic_expression": "data/GSE182668/male-C57BL6J-GSE182668_HFD_SCD_gene_expression.csv",
+    "diet_bounds": "data/expanded_diet_bounds_flat.json"
+  },
+  
+  "analysis_params": {
+    "expression_cols": ["ND_SCD", "DD_HFD"],
+    "abundance_method": "total_expression",
+    "micom_tradeoff": 0.5,
+    "filter_metabolites": true,
+    "objective_mode": "biomass",
+    "use_pfba": true,
+    "portal_scaling": 0.1,
+    "portal_mode": "forced",
+    "eflux_floor": 0.1,
+    "eflux_cap": 1000.0,
+    "flux_threshold": 0.01,
+    "solver": "gurobi"
+  },
+  
+  "output": {
+    "base_dir": "Processing_outputs/Step_4_RQ4",
+    "subdirs": {
+      "community": "01_community_modeling",
+      "hepatic": "02_hepatic_integration",
+      "attribution": "03_attribution_analysis",
+      "figures": "04_publication_figures",
+      "reports": "05_analysis_reports"
+    }
+  },
+  
+  "notes": {
+    "expression_cols": "Column names in metatranscriptome CSV containing expression values",
+    "abundance_method": "Method for inferring species abundances: 'total_expression' or 'housekeeping'",
+    "micom_tradeoff": "Cooperative tradeoff for MICOM (0=pure community, 1=pure individual, 0.5=balanced)",
+    "filter_metabolites": "Filter portal metabolites to known biologically meaningful ones (true) or extract all metabolites (false). Default: true for publication, false for exploratory analysis",
+    "objective_mode": "Objective function for adult liver: 'atpm' (ATP maintenance, recommended), 'functional' (weighted tasks), or 'biomass'",
+    "use_pfba": "Use parsimonious FBA to minimize total flux and prevent unrealistic loops (true/false)",
+    "portal_scaling": "Microbiome-to-hepatic scaling factor (accounts for gut/liver mass ratio and dilution, default: 0.1)",
+    "portal_mode": "Portal constraint strictness: 'soft' (allows 2x variance, recommended) or 'hard' (exact limits)",
+    "eflux_floor": "Minimum flux value for E-Flux constraints",
+    "eflux_cap": "Maximum flux value for E-Flux constraints",
+    "flux_threshold": "Minimum absolute flux change to consider as 'microbiome-attributable'",
+    "solver": "LP solver backend: 'glpk' (free), 'gurobi' (fast, license required), 'cplex'"
+  }
+}
