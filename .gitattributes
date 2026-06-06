@@ -1,1 +1,20 @@
+# ==============================================================================
+# Git LFS tracking
+# ==============================================================================
 data/scRNA_52w_data/sample2_scRNA_expr_matrix.csv filter=lfs diff=lfs merge=lfs -text
+
+# ==============================================================================
+# GitHub Linguist overrides
+# Prevents generated/output files from inflating the language statistics.
+# Without these, Plotly interactive HTML files in Processing_outputs/ falsely
+# report the repo as ~97% HTML.
+# ==============================================================================
+
+# All generated pipeline outputs — tell Linguist to ignore the whole directory
+Processing_outputs/** linguist-documentation=true
+
+# Any standalone generated HTML files (Plotly interactive plots, reports)
+*.html linguist-generated=true
+
+# Jupyter notebooks if any end up committed
+*.ipynb linguist-documentation=true
