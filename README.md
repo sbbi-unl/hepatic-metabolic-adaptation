@@ -67,7 +67,6 @@ single-cell matrix.
 | [`docs/RUN_ON_YOUR_OWN_DATA.md`](docs/RUN_ON_YOUR_OWN_DATA.md) | Input formats and how to apply the pipeline to new data |
 | [`docs/DATA_SOURCES.md`](docs/DATA_SOURCES.md) | Public datasets, models, external resources, licences |
 | [`docs/PROVENANCE_AND_KNOWN_ISSUES.md`](docs/PROVENANCE_AND_KNOWN_ISSUES.md) | Which production run produced each number; known discrepancies |
-| [`docs/RELEASE_GITHUB_ZENODO.md`](docs/RELEASE_GITHUB_ZENODO.md) | How this release is deposited |
 | [`CHANGELOG.md`](CHANGELOG.md) | Differences from the production working directory |
 
 ## Repository layout
